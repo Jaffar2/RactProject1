@@ -5,6 +5,7 @@
     <classes>
       <class name="ReactJsSanityTest.TC02_LogOutTest"/>
       <class name="ReactJsSanityTest.TC01_LoginTest"/>
+      <class name="ReactJsSanityTest.TC04_TodaysDealTest"/>
       <class name="ReactJsSanityTest.TC03_RegisterNewOnlineProfileTest"/>
     </classes>
   </test> <!-- Test -->
