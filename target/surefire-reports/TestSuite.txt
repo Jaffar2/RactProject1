@@ -1,9 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 295.292 sec <<< FAILURE!
-loginUat(ReactJsSanityTest.TC04_TodaysDealTest)  Time elapsed: 118.59 sec  <<< FAILURE!
-java.lang.AssertionError: Today's Deal Sort Price High to Low or Low to Higg not updating Test Failed expected [R 499.00] but found [R 349.00]
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 277.816 sec <<< FAILURE!
+loginUat(ReactJsSanityTest.TC04_TodaysDealTest)  Time elapsed: 115.459 sec  <<< FAILURE!
+java.lang.AssertionError: Today's Deal Sort Price High to Low or Low to High not updating Test Failed expected [R 499.00] but found [R 349.00]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertEquals(Assert.java:123)

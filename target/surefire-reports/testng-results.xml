@@ -2,18 +2,18 @@
 <testng-results skipped="0" failed="1" total="5" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="293843" started-at="2021-03-20T10:53:50Z" finished-at="2021-03-20T10:58:44Z">
+  <suite name="Command line suite" duration-ms="276942" started-at="2021-03-20T16:02:24Z" finished-at="2021-03-20T16:07:01Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="293843" started-at="2021-03-20T10:53:50Z" finished-at="2021-03-20T10:58:44Z">
+    <test name="Command line test" duration-ms="276942" started-at="2021-03-20T16:02:24Z" finished-at="2021-03-20T16:07:01Z">
       <class name="ReactJsSanityTest.TC04_TodaysDealTest">
-        <test-method status="FAIL" signature="loginUat()[pri:0, instance:ReactJsSanityTest.TC04_TodaysDealTest@48524010]" name="loginUat" duration-ms="118590" started-at="2021-03-20T12:56:45Z" finished-at="2021-03-20T12:58:44Z">
+        <test-method status="FAIL" signature="loginUat()[pri:0, instance:ReactJsSanityTest.TC04_TodaysDealTest@6e38921c]" name="loginUat" duration-ms="115456" started-at="2021-03-20T18:05:06Z" finished-at="2021-03-20T18:07:01Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Today's Deal Sort Price High to Low or Low to Higg not updating Test Failed expected [R 499.00] but found [R 349.00]]]>
+              <![CDATA[Today's Deal Sort Price High to Low or Low to High not updating Test Failed expected [R 499.00] but found [R 349.00]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Today's Deal Sort Price High to Low or Low to Higg not updating Test Failed expected [R 499.00] but found [R 349.00]
+              <![CDATA[java.lang.AssertionError: Today's Deal Sort Price High to Low or Low to High not updating Test Failed expected [R 499.00] but found [R 349.00]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertEquals(Assert.java:123)
@@ -61,23 +61,23 @@
         </test-method> <!-- loginUat -->
       </class> <!-- ReactJsSanityTest.TC04_TodaysDealTest -->
       <class name="ReactJsSanityTest.TC01_LoginTest">
-        <test-method status="PASS" signature="loginUat()[pri:0, instance:ReactJsSanityTest.TC01_LoginTest@2aece37d]" name="loginUat" duration-ms="44245" started-at="2021-03-20T12:53:50Z" finished-at="2021-03-20T12:54:34Z">
+        <test-method status="PASS" signature="loginUat()[pri:0, instance:ReactJsSanityTest.TC01_LoginTest@62bd765]" name="loginUat" duration-ms="39781" started-at="2021-03-20T18:02:24Z" finished-at="2021-03-20T18:03:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginUat -->
       </class> <!-- ReactJsSanityTest.TC01_LoginTest -->
       <class name="ReactJsSanityTest.TC02_LogOutTest">
-        <test-method status="PASS" signature="launchReactUat()[pri:0, instance:ReactJsSanityTest.TC02_LogOutTest@4b168fa9]" name="launchReactUat" duration-ms="42672" started-at="2021-03-20T12:54:34Z" finished-at="2021-03-20T12:55:17Z">
+        <test-method status="PASS" signature="launchReactUat()[pri:0, instance:ReactJsSanityTest.TC02_LogOutTest@23a5fd2]" name="launchReactUat" duration-ms="40241" started-at="2021-03-20T18:03:04Z" finished-at="2021-03-20T18:03:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchReactUat -->
-        <test-method status="PASS" signature="logOutUat()[pri:0, instance:ReactJsSanityTest.TC02_LogOutTest@4b168fa9]" name="logOutUat" duration-ms="31570" started-at="2021-03-20T12:55:17Z" finished-at="2021-03-20T12:55:49Z">
+        <test-method status="PASS" signature="logOutUat()[pri:0, instance:ReactJsSanityTest.TC02_LogOutTest@23a5fd2]" name="logOutUat" duration-ms="31471" started-at="2021-03-20T18:03:45Z" finished-at="2021-03-20T18:04:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutUat -->
       </class> <!-- ReactJsSanityTest.TC02_LogOutTest -->
       <class name="ReactJsSanityTest.TC03_RegisterNewOnlineProfileTest">
-        <test-method status="PASS" signature="loginUat()[pri:0, instance:ReactJsSanityTest.TC03_RegisterNewOnlineProfileTest@3ee0fea4]" name="loginUat" duration-ms="56668" started-at="2021-03-20T12:55:49Z" finished-at="2021-03-20T12:56:45Z">
+        <test-method status="PASS" signature="loginUat()[pri:0, instance:ReactJsSanityTest.TC03_RegisterNewOnlineProfileTest@78a2da20]" name="loginUat" duration-ms="49904" started-at="2021-03-20T18:04:16Z" finished-at="2021-03-20T18:05:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginUat -->
