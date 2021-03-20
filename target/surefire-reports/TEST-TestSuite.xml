@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="TestSuite" time="158.435" errors="0" skipped="0">
+<testsuite tests="5" failures="1" name="TestSuite" time="297.133" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
@@ -29,7 +29,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\Program Files\Apache Software\apache-maven- 3.6.3\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_241/bin;C:\Program Files\Java\jdk1.8.0_241/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\Apache Software\apache-maven- 3.6.3\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Brackets\command;C:\Program Files\PuTTY\;C:\Users\jaffa\Documents\AllureReports\allure-2.13.3\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\jaffa\AppData\Local\Microsoft\WindowsApps;C:\Users\jaffa\AppData\Roaming\npm;C:\Users\jaffa\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_241/bin;C:\Program Files\Java\jdk1.8.0_241/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\Apache Software\apache-maven- 3.6.3\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Brackets\command;C:\Program Files\PuTTY\;C:\Users\jaffa\Documents\AllureReports\allure-2.13.3\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\scoop\shims;C:\Users\jaffa\scoop\shims;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\jaffa\AppData\Local\Microsoft\WindowsApps;C:\Users\jaffa\AppData\Roaming\npm;C:\Users\jaffa\AppData\Local\Programs\Microsoft VS Code\bin;."/>
     <property name="maven.conf" value="C:\Program Files\Apache Software\apache-maven- 3.6.3\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -46,7 +46,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_241\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean compile test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -63,8 +63,61 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="ReactJsSanityTest.TC01_LoginTest" name="loginUat" time="38.041"/>
-  <testcase classname="ReactJsSanityTest.TC02_LogOutTest" name="launchReactUat" time="38.555"/>
-  <testcase classname="ReactJsSanityTest.TC02_LogOutTest" name="logOutUat" time="31.8"/>
-  <testcase classname="ReactJsSanityTest.TC03_RegisterNewOnlineProfileTest" name="loginUat" time="50.039"/>
+  <testcase classname="ReactJsSanityTest.TC01_LoginTest" name="loginUat" time="43.986"/>
+  <testcase classname="ReactJsSanityTest.TC02_LogOutTest" name="launchReactUat" time="43.406"/>
+  <testcase classname="ReactJsSanityTest.TC02_LogOutTest" name="logOutUat" time="31.387"/>
+  <testcase classname="ReactJsSanityTest.TC03_RegisterNewOnlineProfileTest" name="loginUat" time="58.698"/>
+  <testcase classname="ReactJsSanityTest.TC04_TodaysDealTest" name="loginUat" time="119.656">
+    <failure message="Price not updating Test Failed expected [R 499.00] but found [R 349.00]" type="java.lang.AssertionError">java.lang.AssertionError: Price not updating Test Failed expected [R 499.00] but found [R 349.00]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at ReactJsSanityTest.TC04_TodaysDealTest.loginUat(TC04_TodaysDealTest.java:198)
+</failure>
+    <system-out>=====================&gt; Browser Launched
+No. of Images: 37
+
+Loading
+TFGdata 5GB SIT
+Loading
+MTN Made For Me Small SPECIAL SIT
+Loading
+MTNChoice Flexi R350
+Loading
+Loading
+Loading
+Loading
+MTNChoice 100
+Loading
+MTNChoice 10GB Data
+Loading
+MTNChoice Flexi R110
+Loading
+MTNChoice 1GB Data - Employee
+Loading
+MTN 200 SMS bundle
+Loading
+MTN Data bundle 2GB
+Loading
+Loading
+Loading
+Find your nearest Foschini Group retail outlet.
+Site secured by Digicert
+No. of total displable images: 27
+Price High to Low is :R 349.00
+</system-out>
+    <system-err>Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 32850
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1616232299.934][WARNING]: Public key in crx header is different from key in manifest
+key from header:   MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3BUnPvYMb3M8DvdNspkQPZ7oKH5XawDRbK3QCoyZs8QttHaytzYfy9SM4iiTiicG/k3hFpmIKO1W2we7aKXrODn70O/sKfAtSvlyfgn0mMnduQUMY9s204q+A03pXQM0Rn6RoFyAhJNyX4bT52/u2vbtSAOgjQIQRHsE33ZNxoEhqVERf+8bZwtPjVKeYluIg3uqtb7ZkjSgjqgE0bFFKe0zm99IrFbugqK6xfa2cTbb8wUhYiHWoIy0yqFF23rF0Yf9d0DvRKGkk3PlRXRQ0yMI79W5sYmYTm/eDlCUTfSBmI/B28oJ2hbQZZmhk7wayWfdqCoIxTdQk6TyaDUROQIDAQAB
+key from manifest: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAg8afMlPK3U6+xBGwaLzyn6CEGs/mS/P6K0LqlFIQFAEyk/+v6jTXfEDEQYwQuw8+8ySy473hL6z51cBGZOhioiywZAfevviM8Iv+awXQSe8u/9oXAbvCKeaefJRx6Op9xqkC+8O3nV8BbjA/ckJEzv6kLETOFhBWVv/Hzld5q9w/jyOYa/TqGKqjJA/l0MpYZyT+LB/LH618YsbHDmpBXags4nxXEBuwm4UDEILyVAbNuoNWVxUhRRkgwhrRRv2Y1LT+A20lGgKedGhTPg+WuPxBAIGoZDLKRyfV+hurU1SjKBDISIPbZqWAO2o+ysLniuzP59DMTrN000hG8IE34QIDAQAB
+generated extension id from header key:   bghbemkkedjbnfgpehbhhlepdliggmdh
+generated extension id from manifest key: enhldmjbphoeibbpdhmjkchohnidgnah
+Mar 20, 2021 11:25:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
 </testsuite>
