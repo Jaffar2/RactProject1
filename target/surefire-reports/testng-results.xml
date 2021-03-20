@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="158520" started-at="2021-03-18T20:47:31Z" finished-at="2021-03-18T20:50:10Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="158520" started-at="2021-03-18T20:47:31Z" finished-at="2021-03-18T20:50:10Z">
+      <class name="ReactJsSanityTest.TC01_LoginTest">
+        <test-method status="PASS" signature="loginUat()[pri:0, instance:ReactJsSanityTest.TC01_LoginTest@3c87521]" name="loginUat" duration-ms="38043" started-at="2021-03-18T22:47:31Z" finished-at="2021-03-18T22:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUat -->
+      </class> <!-- ReactJsSanityTest.TC01_LoginTest -->
+      <class name="ReactJsSanityTest.TC02_LogOutTest">
+        <test-method status="PASS" signature="launchReactUat()[pri:0, instance:ReactJsSanityTest.TC02_LogOutTest@3ee0fea4]" name="launchReactUat" duration-ms="38555" started-at="2021-03-18T22:48:09Z" finished-at="2021-03-18T22:48:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchReactUat -->
+        <test-method status="PASS" signature="logOutUat()[pri:0, instance:ReactJsSanityTest.TC02_LogOutTest@3ee0fea4]" name="logOutUat" duration-ms="31800" started-at="2021-03-18T22:48:48Z" finished-at="2021-03-18T22:49:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutUat -->
+      </class> <!-- ReactJsSanityTest.TC02_LogOutTest -->
+      <class name="ReactJsSanityTest.TC03_RegisterNewOnlineProfileTest">
+        <test-method status="PASS" signature="loginUat()[pri:0, instance:ReactJsSanityTest.TC03_RegisterNewOnlineProfileTest@358c99f5]" name="loginUat" duration-ms="50039" started-at="2021-03-18T22:49:20Z" finished-at="2021-03-18T22:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUat -->
+      </class> <!-- ReactJsSanityTest.TC03_RegisterNewOnlineProfileTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

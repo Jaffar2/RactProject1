@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="ReactJsSanityTest.TC02_ReactJsCheckOutTest">
+        <methods>
+          <include name="checkOutFlow"/>
+        </methods>
+      </class> <!-- ReactJsSanityTest.TC02_ReactJsCheckOutTest -->
+      <class name="ReactJsSanityTest.TC03_BrandFilter">
+        <methods>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- ReactJsSanityTest.TC03_BrandFilter -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
