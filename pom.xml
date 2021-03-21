@@ -83,6 +83,18 @@
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
+					<failIfNoTests>true</failIfNoTests>
+                <skipTests>false</skipTests>
+                <suiteXmlFiles>
+                    <suiteXmlFile>${testNGXMLFile}</suiteXmlFile>
+                </suiteXmlFiles>
+                <properties>
+                    <property>
+                        <name>usedefaultlisteners</name>
+                        <value>true</value>
+                    </property>
+                </properties>
+                <workingDirectory>${basedir}</workingDirectory>
 				</configuration>
 			</plugin>
 			<plugin>
