@@ -38,12 +38,13 @@
 			<scope>compile</scope>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
+		<dependency>
+			<groupId>io.qameta.allure</groupId>
+			<artifactId>allure-testng</artifactId>
+			<version>2.13.3</version>
+		</dependency>
 
-        <dependency>
-            <groupId>io.qameta.allure</groupId>
-            <artifactId>allure-testng</artifactId>
-            <version>2.13.3</version>
-        </dependency>
 
 
 		<dependency>
@@ -84,17 +85,17 @@
 					<source>1.8</source>
 					<target>1.8</target>
 					<failIfNoTests>true</failIfNoTests>
-                <skipTests>false</skipTests>
-                <suiteXmlFiles>
-                    <suiteXmlFile>${testNGXMLFile}</suiteXmlFile>
-                </suiteXmlFiles>
-                <properties>
-                    <property>
-                        <name>usedefaultlisteners</name>
-                        <value>true</value>
-                    </property>
-                </properties>
-                <workingDirectory>${basedir}</workingDirectory>
+					<skipTests>false</skipTests>
+					<suiteXmlFiles>
+						<suiteXmlFile>${testNGXMLFile}</suiteXmlFile>
+					</suiteXmlFiles>
+					<properties>
+						<property>
+							<name>usedefaultlisteners</name>
+							<value>true</value>
+						</property>
+					</properties>
+					<workingDirectory>${basedir}</workingDirectory>
 				</configuration>
 			</plugin>
 			<plugin>
