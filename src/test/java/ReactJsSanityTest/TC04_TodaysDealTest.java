@@ -197,9 +197,10 @@ public class TC04_TodaysDealTest {
 		    
 		    Assert.assertEquals("R 349.00","R 499.00", "Today's Deal Sort Price High to Low or Low to High not updating Test Failed");
 		    
-		    Thread.sleep(5000);
+		    Thread.sleep(10000);
 		    
-		    driver.quit();
+		    driver.close();
+		    
 		    
 	
 		    
