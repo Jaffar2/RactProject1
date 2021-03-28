@@ -1,0 +1,261 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "ReactJsSanityTest",
+    "children" : [ {
+      "name" : "TC03_RegisterNewOnlineProfileTest",
+      "children" : [ {
+        "name" : "loginUat",
+        "uid" : "7a0a7f22b1716f2c",
+        "parentUid" : "1290c1eaafd680ad9fd9508b0a7b375f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616837497435,
+          "stop" : 1616837570557,
+          "duration" : 73122
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1290c1eaafd680ad9fd9508b0a7b375f"
+    }, {
+      "name" : "TC04_TodaysDealTest",
+      "children" : [ {
+        "name" : "loginUat",
+        "uid" : "a3851cbea9c364b9",
+        "parentUid" : "5182a1a6b0a8662940a90e0851676518",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616843050728,
+          "stop" : 1616843188710,
+          "duration" : 137982
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5182a1a6b0a8662940a90e0851676518"
+    }, {
+      "name" : "TC05_ReactJsCheckOutTest",
+      "children" : [ {
+        "name" : "launchApplication",
+        "uid" : "876e558b3eba4a5c",
+        "parentUid" : "4e4cbbf1a109c877fd6047a7bb56b16e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616846987973,
+          "stop" : 1616847031191,
+          "duration" : 43218
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkOutFlow",
+        "uid" : "3f252c5fd1cea6f8",
+        "parentUid" : "4e4cbbf1a109c877fd6047a7bb56b16e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616847031322,
+          "stop" : 1616847089646,
+          "duration" : 58324
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4e4cbbf1a109c877fd6047a7bb56b16e"
+    }, {
+      "name" : "TC06_FurnitureCollectFromStoreTest",
+      "children" : [ {
+        "name" : "launchApplication",
+        "uid" : "6edc96baa5dc4500",
+        "parentUid" : "85233565a546a2fa1262d443a5e38290",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616852129760,
+          "stop" : 1616852185509,
+          "duration" : 55749
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkOutFlow",
+        "uid" : "fa7ea4495e6ce973",
+        "parentUid" : "85233565a546a2fa1262d443a5e38290",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616852185666,
+          "stop" : 1616852326289,
+          "duration" : 140623
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "85233565a546a2fa1262d443a5e38290"
+    }, {
+      "name" : "TC01_LoginTest",
+      "children" : [ {
+        "name" : "loginUat",
+        "uid" : "6e88297bbb17546d",
+        "parentUid" : "f3e2c3561e26e61b4cf0d9f39e9a5d4d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616855499138,
+          "stop" : 1616855543887,
+          "duration" : 44749
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f3e2c3561e26e61b4cf0d9f39e9a5d4d"
+    }, {
+      "name" : "TC03_SocialLoginTest",
+      "children" : [ {
+        "name" : "loginUat",
+        "uid" : "eb01b866e35a6c8",
+        "parentUid" : "aa0df296ce6e6b44527ca66e26c9c8ec",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616855543980,
+          "stop" : 1616855614000,
+          "duration" : 70020
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aa0df296ce6e6b44527ca66e26c9c8ec"
+    }, {
+      "name" : "TC02_LogOutTest",
+      "children" : [ {
+        "name" : "launchReactUat",
+        "uid" : "7455cd193d9b4a15",
+        "parentUid" : "547727dbb6a470f070634e2b8bb1c7a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616855614005,
+          "stop" : 1616855665647,
+          "duration" : 51642
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "logOutUat",
+        "uid" : "bf37e6ba0b1d8ebf",
+        "parentUid" : "547727dbb6a470f070634e2b8bb1c7a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616855665651,
+          "stop" : 1616855697146,
+          "duration" : 31495
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "547727dbb6a470f070634e2b8bb1c7a9"
+    }, {
+      "name" : "TC04_RegisterNewOnlineProfileTest",
+      "children" : [ {
+        "name" : "registerNewOnline",
+        "uid" : "5fa21d5741a236d7",
+        "parentUid" : "3165543a8ba18a541414943d8b77d50a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616855697150,
+          "stop" : 1616855757649,
+          "duration" : 60499
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3165543a8ba18a541414943d8b77d50a"
+    }, {
+      "name" : "TC05_TodaysDealTest",
+      "children" : [ {
+        "name" : "todaysDeal",
+        "uid" : "79e55a2cc55d8b40",
+        "parentUid" : "6f4c00aa3b1907836cbc77b40376d0e9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616855757653,
+          "stop" : 1616855877056,
+          "duration" : 119403
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6f4c00aa3b1907836cbc77b40376d0e9"
+    }, {
+      "name" : "TC06_FurnitureAddItemToBagTest",
+      "children" : [ {
+        "name" : "furnitureFlow",
+        "uid" : "bb9cb3fd5891d818",
+        "parentUid" : "70fcbb55178abbe91e004b7dacd5c3dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616855877060,
+          "stop" : 1616855913108,
+          "duration" : 36048
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addItemToBag",
+        "uid" : "97344e2f2c56a91e",
+        "parentUid" : "70fcbb55178abbe91e004b7dacd5c3dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616855913112,
+          "stop" : 1616855977545,
+          "duration" : 64433
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "70fcbb55178abbe91e004b7dacd5c3dd"
+    }, {
+      "name" : "TC07_FurnitureCollectFromStoreTest",
+      "children" : [ {
+        "name" : "launchApplication",
+        "uid" : "938900344a824915",
+        "parentUid" : "bc7ddf6736a7532d5b21ae2c1b28dd00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616855977570,
+          "stop" : 1616856021016,
+          "duration" : 43446
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkOutFlow",
+        "uid" : "ae5a6fa5d412b1ab",
+        "parentUid" : "bc7ddf6736a7532d5b21ae2c1b28dd00",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616856021020,
+          "stop" : 1616856162735,
+          "duration" : 141715
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bc7ddf6736a7532d5b21ae2c1b28dd00"
+    } ],
+    "uid" : "39c235308636fb43abb695140b8e4e52"
+  } ]
+}

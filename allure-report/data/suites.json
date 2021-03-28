@@ -1,0 +1,273 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Command line suite",
+    "children" : [ {
+      "name" : "Command line test",
+      "children" : [ {
+        "name" : "ReactJsSanityTest.TC03_RegisterNewOnlineProfileTest",
+        "children" : [ {
+          "name" : "loginUat",
+          "uid" : "7a0a7f22b1716f2c",
+          "parentUid" : "75535f974e81a40a5351b5f85947aff1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616837497435,
+            "stop" : 1616837570557,
+            "duration" : 73122
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "75535f974e81a40a5351b5f85947aff1"
+      }, {
+        "name" : "ReactJsSanityTest.TC01_LoginTest",
+        "children" : [ {
+          "name" : "loginUat",
+          "uid" : "6e88297bbb17546d",
+          "parentUid" : "c81075782bf8b6270e537168d5c09036",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616855499138,
+            "stop" : 1616855543887,
+            "duration" : 44749
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c81075782bf8b6270e537168d5c09036"
+      }, {
+        "name" : "ReactJsSanityTest.TC03_SocialLoginTest",
+        "children" : [ {
+          "name" : "loginUat",
+          "uid" : "eb01b866e35a6c8",
+          "parentUid" : "8f83ee1471e55b79424755c1ddb9b512",
+          "status" : "broken",
+          "time" : {
+            "start" : 1616855543980,
+            "stop" : 1616855614000,
+            "duration" : 70020
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8f83ee1471e55b79424755c1ddb9b512"
+      }, {
+        "name" : "ReactJsSanityTest.TC02_LogOutTest",
+        "children" : [ {
+          "name" : "launchReactUat",
+          "uid" : "7455cd193d9b4a15",
+          "parentUid" : "aef662b985194dc43add3f308bef2c2d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616855614005,
+            "stop" : 1616855665647,
+            "duration" : 51642
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "logOutUat",
+          "uid" : "bf37e6ba0b1d8ebf",
+          "parentUid" : "aef662b985194dc43add3f308bef2c2d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616855665651,
+            "stop" : 1616855697146,
+            "duration" : 31495
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "aef662b985194dc43add3f308bef2c2d"
+      }, {
+        "name" : "ReactJsSanityTest.TC04_RegisterNewOnlineProfileTest",
+        "children" : [ {
+          "name" : "registerNewOnline",
+          "uid" : "5fa21d5741a236d7",
+          "parentUid" : "d8948c3c218ee60044750c4cefe5be5b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616855697150,
+            "stop" : 1616855757649,
+            "duration" : 60499
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d8948c3c218ee60044750c4cefe5be5b"
+      }, {
+        "name" : "ReactJsSanityTest.TC05_TodaysDealTest",
+        "children" : [ {
+          "name" : "todaysDeal",
+          "uid" : "79e55a2cc55d8b40",
+          "parentUid" : "5643e3e146d2cea4494289b30f1920ec",
+          "status" : "failed",
+          "time" : {
+            "start" : 1616855757653,
+            "stop" : 1616855877056,
+            "duration" : 119403
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5643e3e146d2cea4494289b30f1920ec"
+      }, {
+        "name" : "ReactJsSanityTest.TC06_FurnitureAddItemToBagTest",
+        "children" : [ {
+          "name" : "furnitureFlow",
+          "uid" : "bb9cb3fd5891d818",
+          "parentUid" : "815b9bb0055a253e8b2cd975f8e89c4a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616855877060,
+            "stop" : 1616855913108,
+            "duration" : 36048
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "addItemToBag",
+          "uid" : "97344e2f2c56a91e",
+          "parentUid" : "815b9bb0055a253e8b2cd975f8e89c4a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616855913112,
+            "stop" : 1616855977545,
+            "duration" : 64433
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "815b9bb0055a253e8b2cd975f8e89c4a"
+      }, {
+        "name" : "ReactJsSanityTest.TC07_FurnitureCollectFromStoreTest",
+        "children" : [ {
+          "name" : "launchApplication",
+          "uid" : "938900344a824915",
+          "parentUid" : "22d04ff10738165faaee2c5370414ee5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616855977570,
+            "stop" : 1616856021016,
+            "duration" : 43446
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkOutFlow",
+          "uid" : "ae5a6fa5d412b1ab",
+          "parentUid" : "22d04ff10738165faaee2c5370414ee5",
+          "status" : "failed",
+          "time" : {
+            "start" : 1616856021020,
+            "stop" : 1616856162735,
+            "duration" : 141715
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "22d04ff10738165faaee2c5370414ee5"
+      } ],
+      "uid" : "d25b44baf1a59b2ba9e824375ad84458"
+    } ],
+    "uid" : "a3ebd3885f734b5e692af432fe3ee17b"
+  }, {
+    "name" : "Default suite",
+    "children" : [ {
+      "name" : "Default test",
+      "children" : [ {
+        "name" : "ReactJsSanityTest.TC04_TodaysDealTest",
+        "children" : [ {
+          "name" : "loginUat",
+          "uid" : "a3851cbea9c364b9",
+          "parentUid" : "1135eb1494b576f31b3baad445812985",
+          "status" : "failed",
+          "time" : {
+            "start" : 1616843050728,
+            "stop" : 1616843188710,
+            "duration" : 137982
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1135eb1494b576f31b3baad445812985"
+      }, {
+        "name" : "ReactJsSanityTest.TC05_ReactJsCheckOutTest",
+        "children" : [ {
+          "name" : "launchApplication",
+          "uid" : "876e558b3eba4a5c",
+          "parentUid" : "b7031d8257000745b05309ec7b847509",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616846987973,
+            "stop" : 1616847031191,
+            "duration" : 43218
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkOutFlow",
+          "uid" : "3f252c5fd1cea6f8",
+          "parentUid" : "b7031d8257000745b05309ec7b847509",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616847031322,
+            "stop" : 1616847089646,
+            "duration" : 58324
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b7031d8257000745b05309ec7b847509"
+      }, {
+        "name" : "ReactJsSanityTest.TC06_FurnitureCollectFromStoreTest",
+        "children" : [ {
+          "name" : "launchApplication",
+          "uid" : "6edc96baa5dc4500",
+          "parentUid" : "91f61e5ad89e49ebb079c6a974771dab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616852129760,
+            "stop" : 1616852185509,
+            "duration" : 55749
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkOutFlow",
+          "uid" : "fa7ea4495e6ce973",
+          "parentUid" : "91f61e5ad89e49ebb079c6a974771dab",
+          "status" : "failed",
+          "time" : {
+            "start" : 1616852185666,
+            "stop" : 1616852326289,
+            "duration" : 140623
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "91f61e5ad89e49ebb079c6a974771dab"
+      } ],
+      "uid" : "848117670d75f6868e681771989ad50e"
+    } ],
+    "uid" : "2c8837b97293ea01a164a5cd7048ad56"
+  } ]
+}

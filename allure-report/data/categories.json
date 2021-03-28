@@ -1,0 +1,90 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Today's Deal Sort Price High to Low or Low to High not updating Test Failed expected [R 499.00] but found [R 249.00]",
+      "children" : [ {
+        "name" : "loginUat",
+        "uid" : "a3851cbea9c364b9",
+        "parentUid" : "9b498d3df249c72253712d5d26d81b03",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616843050728,
+          "stop" : 1616843188710,
+          "duration" : 137982
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "todaysDeal",
+        "uid" : "79e55a2cc55d8b40",
+        "parentUid" : "9b498d3df249c72253712d5d26d81b03",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616855757653,
+          "stop" : 1616855877056,
+          "duration" : 119403
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9b498d3df249c72253712d5d26d81b03"
+    }, {
+      "name" : "Redirecting to wrong url Test Failed expected [https://mytfgworld.uat.tfgapps.co.za/] but found [https://mytfg.tfgtst.co.za/]",
+      "children" : [ {
+        "name" : "checkOutFlow",
+        "uid" : "fa7ea4495e6ce973",
+        "parentUid" : "86ebc8a253c14dbfea402d470caa6e9f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616852185666,
+          "stop" : 1616852326289,
+          "duration" : 140623
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkOutFlow",
+        "uid" : "ae5a6fa5d412b1ab",
+        "parentUid" : "86ebc8a253c14dbfea402d470caa6e9f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616856021020,
+          "stop" : 1616856162735,
+          "duration" : 141715
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "86ebc8a253c14dbfea402d470caa6e9f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1[normalize-space()='My Profile']\"}\n  (Session info: chrome=89.0.4389.90)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'DESKTOP-RIONQTI', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\jaffa\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60125}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 53653442a67fb65d6f9312bb8dfb37a7\n*** Element info: {Using=xpath, value=//h1[normalize-space()='My Profile']}",
+      "children" : [ {
+        "name" : "loginUat",
+        "uid" : "eb01b866e35a6c8",
+        "parentUid" : "97e3dfa7dedecfcd8c984434778e1fd4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616855543980,
+          "stop" : 1616855614000,
+          "duration" : 70020
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "97e3dfa7dedecfcd8c984434778e1fd4"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

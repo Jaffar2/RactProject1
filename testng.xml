@@ -3,10 +3,14 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="ReactJsSanityTest.TC05_TodaysDealTest"/>
       <class name="ReactJsSanityTest.TC02_LogOutTest"/>
+      <class name="ReactJsSanityTest.TC08_SearchTest"/>
+      <class name="ReactJsSanityTest.TC06_FurnitureAddItemToBagTest"/>
       <class name="ReactJsSanityTest.TC01_LoginTest"/>
-      <class name="ReactJsSanityTest.TC04_TodaysDealTest"/>
-      <class name="ReactJsSanityTest.TC03_RegisterNewOnlineProfileTest"/>
+      <class name="ReactJsSanityTest.TC04_RegisterNewOnlineProfileTest"/>
+      <class name="ReactJsSanityTest.TC07_FurnitureCollectFromStoreTest"/>
+      <class name="ReactJsSanityTest.TC03_OurBestOffersForYouShowMeAllTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

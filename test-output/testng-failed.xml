@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ReactJsSanityTest.TC04_TodaysDealTest">
+      <class name="ReactJsSanityTest.TC08_SearchTest">
         <methods>
           <include name="loginUat"/>
         </methods>
-      </class> <!-- ReactJsSanityTest.TC04_TodaysDealTest -->
+      </class> <!-- ReactJsSanityTest.TC08_SearchTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

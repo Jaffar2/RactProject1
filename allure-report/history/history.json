@@ -1,0 +1,311 @@
+{
+  "1c515f86720d68155a5a42a5a626e59d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "79e55a2cc55d8b40",
+      "status" : "failed",
+      "statusDetails" : "Today's Deal Sort Price High to Low or Low to High not updating Test Failed expected [R 499.00] but found [R 249.00]",
+      "time" : {
+        "start" : 1616855757653,
+        "stop" : 1616855877056,
+        "duration" : 119403
+      }
+    } ]
+  },
+  "f720bd81803d1cb28be424b1623f0495" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "97344e2f2c56a91e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616855913112,
+        "stop" : 1616855977545,
+        "duration" : 64433
+      }
+    } ]
+  },
+  "5d708c6646f6ffefca9deba1e5e72747" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6edc96baa5dc4500",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616852129760,
+        "stop" : 1616852185509,
+        "duration" : 55749
+      }
+    } ]
+  },
+  "7a8bca7989e9f69c557d9f216a4d8f4d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fa7ea4495e6ce973",
+      "status" : "failed",
+      "statusDetails" : "Redirecting to wrong url Test Failed expected [https://mytfgworld.uat.tfgapps.co.za/] but found [https://mytfg.tfgtst.co.za/]",
+      "time" : {
+        "start" : 1616852185666,
+        "stop" : 1616852326289,
+        "duration" : 140623
+      }
+    } ]
+  },
+  "e463fb17e502f30d2e1ee671bd802ef1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "876e558b3eba4a5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616846987973,
+        "stop" : 1616847031191,
+        "duration" : 43218
+      }
+    } ]
+  },
+  "22f125db22a84b9bd5a1b788c89e291f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3f252c5fd1cea6f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616847031322,
+        "stop" : 1616847089646,
+        "duration" : 58324
+      }
+    } ]
+  },
+  "c984974913aab4214df820218df85be7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eb01b866e35a6c8",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1[normalize-space()='My Profile']\"}\n  (Session info: chrome=89.0.4389.90)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'DESKTOP-RIONQTI', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\jaffa\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60125}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 53653442a67fb65d6f9312bb8dfb37a7\n*** Element info: {Using=xpath, value=//h1[normalize-space()='My Profile']}",
+      "time" : {
+        "start" : 1616855543980,
+        "stop" : 1616855614000,
+        "duration" : 70020
+      }
+    } ]
+  },
+  "1c89f447c06294a684dc683b8357bd74" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ae5a6fa5d412b1ab",
+      "status" : "failed",
+      "statusDetails" : "Redirecting to wrong url Test Failed expected [https://mytfgworld.uat.tfgapps.co.za/] but found [https://mytfg.tfgtst.co.za/]",
+      "time" : {
+        "start" : 1616856021020,
+        "stop" : 1616856162735,
+        "duration" : 141715
+      }
+    } ]
+  },
+  "39172922753bec77e13a3e4fb271f2e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6e88297bbb17546d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616855499138,
+        "stop" : 1616855543887,
+        "duration" : 44749
+      }
+    } ]
+  },
+  "e9b214443701c096aa741cfff146dd4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7455cd193d9b4a15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616855614005,
+        "stop" : 1616855665647,
+        "duration" : 51642
+      }
+    } ]
+  },
+  "dabfb18218f59f136c0644ce218de6b1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7a0a7f22b1716f2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616837497435,
+        "stop" : 1616837570557,
+        "duration" : 73122
+      }
+    } ]
+  },
+  "d42b35440f8e1946b8cf220e75e129f9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "938900344a824915",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616855977570,
+        "stop" : 1616856021016,
+        "duration" : 43446
+      }
+    } ]
+  },
+  "683d6c69ca0ab48ea1374e5d8863954b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bf37e6ba0b1d8ebf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616855665651,
+        "stop" : 1616855697146,
+        "duration" : 31495
+      }
+    } ]
+  },
+  "d711a8dafdfb7190f89a351117345092" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5fa21d5741a236d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616855697150,
+        "stop" : 1616855757649,
+        "duration" : 60499
+      }
+    } ]
+  },
+  "919c3f106ce3298341de438fff3af89e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bb9cb3fd5891d818",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616855877060,
+        "stop" : 1616855913108,
+        "duration" : 36048
+      }
+    } ]
+  },
+  "39982577b0851009837906e898cb8433" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a3851cbea9c364b9",
+      "status" : "failed",
+      "statusDetails" : "Today's Deal Sort Price High to Low or Low to High not updating Test Failed expected [R 499.00] but found [R 249.00]",
+      "time" : {
+        "start" : 1616843050728,
+        "stop" : 1616843188710,
+        "duration" : 137982
+      }
+    } ]
+  }
+}

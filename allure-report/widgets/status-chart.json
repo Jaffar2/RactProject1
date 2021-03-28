@@ -1,0 +1,161 @@
+[ {
+  "uid" : "938900344a824915",
+  "name" : "launchApplication",
+  "time" : {
+    "start" : 1616855977570,
+    "stop" : 1616856021016,
+    "duration" : 43446
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6edc96baa5dc4500",
+  "name" : "launchApplication",
+  "time" : {
+    "start" : 1616852129760,
+    "stop" : 1616852185509,
+    "duration" : 55749
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa7ea4495e6ce973",
+  "name" : "checkOutFlow",
+  "time" : {
+    "start" : 1616852185666,
+    "stop" : 1616852326289,
+    "duration" : 140623
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a0a7f22b1716f2c",
+  "name" : "loginUat",
+  "time" : {
+    "start" : 1616837497435,
+    "stop" : 1616837570557,
+    "duration" : 73122
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97344e2f2c56a91e",
+  "name" : "addItemToBag",
+  "time" : {
+    "start" : 1616855913112,
+    "stop" : 1616855977545,
+    "duration" : 64433
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5fa21d5741a236d7",
+  "name" : "registerNewOnline",
+  "time" : {
+    "start" : 1616855697150,
+    "stop" : 1616855757649,
+    "duration" : 60499
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb9cb3fd5891d818",
+  "name" : "furnitureFlow",
+  "time" : {
+    "start" : 1616855877060,
+    "stop" : 1616855913108,
+    "duration" : 36048
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "876e558b3eba4a5c",
+  "name" : "launchApplication",
+  "time" : {
+    "start" : 1616846987973,
+    "stop" : 1616847031191,
+    "duration" : 43218
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3851cbea9c364b9",
+  "name" : "loginUat",
+  "time" : {
+    "start" : 1616843050728,
+    "stop" : 1616843188710,
+    "duration" : 137982
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "79e55a2cc55d8b40",
+  "name" : "todaysDeal",
+  "time" : {
+    "start" : 1616855757653,
+    "stop" : 1616855877056,
+    "duration" : 119403
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae5a6fa5d412b1ab",
+  "name" : "checkOutFlow",
+  "time" : {
+    "start" : 1616856021020,
+    "stop" : 1616856162735,
+    "duration" : 141715
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf37e6ba0b1d8ebf",
+  "name" : "logOutUat",
+  "time" : {
+    "start" : 1616855665651,
+    "stop" : 1616855697146,
+    "duration" : 31495
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f252c5fd1cea6f8",
+  "name" : "checkOutFlow",
+  "time" : {
+    "start" : 1616847031322,
+    "stop" : 1616847089646,
+    "duration" : 58324
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e88297bbb17546d",
+  "name" : "loginUat",
+  "time" : {
+    "start" : 1616855499138,
+    "stop" : 1616855543887,
+    "duration" : 44749
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7455cd193d9b4a15",
+  "name" : "launchReactUat",
+  "time" : {
+    "start" : 1616855614005,
+    "stop" : 1616855665647,
+    "duration" : 51642
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb01b866e35a6c8",
+  "name" : "loginUat",
+  "time" : {
+    "start" : 1616855543980,
+    "stop" : 1616855614000,
+    "duration" : 70020
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

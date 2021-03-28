@@ -1,0 +1,213 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "loginUat",
+    "uid" : "7a0a7f22b1716f2c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616837497435,
+      "stop" : 1616837570557,
+      "duration" : 73122
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "loginUat",
+    "uid" : "a3851cbea9c364b9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1616843050728,
+      "stop" : 1616843188710,
+      "duration" : 137982
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "launchApplication",
+    "uid" : "876e558b3eba4a5c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616846987973,
+      "stop" : 1616847031191,
+      "duration" : 43218
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "checkOutFlow",
+    "uid" : "3f252c5fd1cea6f8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616847031322,
+      "stop" : 1616847089646,
+      "duration" : 58324
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "launchApplication",
+    "uid" : "6edc96baa5dc4500",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616852129760,
+      "stop" : 1616852185509,
+      "duration" : 55749
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "checkOutFlow",
+    "uid" : "fa7ea4495e6ce973",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1616852185666,
+      "stop" : 1616852326289,
+      "duration" : 140623
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "loginUat",
+    "uid" : "6e88297bbb17546d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616855499138,
+      "stop" : 1616855543887,
+      "duration" : 44749
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "loginUat",
+    "uid" : "eb01b866e35a6c8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1616855543980,
+      "stop" : 1616855614000,
+      "duration" : 70020
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "launchReactUat",
+    "uid" : "7455cd193d9b4a15",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616855614005,
+      "stop" : 1616855665647,
+      "duration" : 51642
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "logOutUat",
+    "uid" : "bf37e6ba0b1d8ebf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616855665651,
+      "stop" : 1616855697146,
+      "duration" : 31495
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "registerNewOnline",
+    "uid" : "5fa21d5741a236d7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616855697150,
+      "stop" : 1616855757649,
+      "duration" : 60499
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "todaysDeal",
+    "uid" : "79e55a2cc55d8b40",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1616855757653,
+      "stop" : 1616855877056,
+      "duration" : 119403
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "furnitureFlow",
+    "uid" : "bb9cb3fd5891d818",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616855877060,
+      "stop" : 1616855913108,
+      "duration" : 36048
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "addItemToBag",
+    "uid" : "97344e2f2c56a91e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616855913112,
+      "stop" : 1616855977545,
+      "duration" : 64433
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "launchApplication",
+    "uid" : "938900344a824915",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616855977570,
+      "stop" : 1616856021016,
+      "duration" : 43446
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "checkOutFlow",
+    "uid" : "ae5a6fa5d412b1ab",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1616856021020,
+      "stop" : 1616856162735,
+      "duration" : 141715
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}
