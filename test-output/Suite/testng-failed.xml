@@ -3,16 +3,21 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="ReactJsSanityTest.TC02_ReactJsCheckOutTest">
+      <class name="ReactJsSanityTest.TC03_OurBestOffersForYouShowMeAllTest">
+        <methods>
+          <include name="launchReactUat"/>
+        </methods>
+      </class> <!-- ReactJsSanityTest.TC03_OurBestOffersForYouShowMeAllTest -->
+      <class name="ReactJsSanityTest.TC07_FurnitureCollectFromStoreTest">
         <methods>
           <include name="checkOutFlow"/>
         </methods>
-      </class> <!-- ReactJsSanityTest.TC02_ReactJsCheckOutTest -->
-      <class name="ReactJsSanityTest.TC03_BrandFilter">
+      </class> <!-- ReactJsSanityTest.TC07_FurnitureCollectFromStoreTest -->
+      <class name="ReactJsSanityTest.TC05_TodaysDealTest">
         <methods>
-          <include name="launchApplication"/>
+          <include name="todaysDeal"/>
         </methods>
-      </class> <!-- ReactJsSanityTest.TC03_BrandFilter -->
+      </class> <!-- ReactJsSanityTest.TC05_TodaysDealTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

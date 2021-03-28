@@ -157,7 +157,16 @@ public class TC02_LogOutTest {
 		   
 		   Thread.sleep(5000);
 		   
-		   driver.quit();
+		   driver.close();
+		   
+	        try{
+	            driver.quit();
+	        }catch (Exception e){
+	            System.out.println("Browser closed already, " +
+	                            "did not need to quit after all");
+	            e.printStackTrace();
+	        }
+	    }
 		   
 
 		   
@@ -167,6 +176,6 @@ public class TC02_LogOutTest {
 	   
 	   
 
-}
+
 
 

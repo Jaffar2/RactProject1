@@ -125,11 +125,21 @@ public class TC01_LoginTest {
 		  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	    
 	      driver.quit();
+	    
+	        try{
+	            driver.quit();
+	        }catch (Exception e){
+	        	
+	            System.out.println("Browser closed already, " +
+	                            "did not need to quit after all");
+	            e.printStackTrace();
+	        }
+	    }
 		   
 }
 	   
 	   
 
-}
+
 
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
+<suite name="Suite" verbose="1" >
   <test thread-count="5" name="Test">
     <classes>
       <class name="ReactJsSanityTest.TC05_TodaysDealTest"/>
@@ -9,8 +9,8 @@
       <class name="ReactJsSanityTest.TC06_FurnitureAddItemToBagTest"/>
       <class name="ReactJsSanityTest.TC01_LoginTest"/>
       <class name="ReactJsSanityTest.TC04_RegisterNewOnlineProfileTest"/>
-      <class name="ReactJsSanityTest.TC07_FurnitureCollectFromStoreTest"/>
       <class name="ReactJsSanityTest.TC03_OurBestOffersForYouShowMeAllTest"/>
+      <class name="ReactJsSanityTest.TC07_FurnitureCollectFromStoreTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

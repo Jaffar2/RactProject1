@@ -94,7 +94,6 @@ public class TC04_RegisterNewOnlineProfileTest {
 		  System.out.println("=====================> Browser Launched");
 		 
 		  driver.manage().window().maximize();
-
 		
 		  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
@@ -121,11 +120,19 @@ public class TC04_RegisterNewOnlineProfileTest {
 		  Thread.sleep(10000);
 		  
 	      driver.quit();
+	      
+	        try{
+	            driver.quit();
+	        }catch (Exception e){
+	            System.out.println("Browser closed already, " +
+	                            "did not need to quit after all");
+	            e.printStackTrace();
+	        }
+	    }
 		   
 }
 	   
 	   
 
-}
 
 

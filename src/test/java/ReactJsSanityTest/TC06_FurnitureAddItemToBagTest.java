@@ -186,12 +186,21 @@ public class TC06_FurnitureAddItemToBagTest {
 	        Thread.sleep(5000);
 	       
 	        driver.quit();
+	
+	        try{
+	            driver.quit();
+	        }catch (Exception e){
+	            System.out.println("Browser closed already, " +
+	                            "did not need to quit after all");
+	            e.printStackTrace();
+	        }
+	    }
 	       
 	       
 	       
-		  }
-		
 }
+		
+
 
 
 
