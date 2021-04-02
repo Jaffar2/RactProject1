@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="89990" started-at="2021-04-02T11:57:26 CAT" finished-at="2021-04-02T11:58:56 CAT">
+  <suite name="Default suite" duration-ms="76522" started-at="2021-04-02T18:02:41 CAT" finished-at="2021-04-02T18:03:58 CAT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="89990" started-at="2021-04-02T11:57:26 CAT" finished-at="2021-04-02T11:58:56 CAT">
-      <class name="ReactJsSanityTest.TC12_BrandFilterTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ReactJsSanityTest.TC12_BrandFilterTest@63355449]" name="beforeMethod" is-config="true" duration-ms="43644" started-at="2021-04-02T11:57:26 CAT" finished-at="2021-04-02T11:58:10 CAT">
+    <test name="Default test" duration-ms="76522" started-at="2021-04-02T18:02:41 CAT" finished-at="2021-04-02T18:03:58 CAT">
+      <class name="ReactJsSanityTest.TC14_CleanItemsFromBagTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ReactJsSanityTest.TC14_CleanItemsFromBagTest@57c758ac]" name="beforeMethod" is-config="true" duration-ms="52974" started-at="2021-04-02T18:02:41 CAT" finished-at="2021-04-02T18:03:34 CAT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="removeItemsFromBag()[pri:0, instance:ReactJsSanityTest.TC12_BrandFilterTest@63355449]" name="removeItemsFromBag" duration-ms="45205" started-at="2021-04-02T11:58:10 CAT" finished-at="2021-04-02T11:58:55 CAT">
+        <test-method status="PASS" signature="cleanItemsFromBag()[pri:0, instance:ReactJsSanityTest.TC14_CleanItemsFromBagTest@57c758ac]" name="cleanItemsFromBag" duration-ms="22510" started-at="2021-04-02T18:03:34 CAT" finished-at="2021-04-02T18:03:57 CAT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- removeItemsFromBag -->
-        <test-method status="PASS" signature="cleanup()[pri:0, instance:ReactJsSanityTest.TC12_BrandFilterTest@63355449]" name="cleanup" is-config="true" duration-ms="1032" started-at="2021-04-02T11:58:55 CAT" finished-at="2021-04-02T11:58:56 CAT">
+        </test-method> <!-- cleanItemsFromBag -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:ReactJsSanityTest.TC14_CleanItemsFromBagTest@57c758ac]" name="cleanup" is-config="true" duration-ms="937" started-at="2021-04-02T18:03:57 CAT" finished-at="2021-04-02T18:03:58 CAT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanup -->
-      </class> <!-- ReactJsSanityTest.TC12_BrandFilterTest -->
+      </class> <!-- ReactJsSanityTest.TC14_CleanItemsFromBagTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

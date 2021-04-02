@@ -56,7 +56,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
  * ======================================>
  *
  */
-public class TC12_BrandFilterTest extends BaseClass {
+public class TC13_BrandFilterTest extends BaseClass {
 
 		
 	   
@@ -135,12 +135,12 @@ public class TC12_BrandFilterTest extends BaseClass {
 	       
 	       if (itemCount1.equals("774 items")) {
 			  
-		       System.out.println("Test Passed");
+		       System.out.println("Working as Expected");
 		   }
 		   
 	       else {
 	    	   
-	    	   System.out.println("Test Failed");
+	    	   System.out.println("Not Working as Expected");
 	       }
 	        
 	    }
