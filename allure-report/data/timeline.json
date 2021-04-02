@@ -4,423 +4,662 @@
   "children" : [ {
     "name" : "DESKTOP-RIONQTI",
     "children" : [ {
-      "name" : "2160@DESKTOP-RIONQTI.main(1)",
-      "children" : [ {
-        "name" : "loginUat",
-        "uid" : "9c3668bc27a59ae6",
-        "parentUid" : "7f0008052ad1507df59a7ec66db75f07",
-        "status" : "broken",
-        "time" : {
-          "start" : 1616853410865,
-          "stop" : 1616853468601,
-          "duration" : 57736
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "7f0008052ad1507df59a7ec66db75f07"
-    }, {
-      "name" : "17156@DESKTOP-RIONQTI.main(1)",
+      "name" : "22936@DESKTOP-RIONQTI.main(1)",
       "children" : [ {
         "name" : "logOutUat",
-        "uid" : "4bc480aae8f54cb1",
-        "parentUid" : "f9eea1d76b1ea70152b8ed76bc4c5f61",
+        "uid" : "13b7e8e9ff906c37",
+        "parentUid" : "fe414e0e532cf1d239d0e6a97b3ce3a5",
         "status" : "passed",
         "time" : {
-          "start" : 1616854358464,
-          "stop" : 1616854390133,
-          "duration" : 31669
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "loginUat",
-        "uid" : "4714b26f2c343c8c",
-        "parentUid" : "f9eea1d76b1ea70152b8ed76bc4c5f61",
-        "status" : "broken",
-        "time" : {
-          "start" : 1616854224890,
-          "stop" : 1616854254375,
-          "duration" : 29485
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "launchReactUat",
-        "uid" : "f5d0451a24bb02bc",
-        "parentUid" : "f9eea1d76b1ea70152b8ed76bc4c5f61",
-        "status" : "passed",
-        "time" : {
-          "start" : 1616854313194,
-          "stop" : 1616854358458,
-          "duration" : 45264
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "loginUat",
-        "uid" : "cae9c282cb4fe3a9",
-        "parentUid" : "f9eea1d76b1ea70152b8ed76bc4c5f61",
-        "status" : "broken",
-        "time" : {
-          "start" : 1616854254445,
-          "stop" : 1616854313189,
-          "duration" : 58744
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "f9eea1d76b1ea70152b8ed76bc4c5f61"
-    }, {
-      "name" : "17472@DESKTOP-RIONQTI.main(1)",
-      "children" : [ {
-        "name" : "logOutUat",
-        "uid" : "886bf98e280669bd",
-        "parentUid" : "789f51f6b5838f5ed2a711095fa8a13d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1616837466003,
-          "stop" : 1616837497432,
-          "duration" : 31429
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "loginUat",
-        "uid" : "f4559a176ff2a18e",
-        "parentUid" : "789f51f6b5838f5ed2a711095fa8a13d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1616837358018,
-          "stop" : 1616837415328,
-          "duration" : 57310
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "launchReactUat",
-        "uid" : "313e079c8a859c92",
-        "parentUid" : "789f51f6b5838f5ed2a711095fa8a13d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1616837415418,
-          "stop" : 1616837465998,
-          "duration" : 50580
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "loginUat",
-        "uid" : "52bc5ea42e578611",
-        "parentUid" : "789f51f6b5838f5ed2a711095fa8a13d",
-        "status" : "broken",
-        "time" : {
-          "start" : 1616837570562,
-          "stop" : 1616837724038,
-          "duration" : 153476
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "loginUat",
-        "uid" : "7a0a7f22b1716f2c",
-        "parentUid" : "789f51f6b5838f5ed2a711095fa8a13d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1616837497435,
-          "stop" : 1616837570557,
-          "duration" : 73122
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "789f51f6b5838f5ed2a711095fa8a13d"
-    }, {
-      "name" : "14036@DESKTOP-RIONQTI.main(1)",
-      "children" : [ {
-        "name" : "checkOutFlow",
-        "uid" : "89862adbb9bdff54",
-        "parentUid" : "26b36de2d726024f570f6e9cd59e1973",
-        "status" : "broken",
-        "time" : {
-          "start" : 1616850286276,
-          "stop" : 1616850322183,
-          "duration" : 35907
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "launchApplication",
-        "uid" : "1fbaacb8bad21c78",
-        "parentUid" : "26b36de2d726024f570f6e9cd59e1973",
-        "status" : "passed",
-        "time" : {
-          "start" : 1616850246900,
-          "stop" : 1616850286157,
-          "duration" : 39257
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "26b36de2d726024f570f6e9cd59e1973"
-    }, {
-      "name" : "18724@DESKTOP-RIONQTI.main(1)",
-      "children" : [ {
-        "name" : "launchApplication",
-        "uid" : "41ba54881340a4cd",
-        "parentUid" : "bd3dddcebda409cd5576cc84d4390224",
-        "status" : "passed",
-        "time" : {
-          "start" : 1616848385476,
-          "stop" : 1616848421775,
-          "duration" : 36299
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkOutFlow",
-        "uid" : "5be165464594c79a",
-        "parentUid" : "bd3dddcebda409cd5576cc84d4390224",
-        "status" : "broken",
-        "time" : {
-          "start" : 1616848421896,
-          "stop" : 1616848459886,
-          "duration" : 37990
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "bd3dddcebda409cd5576cc84d4390224"
-    }, {
-      "name" : "11248@DESKTOP-RIONQTI.main(1)",
-      "children" : [ {
-        "name" : "loginUat",
-        "uid" : "dbd9c7dcc29bedab",
-        "parentUid" : "c38e1f2f3ca485a372e1a3119e6fb496",
-        "status" : "passed",
-        "time" : {
-          "start" : 1616852964682,
-          "stop" : 1616853008452,
-          "duration" : 43770
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "c38e1f2f3ca485a372e1a3119e6fb496"
-    }, {
-      "name" : "16908@DESKTOP-RIONQTI.main(1)",
-      "children" : [ {
-        "name" : "launchApplication",
-        "uid" : "5718aa5c1058de84",
-        "parentUid" : "0a7e87b06a941a8acddc6835fc6c1d05",
-        "status" : "passed",
-        "time" : {
-          "start" : 1616849678016,
-          "stop" : 1616849715660,
-          "duration" : 37644
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkOutFlow",
-        "uid" : "7cc99b54809b2a39",
-        "parentUid" : "0a7e87b06a941a8acddc6835fc6c1d05",
-        "status" : "broken",
-        "time" : {
-          "start" : 1616849715797,
-          "stop" : 1616849751650,
-          "duration" : 35853
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "0a7e87b06a941a8acddc6835fc6c1d05"
-    }, {
-      "name" : "17328@DESKTOP-RIONQTI.main(1)",
-      "children" : [ {
-        "name" : "launchApplication",
-        "uid" : "938900344a824915",
-        "parentUid" : "30f429c067d4e99bb23efa6ca5dbc201",
-        "status" : "passed",
-        "time" : {
-          "start" : 1616855977570,
-          "stop" : 1616856021016,
-          "duration" : 43446
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "logOutUat",
-        "uid" : "bf37e6ba0b1d8ebf",
-        "parentUid" : "30f429c067d4e99bb23efa6ca5dbc201",
-        "status" : "passed",
-        "time" : {
-          "start" : 1616855665651,
-          "stop" : 1616855697146,
-          "duration" : 31495
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "furnitureFlow",
-        "uid" : "bb9cb3fd5891d818",
-        "parentUid" : "30f429c067d4e99bb23efa6ca5dbc201",
-        "status" : "passed",
-        "time" : {
-          "start" : 1616855877060,
-          "stop" : 1616855913108,
-          "duration" : 36048
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "loginUat",
-        "uid" : "6e88297bbb17546d",
-        "parentUid" : "30f429c067d4e99bb23efa6ca5dbc201",
-        "status" : "passed",
-        "time" : {
-          "start" : 1616855499138,
-          "stop" : 1616855543887,
-          "duration" : 44749
+          "start" : 1616959807701,
+          "stop" : 1616959843196,
+          "duration" : 35495
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "registerNewOnline",
-        "uid" : "5fa21d5741a236d7",
-        "parentUid" : "30f429c067d4e99bb23efa6ca5dbc201",
+        "uid" : "77d4195734dd579d",
+        "parentUid" : "fe414e0e532cf1d239d0e6a97b3ce3a5",
         "status" : "passed",
         "time" : {
-          "start" : 1616855697150,
-          "stop" : 1616855757649,
-          "duration" : 60499
+          "start" : 1616959897026,
+          "stop" : 1616959952391,
+          "duration" : 55365
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "launchApplication",
+        "uid" : "ee1aa7991b565b93",
+        "parentUid" : "fe414e0e532cf1d239d0e6a97b3ce3a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616960170281,
+          "stop" : 1616960204169,
+          "duration" : 33888
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "launchReactUat",
-        "uid" : "7455cd193d9b4a15",
-        "parentUid" : "30f429c067d4e99bb23efa6ca5dbc201",
+        "uid" : "1628640e1c0ddf0c",
+        "parentUid" : "fe414e0e532cf1d239d0e6a97b3ce3a5",
         "status" : "passed",
         "time" : {
-          "start" : 1616855614005,
-          "stop" : 1616855665647,
-          "duration" : 51642
+          "start" : 1616959759106,
+          "stop" : 1616959807697,
+          "duration" : 48591
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "todaysDeal",
-        "uid" : "79e55a2cc55d8b40",
-        "parentUid" : "30f429c067d4e99bb23efa6ca5dbc201",
-        "status" : "failed",
+        "name" : "searchUat",
+        "uid" : "5b99bb866143d8c8",
+        "parentUid" : "fe414e0e532cf1d239d0e6a97b3ce3a5",
+        "status" : "broken",
         "time" : {
-          "start" : 1616855757653,
-          "stop" : 1616855877056,
-          "duration" : 119403
+          "start" : 1616960342109,
+          "stop" : 1616960401182,
+          "duration" : 59073
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ourOffers",
+        "uid" : "d2fb8a96714f41c2",
+        "parentUid" : "fe414e0e532cf1d239d0e6a97b3ce3a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616959843196,
+          "stop" : 1616959897026,
+          "duration" : 53830
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "furnitureFlow",
+        "uid" : "5923ec03c7a659e2",
+        "parentUid" : "fe414e0e532cf1d239d0e6a97b3ce3a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616960068431,
+          "stop" : 1616960106532,
+          "duration" : 38101
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "addItemToBag",
-        "uid" : "97344e2f2c56a91e",
-        "parentUid" : "30f429c067d4e99bb23efa6ca5dbc201",
+        "uid" : "b6a74e601225cf7a",
+        "parentUid" : "fe414e0e532cf1d239d0e6a97b3ce3a5",
         "status" : "passed",
         "time" : {
-          "start" : 1616855913112,
-          "stop" : 1616855977545,
-          "duration" : 64433
+          "start" : 1616960106536,
+          "stop" : 1616960170281,
+          "duration" : 63745
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "todaysDeal",
+        "uid" : "972277f7b15368f",
+        "parentUid" : "fe414e0e532cf1d239d0e6a97b3ce3a5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616959952391,
+          "stop" : 1616960068431,
+          "duration" : 116040
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkOutFlow",
+        "uid" : "1e46f9259217fce2",
+        "parentUid" : "fe414e0e532cf1d239d0e6a97b3ce3a5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616960204173,
+          "stop" : 1616960342109,
+          "duration" : 137936
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "loginUat",
-        "uid" : "eb01b866e35a6c8",
-        "parentUid" : "30f429c067d4e99bb23efa6ca5dbc201",
-        "status" : "broken",
-        "time" : {
-          "start" : 1616855543980,
-          "stop" : 1616855614000,
-          "duration" : 70020
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkOutFlow",
-        "uid" : "ae5a6fa5d412b1ab",
-        "parentUid" : "30f429c067d4e99bb23efa6ca5dbc201",
-        "status" : "failed",
-        "time" : {
-          "start" : 1616856021020,
-          "stop" : 1616856162735,
-          "duration" : 141715
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "30f429c067d4e99bb23efa6ca5dbc201"
-    }, {
-      "name" : "12300@DESKTOP-RIONQTI.main(1)",
-      "children" : [ {
-        "name" : "launchApplication",
-        "uid" : "3cdc7e95272ce081",
-        "parentUid" : "14c59314ce954dd9be371bd334b8c458",
+        "uid" : "4d1564cb2d44ad5",
+        "parentUid" : "fe414e0e532cf1d239d0e6a97b3ce3a5",
         "status" : "passed",
         "time" : {
-          "start" : 1616843486370,
-          "stop" : 1616843515613,
-          "duration" : 29243
+          "start" : 1616959718026,
+          "stop" : 1616959759042,
+          "duration" : 41016
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fe414e0e532cf1d239d0e6a97b3ce3a5"
+    }, {
+      "name" : "15060@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "ourOffers",
+        "uid" : "cf2f013a37cfc004",
+        "parentUid" : "a036996571a7f078aa14a0a04fc24719",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617099874973,
+          "stop" : 1617099927184,
+          "duration" : 52211
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "checkOutFlow",
-        "uid" : "734cec8c7bd8f567",
-        "parentUid" : "14c59314ce954dd9be371bd334b8c458",
-        "status" : "broken",
+        "uid" : "f73d9a8ff435ca54",
+        "parentUid" : "a036996571a7f078aa14a0a04fc24719",
+        "status" : "failed",
         "time" : {
-          "start" : 1616843515721,
-          "stop" : 1616843589241,
-          "duration" : 73520
+          "start" : 1617100263957,
+          "stop" : 1617100405980,
+          "duration" : 142023
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginUat",
+        "uid" : "89ba018cc64ea734",
+        "parentUid" : "a036996571a7f078aa14a0a04fc24719",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617099740320,
+          "stop" : 1617099792625,
+          "duration" : 52305
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "searchUat",
+        "uid" : "bf1fbf498ea0ff55",
+        "parentUid" : "a036996571a7f078aa14a0a04fc24719",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617100405982,
+          "stop" : 1617100465563,
+          "duration" : 59581
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addItemToBag",
+        "uid" : "ec498222194f8aa4",
+        "parentUid" : "a036996571a7f078aa14a0a04fc24719",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617100155143,
+          "stop" : 1617100219213,
+          "duration" : 64070
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "launchReactUat",
+        "uid" : "4f74e6a2b185f739",
+        "parentUid" : "a036996571a7f078aa14a0a04fc24719",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617099792710,
+          "stop" : 1617099839434,
+          "duration" : 46724
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "furnitureFlow",
+        "uid" : "e9ca68965e35fe4",
+        "parentUid" : "a036996571a7f078aa14a0a04fc24719",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617100123890,
+          "stop" : 1617100155139,
+          "duration" : 31249
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "launchApplication",
+        "uid" : "a567081d2a524ee5",
+        "parentUid" : "a036996571a7f078aa14a0a04fc24719",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617100219217,
+          "stop" : 1617100263953,
+          "duration" : 44736
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "logOutUat",
+        "uid" : "bbab5dd5e77bc1b",
+        "parentUid" : "a036996571a7f078aa14a0a04fc24719",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617099839440,
+          "stop" : 1617099874968,
+          "duration" : 35528
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "todaysDeal",
+        "uid" : "5f2dce56b438bb74",
+        "parentUid" : "a036996571a7f078aa14a0a04fc24719",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617099989179,
+          "stop" : 1617100123886,
+          "duration" : 134707
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "registerNewOnline",
+        "uid" : "ced86838f27296c6",
+        "parentUid" : "a036996571a7f078aa14a0a04fc24719",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617099927188,
+          "stop" : 1617099989175,
+          "duration" : 61987
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "14c59314ce954dd9be371bd334b8c458"
+      "uid" : "a036996571a7f078aa14a0a04fc24719"
+    }, {
+      "name" : "10664@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "launchApplication",
+        "uid" : "6e8623c517cf0d0d",
+        "parentUid" : "3f57f781690c4eb36af8386252b1b7d3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616851740808,
+          "stop" : 1616851780171,
+          "duration" : 39363
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkOutFlow",
+        "uid" : "3bbea9aee8558618",
+        "parentUid" : "3f57f781690c4eb36af8386252b1b7d3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616851780282,
+          "stop" : 1616851931616,
+          "duration" : 151334
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3f57f781690c4eb36af8386252b1b7d3"
+    }, {
+      "name" : "19416@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "launchReactUat",
+        "uid" : "8b93c023d48bc6f2",
+        "parentUid" : "692e4624a301f171655faaf91902a071",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616958663607,
+          "stop" : 1616958712232,
+          "duration" : 48625
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "launchApplication",
+        "uid" : "3d928189bd10fc4",
+        "parentUid" : "692e4624a301f171655faaf91902a071",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616958978239,
+          "stop" : 1616959004143,
+          "duration" : 25904
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "searchUat",
+        "uid" : "f1cae7d2016772ea",
+        "parentUid" : "692e4624a301f171655faaf91902a071",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616959021171,
+          "stop" : 1616959037243,
+          "duration" : 16072
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "logOutUat",
+        "uid" : "213a638455445b9",
+        "parentUid" : "692e4624a301f171655faaf91902a071",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616958712237,
+          "stop" : 1616958747902,
+          "duration" : 35665
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "launchReactUat",
+        "uid" : "9c359f09344fa443",
+        "parentUid" : "692e4624a301f171655faaf91902a071",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616958747902,
+          "stop" : 1616958790465,
+          "duration" : 42563
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkOutFlow",
+        "uid" : "ed81482791d10412",
+        "parentUid" : "692e4624a301f171655faaf91902a071",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616959004147,
+          "stop" : 1616959021166,
+          "duration" : 17019
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "todaysDeal",
+        "uid" : "1187f94e0a506403",
+        "parentUid" : "692e4624a301f171655faaf91902a071",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616958844862,
+          "stop" : 1616958951971,
+          "duration" : 107109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "furnitureFlow",
+        "uid" : "a5f1330a15fd6b69",
+        "parentUid" : "692e4624a301f171655faaf91902a071",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616958951981,
+          "stop" : 1616958973226,
+          "duration" : 21245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "registerNewOnline",
+        "uid" : "61f4ba0539728b50",
+        "parentUid" : "692e4624a301f171655faaf91902a071",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616958790472,
+          "stop" : 1616958844862,
+          "duration" : 54390
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addItemToBag",
+        "uid" : "1267a05e86e3a14d",
+        "parentUid" : "692e4624a301f171655faaf91902a071",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616958973231,
+          "stop" : 1616958978235,
+          "duration" : 5004
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginUat",
+        "uid" : "1d9c00b250e1194d",
+        "parentUid" : "692e4624a301f171655faaf91902a071",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616958613822,
+          "stop" : 1616958663467,
+          "duration" : 49645
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "692e4624a301f171655faaf91902a071"
+    }, {
+      "name" : "22976@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "loginUat",
+        "uid" : "a8fae9a4672f4a53",
+        "parentUid" : "6fe514d019758357e034dd38e53d0e94",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616954085450,
+          "stop" : 1616954124060,
+          "duration" : 38610
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6fe514d019758357e034dd38e53d0e94"
+    }, {
+      "name" : "17848@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "loginUat",
+        "uid" : "1b41d498f220ed25",
+        "parentUid" : "6fcc9898a55f4a2ba619dc70724eae12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616954685527,
+          "stop" : 1616954756661,
+          "duration" : 71134
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6fcc9898a55f4a2ba619dc70724eae12"
+    }, {
+      "name" : "18884@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "logOutUat",
+        "uid" : "37acc99e0e12c03a",
+        "parentUid" : "5c74280eeba0f51ec14a355d981aff3d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617029304150,
+          "stop" : 1617029315937,
+          "duration" : 11787
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "furnitureFlow",
+        "uid" : "a3b7754438465fb8",
+        "parentUid" : "5c74280eeba0f51ec14a355d981aff3d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617029469383,
+          "stop" : 1617029541510,
+          "duration" : 72127
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "searchUat",
+        "uid" : "7d16cabb497411fc",
+        "parentUid" : "5c74280eeba0f51ec14a355d981aff3d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617029601658,
+          "stop" : 1617029681983,
+          "duration" : 80325
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkOutFlow",
+        "uid" : "694809f46e5f6db",
+        "parentUid" : "5c74280eeba0f51ec14a355d981aff3d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617029596650,
+          "stop" : 1617029601654,
+          "duration" : 5004
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "todaysDeal",
+        "uid" : "2f569083c8769494",
+        "parentUid" : "5c74280eeba0f51ec14a355d981aff3d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617029435083,
+          "stop" : 1617029469379,
+          "duration" : 34296
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ourOffers",
+        "uid" : "fae5509f3b368e16",
+        "parentUid" : "5c74280eeba0f51ec14a355d981aff3d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617029315940,
+          "stop" : 1617029355938,
+          "duration" : 39998
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "registerNewOnline",
+        "uid" : "f2276c1e0d7de11f",
+        "parentUid" : "5c74280eeba0f51ec14a355d981aff3d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617029355941,
+          "stop" : 1617029435080,
+          "duration" : 79139
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "launchApplication",
+        "uid" : "73c9f5573ef59c0b",
+        "parentUid" : "5c74280eeba0f51ec14a355d981aff3d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617029558571,
+          "stop" : 1617029596646,
+          "duration" : 38075
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginUat",
+        "uid" : "23e7cbf261c1ca22",
+        "parentUid" : "5c74280eeba0f51ec14a355d981aff3d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617029171107,
+          "stop" : 1617029238029,
+          "duration" : 66922
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "launchReactUat",
+        "uid" : "c9b8f38bd547e2b5",
+        "parentUid" : "5c74280eeba0f51ec14a355d981aff3d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617029238126,
+          "stop" : 1617029304141,
+          "duration" : 66015
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addItemToBag",
+        "uid" : "8f922cba95738cc6",
+        "parentUid" : "5c74280eeba0f51ec14a355d981aff3d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617029541516,
+          "stop" : 1617029558565,
+          "duration" : 17049
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5c74280eeba0f51ec14a355d981aff3d"
     }, {
       "name" : "19400@DESKTOP-RIONQTI.main(1)",
       "children" : [ {
         "name" : "checkOutFlow",
-        "uid" : "90330c3e4271b74f",
+        "uid" : "642d67801a99fae2",
         "parentUid" : "0d1bd8ed5b0eb1d3a4662e44eeb71282",
         "status" : "broken",
         "time" : {
@@ -433,7 +672,7 @@
         "parameters" : [ ]
       }, {
         "name" : "launchApplication",
-        "uid" : "b9d4d9573c819714",
+        "uid" : "88cd9b107710ebf0",
         "parentUid" : "0d1bd8ed5b0eb1d3a4662e44eeb71282",
         "status" : "passed",
         "time" : {
@@ -447,70 +686,40 @@
       } ],
       "uid" : "0d1bd8ed5b0eb1d3a4662e44eeb71282"
     }, {
-      "name" : "4588@DESKTOP-RIONQTI.main(1)",
+      "name" : "14036@DESKTOP-RIONQTI.main(1)",
       "children" : [ {
         "name" : "launchApplication",
-        "uid" : "4ed69d2ac7ef789b",
-        "parentUid" : "7f5de868b5643970010e8601b2bb53b1",
+        "uid" : "a99a0f13b71c4b4d",
+        "parentUid" : "26b36de2d726024f570f6e9cd59e1973",
         "status" : "passed",
         "time" : {
-          "start" : 1616845935670,
-          "stop" : 1616845979805,
-          "duration" : 44135
+          "start" : 1616850246900,
+          "stop" : 1616850286157,
+          "duration" : 39257
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "checkOutFlow",
-        "uid" : "9b9f5a0161031747",
-        "parentUid" : "7f5de868b5643970010e8601b2bb53b1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1616845979942,
-          "stop" : 1616846016326,
-          "duration" : 36384
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "7f5de868b5643970010e8601b2bb53b1"
-    }, {
-      "name" : "10800@DESKTOP-RIONQTI.main(1)",
-      "children" : [ {
-        "name" : "launchApplication",
-        "uid" : "3950605d71428d0c",
-        "parentUid" : "5f2a89b364ce37c43c6dc6ffef692f9e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1616848232815,
-          "stop" : 1616848278519,
-          "duration" : 45704
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkOutFlow",
-        "uid" : "6df067ef05bb1889",
-        "parentUid" : "5f2a89b364ce37c43c6dc6ffef692f9e",
+        "uid" : "a4d141868138bfb7",
+        "parentUid" : "26b36de2d726024f570f6e9cd59e1973",
         "status" : "broken",
         "time" : {
-          "start" : 1616848278648,
-          "stop" : 1616848321615,
-          "duration" : 42967
+          "start" : 1616850286276,
+          "stop" : 1616850322183,
+          "duration" : 35907
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "5f2a89b364ce37c43c6dc6ffef692f9e"
+      "uid" : "26b36de2d726024f570f6e9cd59e1973"
     }, {
       "name" : "9180@DESKTOP-RIONQTI.main(1)",
       "children" : [ {
         "name" : "loginUat",
-        "uid" : "9edb85c70f9afb5d",
+        "uid" : "cadeb4b66cd2537e",
         "parentUid" : "af5d04b2c4697e3f67ca72974dee1a60",
         "status" : "passed",
         "time" : {
@@ -524,160 +733,213 @@
       } ],
       "uid" : "af5d04b2c4697e3f67ca72974dee1a60"
     }, {
-      "name" : "19080@DESKTOP-RIONQTI.main(1)",
+      "name" : "2716@DESKTOP-RIONQTI.main(1)",
       "children" : [ {
-        "name" : "checkOutFlow",
-        "uid" : "e7460fd51adaa212",
-        "parentUid" : "ab0d0a9883b7c9b90f14b974dc44dea8",
+        "name" : "todaysDeal",
+        "uid" : "bf2b6d955058989e",
+        "parentUid" : "5dad27356aaeede74f819f9935bf5941",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617097048293,
+          "stop" : 1617097181962,
+          "duration" : 133669
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ourOffers",
+        "uid" : "d0c284037a3794f2",
+        "parentUid" : "5dad27356aaeede74f819f9935bf5941",
         "status" : "broken",
         "time" : {
-          "start" : 1616848121058,
-          "stop" : 1616848156259,
-          "duration" : 35201
+          "start" : 1617096896557,
+          "stop" : 1617096960991,
+          "duration" : 64434
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "launchReactUat",
+        "uid" : "da874920eceb1075",
+        "parentUid" : "5dad27356aaeede74f819f9935bf5941",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617096766534,
+          "stop" : 1617096860867,
+          "duration" : 94333
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "logOutUat",
+        "uid" : "a28de4be1e0bce92",
+        "parentUid" : "5dad27356aaeede74f819f9935bf5941",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617096860890,
+          "stop" : 1617096896536,
+          "duration" : 35646
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "searchUat",
+        "uid" : "7974eb43e5ad447d",
+        "parentUid" : "5dad27356aaeede74f819f9935bf5941",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097452154,
+          "stop" : 1617097543195,
+          "duration" : 91041
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addItemToBag",
+        "uid" : "4ff6c21f58e5a5c3",
+        "parentUid" : "5dad27356aaeede74f819f9935bf5941",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617097237467,
+          "stop" : 1617097291029,
+          "duration" : 53562
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "registerNewOnline",
+        "uid" : "3573b954002d009b",
+        "parentUid" : "5dad27356aaeede74f819f9935bf5941",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617096960997,
+          "stop" : 1617097048283,
+          "duration" : 87286
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "launchApplication",
-        "uid" : "7942fc8afcb1bbef",
-        "parentUid" : "ab0d0a9883b7c9b90f14b974dc44dea8",
+        "uid" : "a80c327ddf98bee1",
+        "parentUid" : "5dad27356aaeede74f819f9935bf5941",
         "status" : "passed",
         "time" : {
-          "start" : 1616848077078,
-          "stop" : 1616848120923,
-          "duration" : 43845
+          "start" : 1617097291041,
+          "stop" : 1617097357491,
+          "duration" : 66450
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      } ],
-      "uid" : "ab0d0a9883b7c9b90f14b974dc44dea8"
-    }, {
-      "name" : "17212@DESKTOP-RIONQTI.main(1)",
-      "children" : [ {
+      }, {
+        "name" : "checkOutFlow",
+        "uid" : "f858ff356e68e6a7",
+        "parentUid" : "5dad27356aaeede74f819f9935bf5941",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617097357510,
+          "stop" : 1617097452139,
+          "duration" : 94629
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "furnitureFlow",
+        "uid" : "6a2a41abe09e4bb2",
+        "parentUid" : "5dad27356aaeede74f819f9935bf5941",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097181985,
+          "stop" : 1617097237434,
+          "duration" : 55449
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
         "name" : "loginUat",
-        "uid" : "9fe097ce2279ee5d",
-        "parentUid" : "541678f5b904024715db49acd55cf15c",
-        "status" : "failed",
-        "time" : {
-          "start" : 1616842263287,
-          "stop" : 1616842395599,
-          "duration" : 132312
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "541678f5b904024715db49acd55cf15c"
-    }, {
-      "name" : "16684@DESKTOP-RIONQTI.main(1)",
-      "children" : [ {
-        "name" : "checkOutFlow",
-        "uid" : "c8b90a3bc9802e5f",
-        "parentUid" : "f6f8f8a6f7501f25a4105335add5976c",
+        "uid" : "e2482d06aeb52608",
+        "parentUid" : "5dad27356aaeede74f819f9935bf5941",
         "status" : "broken",
         "time" : {
-          "start" : 1616843650727,
-          "stop" : 1616843690750,
-          "duration" : 40023
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "launchApplication",
-        "uid" : "953e3bcc6bc767b8",
-        "parentUid" : "f6f8f8a6f7501f25a4105335add5976c",
-        "status" : "passed",
-        "time" : {
-          "start" : 1616843612622,
-          "stop" : 1616843650629,
-          "duration" : 38007
+          "start" : 1617096696683,
+          "stop" : 1617096766260,
+          "duration" : 69577
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "f6f8f8a6f7501f25a4105335add5976c"
+      "uid" : "5dad27356aaeede74f819f9935bf5941"
     }, {
-      "name" : "15044@DESKTOP-RIONQTI.main(1)",
+      "name" : "17156@DESKTOP-RIONQTI.main(1)",
       "children" : [ {
-        "name" : "launchApplication",
-        "uid" : "6edc96baa5dc4500",
-        "parentUid" : "e23338887621c88c6c5f101e7496de78",
+        "name" : "launchReactUat",
+        "uid" : "4eaf699072e9706d",
+        "parentUid" : "f9eea1d76b1ea70152b8ed76bc4c5f61",
         "status" : "passed",
         "time" : {
-          "start" : 1616852129760,
-          "stop" : 1616852185509,
-          "duration" : 55749
+          "start" : 1616854313194,
+          "stop" : 1616854358458,
+          "duration" : 45264
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "checkOutFlow",
-        "uid" : "fa7ea4495e6ce973",
-        "parentUid" : "e23338887621c88c6c5f101e7496de78",
-        "status" : "failed",
-        "time" : {
-          "start" : 1616852185666,
-          "stop" : 1616852326289,
-          "duration" : 140623
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "e23338887621c88c6c5f101e7496de78"
-    }, {
-      "name" : "18524@DESKTOP-RIONQTI.main(1)",
-      "children" : [ {
-        "name" : "launchApplication",
-        "uid" : "757f36db52306685",
-        "parentUid" : "1a236ac196c3ef524e573f44ca529907",
+        "name" : "logOutUat",
+        "uid" : "4f115acb0fcd1aab",
+        "parentUid" : "f9eea1d76b1ea70152b8ed76bc4c5f61",
         "status" : "passed",
         "time" : {
-          "start" : 1616849810772,
-          "stop" : 1616849853238,
-          "duration" : 42466
+          "start" : 1616854358464,
+          "stop" : 1616854390133,
+          "duration" : 31669
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "checkOutFlow",
-        "uid" : "562d768827a23a89",
-        "parentUid" : "1a236ac196c3ef524e573f44ca529907",
+        "name" : "loginUat",
+        "uid" : "7a94c0cdd354c74f",
+        "parentUid" : "f9eea1d76b1ea70152b8ed76bc4c5f61",
         "status" : "broken",
         "time" : {
-          "start" : 1616849853379,
-          "stop" : 1616849889223,
-          "duration" : 35844
+          "start" : 1616854224890,
+          "stop" : 1616854254375,
+          "duration" : 29485
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginUat",
+        "uid" : "43258811678e157e",
+        "parentUid" : "f9eea1d76b1ea70152b8ed76bc4c5f61",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616854254445,
+          "stop" : 1616854313189,
+          "duration" : 58744
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "1a236ac196c3ef524e573f44ca529907"
+      "uid" : "f9eea1d76b1ea70152b8ed76bc4c5f61"
     }, {
       "name" : "9276@DESKTOP-RIONQTI.main(1)",
       "children" : [ {
-        "name" : "checkOutFlow",
-        "uid" : "f110175038de4d72",
-        "parentUid" : "f996629cb7f462c757b1744b725742e4",
-        "status" : "broken",
-        "time" : {
-          "start" : 1616848873111,
-          "stop" : 1616848942159,
-          "duration" : 69048
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "launchApplication",
-        "uid" : "d588039072df143e",
+        "uid" : "11baae05650a24f",
         "parentUid" : "f996629cb7f462c757b1744b725742e4",
         "status" : "passed",
         "time" : {
@@ -688,108 +950,267 @@
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
+      }, {
+        "name" : "checkOutFlow",
+        "uid" : "40cf9eb6874330b7",
+        "parentUid" : "f996629cb7f462c757b1744b725742e4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616848873111,
+          "stop" : 1616848942159,
+          "duration" : 69048
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
       } ],
       "uid" : "f996629cb7f462c757b1744b725742e4"
     }, {
-      "name" : "17744@DESKTOP-RIONQTI.main(1)",
+      "name" : "19460@DESKTOP-RIONQTI.main(1)",
       "children" : [ {
-        "name" : "launchApplication",
-        "uid" : "6dc6cb528945f11a",
-        "parentUid" : "6e0a19a35525b31a91662b1a4c8efde4",
-        "status" : "passed",
-        "time" : {
-          "start" : 1616844611745,
-          "stop" : 1616844655587,
-          "duration" : 43842
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkOutFlow",
-        "uid" : "4f6879c473d3b766",
-        "parentUid" : "6e0a19a35525b31a91662b1a4c8efde4",
+        "name" : "registerNewOnline",
+        "uid" : "9fffe08a9719fdfc",
+        "parentUid" : "db8179b1940d2145ff6a79caa145a95e",
         "status" : "broken",
         "time" : {
-          "start" : 1616844655747,
-          "stop" : 1616844701715,
-          "duration" : 45968
+          "start" : 1616961903024,
+          "stop" : 1616961928158,
+          "duration" : 25134
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      } ],
-      "uid" : "6e0a19a35525b31a91662b1a4c8efde4"
-    }, {
-      "name" : "272@DESKTOP-RIONQTI.main(1)",
-      "children" : [ {
+      }, {
         "name" : "launchReactUat",
-        "uid" : "d900bd28e373a47e",
-        "parentUid" : "a48957d34dcefa4c95fa727e377da166",
-        "status" : "passed",
+        "uid" : "d250609cf828b430",
+        "parentUid" : "db8179b1940d2145ff6a79caa145a95e",
+        "status" : "broken",
         "time" : {
-          "start" : 1616854626510,
-          "stop" : 1616854672093,
-          "duration" : 45583
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "todaysDeal",
-        "uid" : "e956e3e0d592e5f9",
-        "parentUid" : "a48957d34dcefa4c95fa727e377da166",
-        "status" : "failed",
-        "time" : {
-          "start" : 1616854767013,
-          "stop" : 1616854894215,
-          "duration" : 127202
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "registerNewOnline",
-        "uid" : "2e01e2c1ec32d514",
-        "parentUid" : "a48957d34dcefa4c95fa727e377da166",
-        "status" : "passed",
-        "time" : {
-          "start" : 1616854703645,
-          "stop" : 1616854767006,
-          "duration" : 63361
+          "start" : 1616961889147,
+          "stop" : 1616961892035,
+          "duration" : 2888
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "addItemToBag",
-        "uid" : "be84f9adbc84f3ae",
-        "parentUid" : "a48957d34dcefa4c95fa727e377da166",
-        "status" : "passed",
+        "uid" : "9a4aa61a614ae42f",
+        "parentUid" : "db8179b1940d2145ff6a79caa145a95e",
+        "status" : "broken",
         "time" : {
-          "start" : 1616854945885,
-          "stop" : 1616855009942,
-          "duration" : 64057
+          "start" : 1616961969437,
+          "stop" : 1616961974452,
+          "duration" : 5015
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "checkOutFlow",
-        "uid" : "bf3e7231db9326df",
-        "parentUid" : "a48957d34dcefa4c95fa727e377da166",
-        "status" : "failed",
+        "name" : "todaysDeal",
+        "uid" : "65b4b55d81cbc578",
+        "parentUid" : "db8179b1940d2145ff6a79caa145a95e",
+        "status" : "broken",
         "time" : {
-          "start" : 1616855053631,
-          "stop" : 1616855204920,
-          "duration" : 151289
+          "start" : 1616961928158,
+          "stop" : 1616961945998,
+          "duration" : 17840
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "logOutUat",
+        "uid" : "526741edd64433f0",
+        "parentUid" : "db8179b1940d2145ff6a79caa145a95e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616961892043,
+          "stop" : 1616961896124,
+          "duration" : 4081
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ourOffers",
+        "uid" : "8b5177dd59bc75a1",
+        "parentUid" : "db8179b1940d2145ff6a79caa145a95e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616961896124,
+          "stop" : 1616961903017,
+          "duration" : 6893
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "loginUat",
-        "uid" : "2024ff665c86bf9a",
+        "uid" : "7850fdd28608825a",
+        "parentUid" : "db8179b1940d2145ff6a79caa145a95e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616961849977,
+          "stop" : 1616961889057,
+          "duration" : 39080
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "furnitureFlow",
+        "uid" : "8b46fc6e2b14bbe3",
+        "parentUid" : "db8179b1940d2145ff6a79caa145a95e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616961945998,
+          "stop" : 1616961969434,
+          "duration" : 23436
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "searchUat",
+        "uid" : "861ac481d0942284",
+        "parentUid" : "db8179b1940d2145ff6a79caa145a95e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616962017633,
+          "stop" : 1616962042722,
+          "duration" : 25089
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "launchApplication",
+        "uid" : "bb00c99c43e9a33a",
+        "parentUid" : "db8179b1940d2145ff6a79caa145a95e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616961974452,
+          "stop" : 1616962000550,
+          "duration" : 26098
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkOutFlow",
+        "uid" : "2692af0b5948592f",
+        "parentUid" : "db8179b1940d2145ff6a79caa145a95e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616962000550,
+          "stop" : 1616962017633,
+          "duration" : 17083
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "db8179b1940d2145ff6a79caa145a95e"
+    }, {
+      "name" : "2160@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "loginUat",
+        "uid" : "9692c5f9c3332ab0",
+        "parentUid" : "7f0008052ad1507df59a7ec66db75f07",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616853410865,
+          "stop" : 1616853468601,
+          "duration" : 57736
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7f0008052ad1507df59a7ec66db75f07"
+    }, {
+      "name" : "13296@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "launchApplication",
+        "uid" : "4bd0bfeec38a67c3",
+        "parentUid" : "703f0ca30cb07adc0f947e83d2b4bab4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616850608017,
+          "stop" : 1616850649722,
+          "duration" : 41705
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkOutFlow",
+        "uid" : "3d465239c216f77f",
+        "parentUid" : "703f0ca30cb07adc0f947e83d2b4bab4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616850649854,
+          "stop" : 1616850801246,
+          "duration" : 151392
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "703f0ca30cb07adc0f947e83d2b4bab4"
+    }, {
+      "name" : "13948@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "launchReactUat",
+        "uid" : "2de51f2dc163051a",
+        "parentUid" : "097e836123db78da37139d62b79a984c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616951267181,
+          "stop" : 1616951334230,
+          "duration" : 67049
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "097e836123db78da37139d62b79a984c"
+    }, {
+      "name" : "16596@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "checkOutFlow",
+        "uid" : "36a19d8a0f42e988",
+        "parentUid" : "d61f2b4bcd94829b1610bba986849fe0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616846134413,
+          "stop" : 1616846170715,
+          "duration" : 36302
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "launchApplication",
+        "uid" : "73161b243fab5eaf",
+        "parentUid" : "d61f2b4bcd94829b1610bba986849fe0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616846087398,
+          "stop" : 1616846134274,
+          "duration" : 46876
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d61f2b4bcd94829b1610bba986849fe0"
+    }, {
+      "name" : "272@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "loginUat",
+        "uid" : "e028b82c82db48f0",
         "parentUid" : "a48957d34dcefa4c95fa727e377da166",
         "status" : "passed",
         "time" : {
@@ -801,21 +1222,8 @@
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "logOutUat",
-        "uid" : "40cdd3bf44f05c96",
-        "parentUid" : "a48957d34dcefa4c95fa727e377da166",
-        "status" : "passed",
-        "time" : {
-          "start" : 1616854672097,
-          "stop" : 1616854703639,
-          "duration" : 31542
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "loginUat",
-        "uid" : "35008de0fc2599dd",
+        "uid" : "62f3ef1476729ca6",
         "parentUid" : "a48957d34dcefa4c95fa727e377da166",
         "status" : "broken",
         "time" : {
@@ -827,8 +1235,86 @@
         "newFailed" : false,
         "parameters" : [ ]
       }, {
+        "name" : "checkOutFlow",
+        "uid" : "6eeb23416c843491",
+        "parentUid" : "a48957d34dcefa4c95fa727e377da166",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616855053631,
+          "stop" : 1616855204920,
+          "duration" : 151289
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "launchReactUat",
+        "uid" : "103d182e83992ad6",
+        "parentUid" : "a48957d34dcefa4c95fa727e377da166",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616854626510,
+          "stop" : 1616854672093,
+          "duration" : 45583
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addItemToBag",
+        "uid" : "7f2742a835fe3838",
+        "parentUid" : "a48957d34dcefa4c95fa727e377da166",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616854945885,
+          "stop" : 1616855009942,
+          "duration" : 64057
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "logOutUat",
+        "uid" : "755c6fafecea8ea0",
+        "parentUid" : "a48957d34dcefa4c95fa727e377da166",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616854672097,
+          "stop" : 1616854703639,
+          "duration" : 31542
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "launchApplication",
+        "uid" : "a5b82580e0e54421",
+        "parentUid" : "a48957d34dcefa4c95fa727e377da166",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616855009946,
+          "stop" : 1616855053627,
+          "duration" : 43681
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "todaysDeal",
+        "uid" : "f5b309e117e3a874",
+        "parentUid" : "a48957d34dcefa4c95fa727e377da166",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616854767013,
+          "stop" : 1616854894215,
+          "duration" : 127202
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
         "name" : "furnitureFlow",
-        "uid" : "5adb924b7bdc75e4",
+        "uid" : "65a3c8306aaaf6cc",
         "parentUid" : "a48957d34dcefa4c95fa727e377da166",
         "status" : "passed",
         "time" : {
@@ -840,14 +1326,14 @@
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "launchApplication",
-        "uid" : "502b1f47f39dd5e3",
+        "name" : "registerNewOnline",
+        "uid" : "c10fd0de1a0d350c",
         "parentUid" : "a48957d34dcefa4c95fa727e377da166",
         "status" : "passed",
         "time" : {
-          "start" : 1616855009946,
-          "stop" : 1616855053627,
-          "duration" : 43681
+          "start" : 1616854703645,
+          "stop" : 1616854767006,
+          "duration" : 63361
         },
         "flaky" : false,
         "newFailed" : false,
@@ -855,10 +1341,498 @@
       } ],
       "uid" : "a48957d34dcefa4c95fa727e377da166"
     }, {
+      "name" : "15844@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "loginUat",
+        "uid" : "654cf9b8cc84a351",
+        "parentUid" : "667e87c9cf43dbaea9e612e915b92a97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616962208142,
+          "stop" : 1616962248864,
+          "duration" : 40722
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addItemToBag",
+        "uid" : "5fc0ee565438e343",
+        "parentUid" : "667e87c9cf43dbaea9e612e915b92a97",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616962576615,
+          "stop" : 1616962638400,
+          "duration" : 61785
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "todaysDeal",
+        "uid" : "84fcc9be6745cec9",
+        "parentUid" : "667e87c9cf43dbaea9e612e915b92a97",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616962426806,
+          "stop" : 1616962543961,
+          "duration" : 117155
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "furnitureFlow",
+        "uid" : "e99dc9cfc5b22f6e",
+        "parentUid" : "667e87c9cf43dbaea9e612e915b92a97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616962543961,
+          "stop" : 1616962576611,
+          "duration" : 32650
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkOutFlow",
+        "uid" : "e24332c15758a7db",
+        "parentUid" : "667e87c9cf43dbaea9e612e915b92a97",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616962670831,
+          "stop" : 1616962688021,
+          "duration" : 17190
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "registerNewOnline",
+        "uid" : "e76c9e97ac3fb7cf",
+        "parentUid" : "667e87c9cf43dbaea9e612e915b92a97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616962372501,
+          "stop" : 1616962426802,
+          "duration" : 54301
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ourOffers",
+        "uid" : "2d1861d9d5ed8e89",
+        "parentUid" : "667e87c9cf43dbaea9e612e915b92a97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616962327292,
+          "stop" : 1616962372499,
+          "duration" : 45207
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "launchReactUat",
+        "uid" : "e9201da581442e82",
+        "parentUid" : "667e87c9cf43dbaea9e612e915b92a97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616962248922,
+          "stop" : 1616962291745,
+          "duration" : 42823
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "logOutUat",
+        "uid" : "6f059e34e7c64bb6",
+        "parentUid" : "667e87c9cf43dbaea9e612e915b92a97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616962291748,
+          "stop" : 1616962327292,
+          "duration" : 35544
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "searchUat",
+        "uid" : "2774d50c5bc53041",
+        "parentUid" : "667e87c9cf43dbaea9e612e915b92a97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616962688021,
+          "stop" : 1616962747025,
+          "duration" : 59004
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "launchApplication",
+        "uid" : "641cd52725a54069",
+        "parentUid" : "667e87c9cf43dbaea9e612e915b92a97",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616962638400,
+          "stop" : 1616962670831,
+          "duration" : 32431
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "667e87c9cf43dbaea9e612e915b92a97"
+    }, {
+      "name" : "18868@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "addItemToBag",
+        "uid" : "6c7b112d7b4eb01e",
+        "parentUid" : "4158d5231404fdc74d9e5d3de33962ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616956111238,
+          "stop" : 1616956175051,
+          "duration" : 63813
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "launchReactUat",
+        "uid" : "3d864fd70c97062d",
+        "parentUid" : "4158d5231404fdc74d9e5d3de33962ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616955936246,
+          "stop" : 1616955980112,
+          "duration" : 43866
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "todaysDeal",
+        "uid" : "404631ff5e311f3e",
+        "parentUid" : "4158d5231404fdc74d9e5d3de33962ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616955818500,
+          "stop" : 1616955936177,
+          "duration" : 117677
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "launchApplication",
+        "uid" : "bbf541d35314c32d",
+        "parentUid" : "4158d5231404fdc74d9e5d3de33962ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616956273049,
+          "stop" : 1616956305646,
+          "duration" : 32597
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "logOutUat",
+        "uid" : "34c4ad4bb4fab520",
+        "parentUid" : "4158d5231404fdc74d9e5d3de33962ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616955980117,
+          "stop" : 1616956011606,
+          "duration" : 31489
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "registerNewOnline",
+        "uid" : "f77033ff8bb3d6c0",
+        "parentUid" : "4158d5231404fdc74d9e5d3de33962ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616956217149,
+          "stop" : 1616956273041,
+          "duration" : 55892
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "launchReactUat",
+        "uid" : "2c9cecb1f243a62c",
+        "parentUid" : "4158d5231404fdc74d9e5d3de33962ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616956459884,
+          "stop" : 1616956500664,
+          "duration" : 40780
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginUat",
+        "uid" : "ec9be258925c4fc",
+        "parentUid" : "4158d5231404fdc74d9e5d3de33962ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616956175051,
+          "stop" : 1616956217149,
+          "duration" : 42098
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkOutFlow",
+        "uid" : "3a42ddd8838cbe9a",
+        "parentUid" : "4158d5231404fdc74d9e5d3de33962ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616956305650,
+          "stop" : 1616956459884,
+          "duration" : 154234
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "searchUat",
+        "uid" : "6feda4b2c26a7fc7",
+        "parentUid" : "4158d5231404fdc74d9e5d3de33962ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616956011613,
+          "stop" : 1616956073763,
+          "duration" : 62150
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "furnitureFlow",
+        "uid" : "3f929f4496e39f9b",
+        "parentUid" : "4158d5231404fdc74d9e5d3de33962ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616956073769,
+          "stop" : 1616956111233,
+          "duration" : 37464
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4158d5231404fdc74d9e5d3de33962ca"
+    }, {
+      "name" : "14328@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "checkOutFlow",
+        "uid" : "7cabf8fd459c36b7",
+        "parentUid" : "b0777d301c9672df0e5411b247a71ddb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617098328507,
+          "stop" : 1617098345531,
+          "duration" : 17024
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "launchApplication",
+        "uid" : "da058c355ce19d0d",
+        "parentUid" : "b0777d301c9672df0e5411b247a71ddb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617098266135,
+          "stop" : 1617098328330,
+          "duration" : 62195
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b0777d301c9672df0e5411b247a71ddb"
+    }, {
+      "name" : "16908@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "checkOutFlow",
+        "uid" : "4750d8132c393970",
+        "parentUid" : "0a7e87b06a941a8acddc6835fc6c1d05",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616849715797,
+          "stop" : 1616849751650,
+          "duration" : 35853
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "launchApplication",
+        "uid" : "a754307463706ecb",
+        "parentUid" : "0a7e87b06a941a8acddc6835fc6c1d05",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616849678016,
+          "stop" : 1616849715660,
+          "duration" : 37644
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0a7e87b06a941a8acddc6835fc6c1d05"
+    }, {
+      "name" : "17328@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "launchApplication",
+        "uid" : "4c2c6f930a14bc32",
+        "parentUid" : "30f429c067d4e99bb23efa6ca5dbc201",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616855977570,
+          "stop" : 1616856021016,
+          "duration" : 43446
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginUat",
+        "uid" : "a34426d96f87edf8",
+        "parentUid" : "30f429c067d4e99bb23efa6ca5dbc201",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616855499138,
+          "stop" : 1616855543887,
+          "duration" : 44749
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "launchReactUat",
+        "uid" : "6068f67239a91d5a",
+        "parentUid" : "30f429c067d4e99bb23efa6ca5dbc201",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616855614005,
+          "stop" : 1616855665647,
+          "duration" : 51642
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "registerNewOnline",
+        "uid" : "d25bd6bb3b2462cf",
+        "parentUid" : "30f429c067d4e99bb23efa6ca5dbc201",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616855697150,
+          "stop" : 1616855757649,
+          "duration" : 60499
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkOutFlow",
+        "uid" : "d6aa6a9fc4a6c112",
+        "parentUid" : "30f429c067d4e99bb23efa6ca5dbc201",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616856021020,
+          "stop" : 1616856162735,
+          "duration" : 141715
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "todaysDeal",
+        "uid" : "212fbebcde767653",
+        "parentUid" : "30f429c067d4e99bb23efa6ca5dbc201",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616855757653,
+          "stop" : 1616855877056,
+          "duration" : 119403
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addItemToBag",
+        "uid" : "e367111e87168737",
+        "parentUid" : "30f429c067d4e99bb23efa6ca5dbc201",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616855913112,
+          "stop" : 1616855977545,
+          "duration" : 64433
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginUat",
+        "uid" : "caa77aaf1b8e062a",
+        "parentUid" : "30f429c067d4e99bb23efa6ca5dbc201",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616855543980,
+          "stop" : 1616855614000,
+          "duration" : 70020
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "logOutUat",
+        "uid" : "4e018119a6c1aa07",
+        "parentUid" : "30f429c067d4e99bb23efa6ca5dbc201",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616855665651,
+          "stop" : 1616855697146,
+          "duration" : 31495
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "furnitureFlow",
+        "uid" : "39735a0a0e0258c0",
+        "parentUid" : "30f429c067d4e99bb23efa6ca5dbc201",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616855877060,
+          "stop" : 1616855913108,
+          "duration" : 36048
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "30f429c067d4e99bb23efa6ca5dbc201"
+    }, {
       "name" : "16444@DESKTOP-RIONQTI.main(1)",
       "children" : [ {
         "name" : "checkOutFlow",
-        "uid" : "f993b7aea72ebb20",
+        "uid" : "b5bc78d693742464",
         "parentUid" : "c5a4420d986bac83ca8912db9eddf803",
         "status" : "broken",
         "time" : {
@@ -871,7 +1845,7 @@
         "parameters" : [ ]
       }, {
         "name" : "launchApplication",
-        "uid" : "f92fe8cef42c5204",
+        "uid" : "e805edd70d417f37",
         "parentUid" : "c5a4420d986bac83ca8912db9eddf803",
         "status" : "passed",
         "time" : {
@@ -885,87 +1859,134 @@
       } ],
       "uid" : "c5a4420d986bac83ca8912db9eddf803"
     }, {
-      "name" : "12192@DESKTOP-RIONQTI.main(1)",
+      "name" : "14840@DESKTOP-RIONQTI.main(1)",
       "children" : [ {
         "name" : "launchApplication",
-        "uid" : "28ae898d93604df3",
-        "parentUid" : "5cc92507edde8da3e49726e18ca7942d",
-        "status" : "passed",
+        "uid" : "1ead5224d105bae7",
+        "parentUid" : "824e3743297d534088b2e632873bd226",
+        "status" : "broken",
         "time" : {
-          "start" : 1616849515840,
-          "stop" : 1616849552072,
-          "duration" : 36232
+          "start" : 1616961575514,
+          "stop" : 1616961619725,
+          "duration" : 44211
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "checkOutFlow",
-        "uid" : "ecb6665128784e14",
-        "parentUid" : "5cc92507edde8da3e49726e18ca7942d",
+        "uid" : "38a1adaf92d4c8a5",
+        "parentUid" : "824e3743297d534088b2e632873bd226",
         "status" : "broken",
         "time" : {
-          "start" : 1616849552200,
-          "stop" : 1616849588032,
-          "duration" : 35832
+          "start" : 1616961619794,
+          "stop" : 1616961636883,
+          "duration" : 17089
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "5cc92507edde8da3e49726e18ca7942d"
+      "uid" : "824e3743297d534088b2e632873bd226"
     }, {
-      "name" : "12804@DESKTOP-RIONQTI.main(1)",
+      "name" : "4588@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "checkOutFlow",
+        "uid" : "26ac25409d1fd732",
+        "parentUid" : "7f5de868b5643970010e8601b2bb53b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616845979942,
+          "stop" : 1616846016326,
+          "duration" : 36384
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "launchApplication",
+        "uid" : "41a524f6ef374c0a",
+        "parentUid" : "7f5de868b5643970010e8601b2bb53b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616845935670,
+          "stop" : 1616845979805,
+          "duration" : 44135
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7f5de868b5643970010e8601b2bb53b1"
+    }, {
+      "name" : "18524@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "launchApplication",
+        "uid" : "1eca2c031f4a97dc",
+        "parentUid" : "1a236ac196c3ef524e573f44ca529907",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616849810772,
+          "stop" : 1616849853238,
+          "duration" : 42466
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkOutFlow",
+        "uid" : "22c99c93f588e70c",
+        "parentUid" : "1a236ac196c3ef524e573f44ca529907",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616849853379,
+          "stop" : 1616849889223,
+          "duration" : 35844
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1a236ac196c3ef524e573f44ca529907"
+    }, {
+      "name" : "22612@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "launchReactUat",
+        "uid" : "3e60f2a8bfb42a82",
+        "parentUid" : "ab662bb8454ff8dac9a5bde6715b199b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616951698267,
+          "stop" : 1616951752889,
+          "duration" : 54622
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ab662bb8454ff8dac9a5bde6715b199b"
+    }, {
+      "name" : "11248@DESKTOP-RIONQTI.main(1)",
       "children" : [ {
         "name" : "loginUat",
-        "uid" : "eb9a4930f84a3427",
-        "parentUid" : "551c5e518f7ccd8fb50e7db27ba75c88",
-        "status" : "broken",
-        "time" : {
-          "start" : 1616855374340,
-          "stop" : 1616855433780,
-          "duration" : 59440
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "551c5e518f7ccd8fb50e7db27ba75c88"
-    }, {
-      "name" : "4320@DESKTOP-RIONQTI.main(1)",
-      "children" : [ {
-        "name" : "launchApplication",
-        "uid" : "9deef8e61d57d9ea",
-        "parentUid" : "e49462b1c3d2296c114254bc4ad36ea6",
+        "uid" : "a0b35f32a076e61f",
+        "parentUid" : "c38e1f2f3ca485a372e1a3119e6fb496",
         "status" : "passed",
         "time" : {
-          "start" : 1616849169095,
-          "stop" : 1616849204996,
-          "duration" : 35901
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkOutFlow",
-        "uid" : "ca8fa305f9d3b8a5",
-        "parentUid" : "e49462b1c3d2296c114254bc4ad36ea6",
-        "status" : "broken",
-        "time" : {
-          "start" : 1616849205142,
-          "stop" : 1616849243164,
-          "duration" : 38022
+          "start" : 1616852964682,
+          "stop" : 1616853008452,
+          "duration" : 43770
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "e49462b1c3d2296c114254bc4ad36ea6"
+      "uid" : "c38e1f2f3ca485a372e1a3119e6fb496"
     }, {
       "name" : "17760@DESKTOP-RIONQTI.main(1)",
       "children" : [ {
         "name" : "launchApplication",
-        "uid" : "dddc27a089cae835",
+        "uid" : "c11a63287dba2f26",
         "parentUid" : "2b17133a723a5adda789c6088558cedb",
         "status" : "passed",
         "time" : {
@@ -978,7 +1999,7 @@
         "parameters" : [ ]
       }, {
         "name" : "checkOutFlow",
-        "uid" : "977794267a40fa7d",
+        "uid" : "2229102a51bd4022",
         "parentUid" : "2b17133a723a5adda789c6088558cedb",
         "status" : "broken",
         "time" : {
@@ -992,100 +2013,415 @@
       } ],
       "uid" : "2b17133a723a5adda789c6088558cedb"
     }, {
-      "name" : "12440@DESKTOP-RIONQTI.main(1)",
+      "name" : "17212@DESKTOP-RIONQTI.main(1)",
       "children" : [ {
-        "name" : "launchApplication",
-        "uid" : "f90c424949e5dfe7",
-        "parentUid" : "25ba1f661fd5084b2e296d0602227a3c",
-        "status" : "passed",
+        "name" : "loginUat",
+        "uid" : "e78a34ff7bbd718d",
+        "parentUid" : "541678f5b904024715db49acd55cf15c",
+        "status" : "failed",
         "time" : {
-          "start" : 1616851446286,
-          "stop" : 1616851487288,
-          "duration" : 41002
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkOutFlow",
-        "uid" : "5368f72401263f79",
-        "parentUid" : "25ba1f661fd5084b2e296d0602227a3c",
-        "status" : "passed",
-        "time" : {
-          "start" : 1616851487405,
-          "stop" : 1616851631459,
-          "duration" : 144054
+          "start" : 1616842263287,
+          "stop" : 1616842395599,
+          "duration" : 132312
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "25ba1f661fd5084b2e296d0602227a3c"
+      "uid" : "541678f5b904024715db49acd55cf15c"
     }, {
-      "name" : "16656@DESKTOP-RIONQTI.main(1)",
+      "name" : "17424@DESKTOP-RIONQTI.main(1)",
       "children" : [ {
-        "name" : "launchApplication",
-        "uid" : "c7bc28a7bb786e79",
-        "parentUid" : "b90f7081afbdec6ab898c994278a52dc",
-        "status" : "passed",
+        "name" : "loginUat",
+        "uid" : "c1b40dfab959ffd3",
+        "parentUid" : "c64715f3ec4bb31a36a292e25f6a6e17",
+        "status" : "failed",
         "time" : {
-          "start" : 1616847909194,
-          "stop" : 1616847949782,
-          "duration" : 40588
+          "start" : 1616842494167,
+          "stop" : 1616842643541,
+          "duration" : 149374
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      }, {
+      } ],
+      "uid" : "c64715f3ec4bb31a36a292e25f6a6e17"
+    }, {
+      "name" : "19080@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
         "name" : "checkOutFlow",
-        "uid" : "ab149b21ea5bc044",
-        "parentUid" : "b90f7081afbdec6ab898c994278a52dc",
+        "uid" : "c9125e0623720296",
+        "parentUid" : "ab0d0a9883b7c9b90f14b974dc44dea8",
         "status" : "broken",
         "time" : {
-          "start" : 1616847949917,
-          "stop" : 1616848001451,
-          "duration" : 51534
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "b90f7081afbdec6ab898c994278a52dc"
-    }, {
-      "name" : "10664@DESKTOP-RIONQTI.main(1)",
-      "children" : [ {
-        "name" : "checkOutFlow",
-        "uid" : "2a993623cccced08",
-        "parentUid" : "3f57f781690c4eb36af8386252b1b7d3",
-        "status" : "broken",
-        "time" : {
-          "start" : 1616851780282,
-          "stop" : 1616851931616,
-          "duration" : 151334
+          "start" : 1616848121058,
+          "stop" : 1616848156259,
+          "duration" : 35201
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "launchApplication",
-        "uid" : "46f57807afafe893",
-        "parentUid" : "3f57f781690c4eb36af8386252b1b7d3",
+        "uid" : "1739691183f76387",
+        "parentUid" : "ab0d0a9883b7c9b90f14b974dc44dea8",
         "status" : "passed",
         "time" : {
-          "start" : 1616851740808,
-          "stop" : 1616851780171,
-          "duration" : 39363
+          "start" : 1616848077078,
+          "stop" : 1616848120923,
+          "duration" : 43845
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "3f57f781690c4eb36af8386252b1b7d3"
+      "uid" : "ab0d0a9883b7c9b90f14b974dc44dea8"
+    }, {
+      "name" : "5936@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "addItemToBag",
+        "uid" : "46ee5a2223af1b84",
+        "parentUid" : "43801db67af72a4b64c7ce78e3971e26",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617101394095,
+          "stop" : 1617101458090,
+          "duration" : 63995
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "registerNewOnline",
+        "uid" : "8837dec2973e5672",
+        "parentUid" : "43801db67af72a4b64c7ce78e3971e26",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617101148161,
+          "stop" : 1617101214732,
+          "duration" : 66571
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ourOffers",
+        "uid" : "f82e9b38662bcebc",
+        "parentUid" : "43801db67af72a4b64c7ce78e3971e26",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617101096330,
+          "stop" : 1617101148157,
+          "duration" : 51827
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "searchUat",
+        "uid" : "27f620ab99995b2e",
+        "parentUid" : "43801db67af72a4b64c7ce78e3971e26",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617101637871,
+          "stop" : 1617101702462,
+          "duration" : 64591
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "launchReactUat",
+        "uid" : "f475f4d5eda5cb91",
+        "parentUid" : "43801db67af72a4b64c7ce78e3971e26",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617101009079,
+          "stop" : 1617101060742,
+          "duration" : 51663
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkOutFlow",
+        "uid" : "4a8e13ca2990ce19",
+        "parentUid" : "43801db67af72a4b64c7ce78e3971e26",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617101496815,
+          "stop" : 1617101637871,
+          "duration" : 141056
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "furnitureFlow",
+        "uid" : "909936ce8abdab46",
+        "parentUid" : "43801db67af72a4b64c7ce78e3971e26",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617101343158,
+          "stop" : 1617101394087,
+          "duration" : 50929
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "launchApplication",
+        "uid" : "c02d733dc6671cb",
+        "parentUid" : "43801db67af72a4b64c7ce78e3971e26",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617101458090,
+          "stop" : 1617101496815,
+          "duration" : 38725
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginUat",
+        "uid" : "c51a1c5c5a3a539",
+        "parentUid" : "43801db67af72a4b64c7ce78e3971e26",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617100959737,
+          "stop" : 1617101009000,
+          "duration" : 49263
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "logOutUat",
+        "uid" : "38fc19f21f446d",
+        "parentUid" : "43801db67af72a4b64c7ce78e3971e26",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617101060742,
+          "stop" : 1617101096330,
+          "duration" : 35588
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "todaysDeal",
+        "uid" : "1c9403555e2e34d8",
+        "parentUid" : "43801db67af72a4b64c7ce78e3971e26",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617101214732,
+          "stop" : 1617101343158,
+          "duration" : 128426
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "43801db67af72a4b64c7ce78e3971e26"
+    }, {
+      "name" : "11428@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "checkOutFlow",
+        "uid" : "1cafcd887720ffaa",
+        "parentUid" : "2d921ca7f1c2988b6312dffa82f48277",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616849354652,
+          "stop" : 1616849390386,
+          "duration" : 35734
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "launchApplication",
+        "uid" : "ee1066b70950d045",
+        "parentUid" : "2d921ca7f1c2988b6312dffa82f48277",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616849318679,
+          "stop" : 1616849354521,
+          "duration" : 35842
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2d921ca7f1c2988b6312dffa82f48277"
+    }, {
+      "name" : "15632@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "searchUat",
+        "uid" : "4a738e11a97e5059",
+        "parentUid" : "d494aa778d451eea09b51cbfb2e2f56c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617006105520,
+          "stop" : 1617006186813,
+          "duration" : 81293
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addItemToBag",
+        "uid" : "a773b44885eec1ae",
+        "parentUid" : "d494aa778d451eea09b51cbfb2e2f56c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617005857052,
+          "stop" : 1617005918893,
+          "duration" : 61841
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkOutFlow",
+        "uid" : "b9848bb6d3aa638d",
+        "parentUid" : "d494aa778d451eea09b51cbfb2e2f56c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1617005974484,
+          "stop" : 1617006105516,
+          "duration" : 131032
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "launchApplication",
+        "uid" : "d72082a1ae0a19e8",
+        "parentUid" : "d494aa778d451eea09b51cbfb2e2f56c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617005918893,
+          "stop" : 1617005974481,
+          "duration" : 55588
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ourOffers",
+        "uid" : "37ae7cd1af8551cd",
+        "parentUid" : "d494aa778d451eea09b51cbfb2e2f56c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617005526214,
+          "stop" : 1617005596742,
+          "duration" : 70528
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "todaysDeal",
+        "uid" : "fa73672d6824a64c",
+        "parentUid" : "d494aa778d451eea09b51cbfb2e2f56c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617005668861,
+          "stop" : 1617005803279,
+          "duration" : 134418
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginUat",
+        "uid" : "e92ac0e190eb616e",
+        "parentUid" : "d494aa778d451eea09b51cbfb2e2f56c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617005352941,
+          "stop" : 1617005422338,
+          "duration" : 69397
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "furnitureFlow",
+        "uid" : "603e736226d93bc2",
+        "parentUid" : "d494aa778d451eea09b51cbfb2e2f56c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617005803279,
+          "stop" : 1617005857048,
+          "duration" : 53769
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "logOutUat",
+        "uid" : "c8417441e8bd3cc1",
+        "parentUid" : "d494aa778d451eea09b51cbfb2e2f56c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617005490605,
+          "stop" : 1617005526212,
+          "duration" : 35607
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "launchReactUat",
+        "uid" : "84b159ae8ac43bdc",
+        "parentUid" : "d494aa778d451eea09b51cbfb2e2f56c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617005422384,
+          "stop" : 1617005490605,
+          "duration" : 68221
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "registerNewOnline",
+        "uid" : "5a6b45826e1d0e7e",
+        "parentUid" : "d494aa778d451eea09b51cbfb2e2f56c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617005596747,
+          "stop" : 1617005668861,
+          "duration" : 72114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d494aa778d451eea09b51cbfb2e2f56c"
+    }, {
+      "name" : "20592@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "launchReactUat",
+        "uid" : "8ea76bce3c8587f8",
+        "parentUid" : "fb19a64cd0d2dc8a305bc04e75308989",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616952193048,
+          "stop" : 1616952252670,
+          "duration" : 59622
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fb19a64cd0d2dc8a305bc04e75308989"
     }, {
       "name" : "2028@DESKTOP-RIONQTI.main(1)",
       "children" : [ {
         "name" : "launchApplication",
-        "uid" : "70992016092ef01a",
+        "uid" : "ddb732478b87c80e",
         "parentUid" : "a7b5fe6b8d9ba2be7defc154c37c6f34",
         "status" : "passed",
         "time" : {
@@ -1098,7 +2434,7 @@
         "parameters" : [ ]
       }, {
         "name" : "checkOutFlow",
-        "uid" : "4f018062c89a844a",
+        "uid" : "90728f9e48fc91a7",
         "parentUid" : "a7b5fe6b8d9ba2be7defc154c37c6f34",
         "status" : "broken",
         "time" : {
@@ -1115,7 +2451,7 @@
       "name" : "14252@DESKTOP-RIONQTI.main(1)",
       "children" : [ {
         "name" : "checkOutFlow",
-        "uid" : "ad0a7b18c0f0c80c",
+        "uid" : "d1c9852847f8dab6",
         "parentUid" : "68f10f83127d5a8228a8d2e4a4e4692c",
         "status" : "broken",
         "time" : {
@@ -1128,7 +2464,7 @@
         "parameters" : [ ]
       }, {
         "name" : "launchApplication",
-        "uid" : "bd85e19e3623ff93",
+        "uid" : "75096d51171203c8",
         "parentUid" : "68f10f83127d5a8228a8d2e4a4e4692c",
         "status" : "passed",
         "time" : {
@@ -1142,177 +2478,10 @@
       } ],
       "uid" : "68f10f83127d5a8228a8d2e4a4e4692c"
     }, {
-      "name" : "13296@DESKTOP-RIONQTI.main(1)",
-      "children" : [ {
-        "name" : "launchApplication",
-        "uid" : "6fbffee39f0107df",
-        "parentUid" : "703f0ca30cb07adc0f947e83d2b4bab4",
-        "status" : "passed",
-        "time" : {
-          "start" : 1616850608017,
-          "stop" : 1616850649722,
-          "duration" : 41705
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkOutFlow",
-        "uid" : "b24dcb354e5f60a3",
-        "parentUid" : "703f0ca30cb07adc0f947e83d2b4bab4",
-        "status" : "passed",
-        "time" : {
-          "start" : 1616850649854,
-          "stop" : 1616850801246,
-          "duration" : 151392
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "703f0ca30cb07adc0f947e83d2b4bab4"
-    }, {
-      "name" : "16080@DESKTOP-RIONQTI.main(1)",
-      "children" : [ {
-        "name" : "checkOutFlow",
-        "uid" : "ebe6e80e4fe84130",
-        "parentUid" : "07c9f0183bf7962f7b63be4bba7662c7",
-        "status" : "broken",
-        "time" : {
-          "start" : 1616845030291,
-          "stop" : 1616845076224,
-          "duration" : 45933
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "launchApplication",
-        "uid" : "12f4a2ff3b381054",
-        "parentUid" : "07c9f0183bf7962f7b63be4bba7662c7",
-        "status" : "passed",
-        "time" : {
-          "start" : 1616844994278,
-          "stop" : 1616845030156,
-          "duration" : 35878
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "07c9f0183bf7962f7b63be4bba7662c7"
-    }, {
-      "name" : "19100@DESKTOP-RIONQTI.main(1)",
-      "children" : [ {
-        "name" : "launchApplication",
-        "uid" : "f9f6244f5fb08673",
-        "parentUid" : "f598b8ddc145ae3bd1dc59196ae46a9c",
-        "status" : "passed",
-        "time" : {
-          "start" : 1616849039306,
-          "stop" : 1616849077502,
-          "duration" : 38196
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkOutFlow",
-        "uid" : "3cde712698dc42f4",
-        "parentUid" : "f598b8ddc145ae3bd1dc59196ae46a9c",
-        "status" : "broken",
-        "time" : {
-          "start" : 1616849077646,
-          "stop" : 1616849115674,
-          "duration" : 38028
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "f598b8ddc145ae3bd1dc59196ae46a9c"
-    }, {
-      "name" : "11428@DESKTOP-RIONQTI.main(1)",
-      "children" : [ {
-        "name" : "checkOutFlow",
-        "uid" : "aa12bb99fdae8f9c",
-        "parentUid" : "2d921ca7f1c2988b6312dffa82f48277",
-        "status" : "broken",
-        "time" : {
-          "start" : 1616849354652,
-          "stop" : 1616849390386,
-          "duration" : 35734
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "launchApplication",
-        "uid" : "dc7a4051617ea250",
-        "parentUid" : "2d921ca7f1c2988b6312dffa82f48277",
-        "status" : "passed",
-        "time" : {
-          "start" : 1616849318679,
-          "stop" : 1616849354521,
-          "duration" : 35842
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "2d921ca7f1c2988b6312dffa82f48277"
-    }, {
-      "name" : "17856@DESKTOP-RIONQTI.main(1)",
-      "children" : [ {
-        "name" : "loginUat",
-        "uid" : "4c8868a2462bd53f",
-        "parentUid" : "8001801780aa1f91524377df12267485",
-        "status" : "broken",
-        "time" : {
-          "start" : 1616841014038,
-          "stop" : 1616841163298,
-          "duration" : 149260
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "8001801780aa1f91524377df12267485"
-    }, {
-      "name" : "16596@DESKTOP-RIONQTI.main(1)",
-      "children" : [ {
-        "name" : "checkOutFlow",
-        "uid" : "ee07461b0b93a238",
-        "parentUid" : "d61f2b4bcd94829b1610bba986849fe0",
-        "status" : "passed",
-        "time" : {
-          "start" : 1616846134413,
-          "stop" : 1616846170715,
-          "duration" : 36302
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "launchApplication",
-        "uid" : "7b30920cd3395ad6",
-        "parentUid" : "d61f2b4bcd94829b1610bba986849fe0",
-        "status" : "passed",
-        "time" : {
-          "start" : 1616846087398,
-          "stop" : 1616846134274,
-          "duration" : 46876
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "d61f2b4bcd94829b1610bba986849fe0"
-    }, {
       "name" : "11312@DESKTOP-RIONQTI.main(1)",
       "children" : [ {
         "name" : "checkOutFlow",
-        "uid" : "3f252c5fd1cea6f8",
+        "uid" : "a93c9b48b7d698f5",
         "parentUid" : "889ac35efb2a87fa858c9e4673ee0e84",
         "status" : "passed",
         "time" : {
@@ -1325,7 +2494,7 @@
         "parameters" : [ ]
       }, {
         "name" : "launchApplication",
-        "uid" : "876e558b3eba4a5c",
+        "uid" : "4bc737c950fa6700",
         "parentUid" : "889ac35efb2a87fa858c9e4673ee0e84",
         "status" : "passed",
         "time" : {
@@ -1339,10 +2508,511 @@
       } ],
       "uid" : "889ac35efb2a87fa858c9e4673ee0e84"
     }, {
+      "name" : "17472@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "logOutUat",
+        "uid" : "bf0cb4a3c16e3434",
+        "parentUid" : "789f51f6b5838f5ed2a711095fa8a13d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616837466003,
+          "stop" : 1616837497432,
+          "duration" : 31429
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginUat",
+        "uid" : "75415a50e9e9db0c",
+        "parentUid" : "789f51f6b5838f5ed2a711095fa8a13d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616837570562,
+          "stop" : 1616837724038,
+          "duration" : 153476
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginUat",
+        "uid" : "3e78514b19263ba3",
+        "parentUid" : "789f51f6b5838f5ed2a711095fa8a13d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616837497435,
+          "stop" : 1616837570557,
+          "duration" : 73122
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginUat",
+        "uid" : "2b8de4e776dbf37a",
+        "parentUid" : "789f51f6b5838f5ed2a711095fa8a13d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616837358018,
+          "stop" : 1616837415328,
+          "duration" : 57310
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "launchReactUat",
+        "uid" : "e4c852288be7ddc2",
+        "parentUid" : "789f51f6b5838f5ed2a711095fa8a13d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616837415418,
+          "stop" : 1616837465998,
+          "duration" : 50580
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "789f51f6b5838f5ed2a711095fa8a13d"
+    }, {
+      "name" : "4320@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "launchApplication",
+        "uid" : "4e7b8e8d320007a0",
+        "parentUid" : "e49462b1c3d2296c114254bc4ad36ea6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616849169095,
+          "stop" : 1616849204996,
+          "duration" : 35901
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkOutFlow",
+        "uid" : "445c588f0f1f3491",
+        "parentUid" : "e49462b1c3d2296c114254bc4ad36ea6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616849205142,
+          "stop" : 1616849243164,
+          "duration" : 38022
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e49462b1c3d2296c114254bc4ad36ea6"
+    }, {
+      "name" : "10800@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "launchApplication",
+        "uid" : "9ef1336f873b7530",
+        "parentUid" : "5f2a89b364ce37c43c6dc6ffef692f9e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616848232815,
+          "stop" : 1616848278519,
+          "duration" : 45704
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkOutFlow",
+        "uid" : "95c591e54d23fdfa",
+        "parentUid" : "5f2a89b364ce37c43c6dc6ffef692f9e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616848278648,
+          "stop" : 1616848321615,
+          "duration" : 42967
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5f2a89b364ce37c43c6dc6ffef692f9e"
+    }, {
+      "name" : "22848@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "loginUat",
+        "uid" : "f29982d867068a9f",
+        "parentUid" : "0933b82b6d3a2b199892c2bae1c6b502",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616955106473,
+          "stop" : 1616955164749,
+          "duration" : 58276
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0933b82b6d3a2b199892c2bae1c6b502"
+    }, {
+      "name" : "16656@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "launchApplication",
+        "uid" : "429e6f68537e251d",
+        "parentUid" : "b90f7081afbdec6ab898c994278a52dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616847909194,
+          "stop" : 1616847949782,
+          "duration" : 40588
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkOutFlow",
+        "uid" : "a0f3f37570e76553",
+        "parentUid" : "b90f7081afbdec6ab898c994278a52dc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616847949917,
+          "stop" : 1616848001451,
+          "duration" : 51534
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b90f7081afbdec6ab898c994278a52dc"
+    }, {
+      "name" : "12192@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "launchApplication",
+        "uid" : "136ce1aac763e255",
+        "parentUid" : "5cc92507edde8da3e49726e18ca7942d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616849515840,
+          "stop" : 1616849552072,
+          "duration" : 36232
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkOutFlow",
+        "uid" : "ebe68cf94890366a",
+        "parentUid" : "5cc92507edde8da3e49726e18ca7942d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616849552200,
+          "stop" : 1616849588032,
+          "duration" : 35832
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5cc92507edde8da3e49726e18ca7942d"
+    }, {
+      "name" : "17744@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "launchApplication",
+        "uid" : "6aa5471d338d47c9",
+        "parentUid" : "6e0a19a35525b31a91662b1a4c8efde4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616844611745,
+          "stop" : 1616844655587,
+          "duration" : 43842
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkOutFlow",
+        "uid" : "dd04911f549b5c0b",
+        "parentUid" : "6e0a19a35525b31a91662b1a4c8efde4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616844655747,
+          "stop" : 1616844701715,
+          "duration" : 45968
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6e0a19a35525b31a91662b1a4c8efde4"
+    }, {
+      "name" : "12300@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "checkOutFlow",
+        "uid" : "d8bd7615a42f7850",
+        "parentUid" : "14c59314ce954dd9be371bd334b8c458",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616843515721,
+          "stop" : 1616843589241,
+          "duration" : 73520
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "launchApplication",
+        "uid" : "8a2e98f3c5871a6a",
+        "parentUid" : "14c59314ce954dd9be371bd334b8c458",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616843486370,
+          "stop" : 1616843515613,
+          "duration" : 29243
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "14c59314ce954dd9be371bd334b8c458"
+    }, {
+      "name" : "15044@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "checkOutFlow",
+        "uid" : "7488f4b1cdf2f982",
+        "parentUid" : "e23338887621c88c6c5f101e7496de78",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616852185666,
+          "stop" : 1616852326289,
+          "duration" : 140623
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "launchApplication",
+        "uid" : "459237f742ac3ad3",
+        "parentUid" : "e23338887621c88c6c5f101e7496de78",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616852129760,
+          "stop" : 1616852185509,
+          "duration" : 55749
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e23338887621c88c6c5f101e7496de78"
+    }, {
+      "name" : "19100@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "launchApplication",
+        "uid" : "cf623ab304c15a58",
+        "parentUid" : "f598b8ddc145ae3bd1dc59196ae46a9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616849039306,
+          "stop" : 1616849077502,
+          "duration" : 38196
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkOutFlow",
+        "uid" : "642d881aac7b7ae9",
+        "parentUid" : "f598b8ddc145ae3bd1dc59196ae46a9c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616849077646,
+          "stop" : 1616849115674,
+          "duration" : 38028
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f598b8ddc145ae3bd1dc59196ae46a9c"
+    }, {
+      "name" : "12440@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "launchApplication",
+        "uid" : "15201a12329c4409",
+        "parentUid" : "25ba1f661fd5084b2e296d0602227a3c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616851446286,
+          "stop" : 1616851487288,
+          "duration" : 41002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkOutFlow",
+        "uid" : "de98f70cc667a4e7",
+        "parentUid" : "25ba1f661fd5084b2e296d0602227a3c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616851487405,
+          "stop" : 1616851631459,
+          "duration" : 144054
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "25ba1f661fd5084b2e296d0602227a3c"
+    }, {
+      "name" : "18724@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "checkOutFlow",
+        "uid" : "4506785e91e5699b",
+        "parentUid" : "bd3dddcebda409cd5576cc84d4390224",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616848421896,
+          "stop" : 1616848459886,
+          "duration" : 37990
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "launchApplication",
+        "uid" : "14d0a4718f8a59af",
+        "parentUid" : "bd3dddcebda409cd5576cc84d4390224",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616848385476,
+          "stop" : 1616848421775,
+          "duration" : 36299
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bd3dddcebda409cd5576cc84d4390224"
+    }, {
+      "name" : "16684@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "launchApplication",
+        "uid" : "df2f652472f2cc0",
+        "parentUid" : "f6f8f8a6f7501f25a4105335add5976c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616843612622,
+          "stop" : 1616843650629,
+          "duration" : 38007
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkOutFlow",
+        "uid" : "670b5e11124246a",
+        "parentUid" : "f6f8f8a6f7501f25a4105335add5976c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616843650727,
+          "stop" : 1616843690750,
+          "duration" : 40023
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f6f8f8a6f7501f25a4105335add5976c"
+    }, {
+      "name" : "19816@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "ourOffers",
+        "uid" : "648d4df6217df55a",
+        "parentUid" : "b5b05203d259031cbf2348990881b977",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616959541525,
+          "stop" : 1616959593173,
+          "duration" : 51648
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b5b05203d259031cbf2348990881b977"
+    }, {
+      "name" : "18944@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "loginUat",
+        "uid" : "85705b934d53e7b5",
+        "parentUid" : "c83e6e095a1a5d44a655179e80c8955b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616954880780,
+          "stop" : 1616954947255,
+          "duration" : 66475
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c83e6e095a1a5d44a655179e80c8955b"
+    }, {
+      "name" : "20240@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "launchReactUat",
+        "uid" : "ecab56d061c6eba6",
+        "parentUid" : "f70d9f9dec34e3eac80d91dc36f0c9ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616959186340,
+          "stop" : 1616959241491,
+          "duration" : 55151
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f70d9f9dec34e3eac80d91dc36f0c9ef"
+    }, {
+      "name" : "18644@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "launchReactUat",
+        "uid" : "b6f4cd4dc06f56",
+        "parentUid" : "ed0f5d322bf619b1be15df06d7d59842",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616951029287,
+          "stop" : 1616951092358,
+          "duration" : 63071
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ed0f5d322bf619b1be15df06d7d59842"
+    }, {
+      "name" : "12804@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "loginUat",
+        "uid" : "7a354704cfc7a09e",
+        "parentUid" : "551c5e518f7ccd8fb50e7db27ba75c88",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616855374340,
+          "stop" : 1616855433780,
+          "duration" : 59440
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "551c5e518f7ccd8fb50e7db27ba75c88"
+    }, {
       "name" : "32@DESKTOP-RIONQTI.main(1)",
       "children" : [ {
         "name" : "loginUat",
-        "uid" : "a3851cbea9c364b9",
+        "uid" : "95925c5880c6e7e7",
         "parentUid" : "6386bc9d6a29a2c92c97491c5906c6d3",
         "status" : "failed",
         "time" : {
@@ -1356,22 +3026,69 @@
       } ],
       "uid" : "6386bc9d6a29a2c92c97491c5906c6d3"
     }, {
-      "name" : "17424@DESKTOP-RIONQTI.main(1)",
+      "name" : "16080@DESKTOP-RIONQTI.main(1)",
       "children" : [ {
-        "name" : "loginUat",
-        "uid" : "54e8a4833536b77e",
-        "parentUid" : "c64715f3ec4bb31a36a292e25f6a6e17",
-        "status" : "failed",
+        "name" : "launchApplication",
+        "uid" : "bb44a9e6d9cc84b0",
+        "parentUid" : "07c9f0183bf7962f7b63be4bba7662c7",
+        "status" : "passed",
         "time" : {
-          "start" : 1616842494167,
-          "stop" : 1616842643541,
-          "duration" : 149374
+          "start" : 1616844994278,
+          "stop" : 1616845030156,
+          "duration" : 35878
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkOutFlow",
+        "uid" : "615fb92168b39956",
+        "parentUid" : "07c9f0183bf7962f7b63be4bba7662c7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616845030291,
+          "stop" : 1616845076224,
+          "duration" : 45933
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "c64715f3ec4bb31a36a292e25f6a6e17"
+      "uid" : "07c9f0183bf7962f7b63be4bba7662c7"
+    }, {
+      "name" : "17856@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "loginUat",
+        "uid" : "b3ac2f817c374052",
+        "parentUid" : "8001801780aa1f91524377df12267485",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616841014038,
+          "stop" : 1616841163298,
+          "duration" : 149260
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8001801780aa1f91524377df12267485"
+    }, {
+      "name" : "21792@DESKTOP-RIONQTI.main(1)",
+      "children" : [ {
+        "name" : "loginUat",
+        "uid" : "f1ecb3d469cfacc2",
+        "parentUid" : "893bf272af291baedf2379a65b384b83",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616954405656,
+          "stop" : 1616954462675,
+          "duration" : 57019
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "893bf272af291baedf2379a65b384b83"
     } ],
     "uid" : "c2d1b3926c38ad4ea8b87023fc756721"
   } ]

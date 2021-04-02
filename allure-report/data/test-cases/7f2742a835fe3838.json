@@ -1,0 +1,60 @@
+{
+  "uid" : "7f2742a835fe3838",
+  "name" : "addItemToBag",
+  "fullName" : "ReactJsSanityTest.TC06_FurnitureAddItemToBagTest.addItemToBag",
+  "historyId" : "f720bd81803d1cb28be424b1623f0495",
+  "time" : {
+    "start" : 1616854945885,
+    "stop" : 1616855009942,
+    "duration" : 64057
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ReactJsSanityTest.TC06_FurnitureAddItemToBagTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ReactJsSanityTest.TC06_FurnitureAddItemToBagTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "addItemToBag"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Command line suite"
+  }, {
+    "name" : "suite",
+    "value" : "Command line test"
+  }, {
+    "name" : "subSuite",
+    "value" : "ReactJsSanityTest.TC06_FurnitureAddItemToBagTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RIONQTI"
+  }, {
+    "name" : "thread",
+    "value" : "272@DESKTOP-RIONQTI.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7f2742a835fe3838.json",
+  "parameterValues" : [ ]
+}

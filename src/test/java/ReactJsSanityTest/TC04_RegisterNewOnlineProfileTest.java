@@ -32,6 +32,8 @@ import org.testng.annotations.Test;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+
+import com.basePackage.BaseClass;
 import com.google.j2objc.annotations.ReflectionSupport.Level;
 import io.github.bonigarcia.wdm.WebDriverManager;
  
@@ -57,55 +59,26 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 
-public class TC04_RegisterNewOnlineProfileTest {
+public class TC04_RegisterNewOnlineProfileTest extends BaseClass {
 	
-	   public ChromeDriver  driver;
 	   
 	   
-	   @Test (priority=4)
+	   @Test 
 	   
 	   public void registerNewOnline() throws InterruptedException {
-		   
-   
-		  WebDriverManager.chromedriver().setup();
-			 
-		  ChromeOptions options = new ChromeOptions();
-		 
-		  options.addExtensions(new File("auth.crx"));
-		 
-		  driver = new ChromeDriver(options);
-		 
-	      JavascriptExecutor js = (JavascriptExecutor) driver;
-		 
-		  driver.get("chrome-extension://enhldmjbphoeibbpdhmjkchohnidgnah/options.html");
-
-		  driver.findElement(By.id("url")).sendKeys("https://mytfgworld.uat.tfgapps.co.za/");
-
-		  driver.findElement(By.id("username")).sendKeys("tfg-uat");
-	 
-          driver.findElement(By.id("password")).sendKeys("TFGReact2021");
-
-          driver.findElement(By.xpath("//button[.='Add']")).click();
-
-		  driver.get("https://mytfgworld.uat.tfgapps.co.za/");
-
-		  Thread.sleep(10000);
-		 
-		  System.out.println("=====================> Browser Launched");
-		 
-		  driver.manage().window().maximize();
-		
-		  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		
-		  driver.findElement(By.xpath("//i[@class='icon icon-cross']")).click();
+		  
 		
 		  Thread.sleep(5000);
 		
 		  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
-	      driver.findElement(By.xpath("//span[normalize-space()='Login & Register']")).click();
+	      driver.findElement(By.xpath("//span[normalize-space()='Accounts & Orders']")).click();
 		  		  
 		  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		  
+		  driver.findElement(By.xpath("//div[@class='header-control-items']//span[@class='profile-menu__item-copy'][normalize-space()='Sign Out']")).click();
+		  
+		  Thread.sleep(5000);
 		  
 		  driver.findElement(By.xpath("//button[normalize-space()='Register a new online profile']")).click();
 	
@@ -117,17 +90,11 @@ public class TC04_RegisterNewOnlineProfileTest {
 		
 		  System.out.println("message on Register a new online profile page is " + message1);
 		  
+		  System.out.println("Test Passed");
+		  
 		  Thread.sleep(10000);
 		  
-	      driver.quit();
 	      
-	        try{
-	            driver.quit();
-	        }catch (Exception e){
-	            System.out.println("Browser closed already, " +
-	                            "did not need to quit after all");
-	            e.printStackTrace();
-	        }
 	    }
 		   
 }

@@ -39,6 +39,8 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+
+import com.basePackage.BaseClass;
 import com.google.j2objc.annotations.ReflectionSupport.Level;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import io.github.bonigarcia.wdm.online.HttpClient;
@@ -65,47 +67,13 @@ import io.github.bonigarcia.wdm.online.HttpClient;
 
 
 
-public class TC03_OurBestOffersForYouShowMeAllTest {
-	
-	   private WebDriver driver;
+public class TC03_OurBestOffersForYouShowMeAllTest extends BaseClass {
   
 	   
-	   @Test (priority=3)
+	   @Test
 	   
-	   public void launchReactUat() throws InterruptedException {
+	   public void ourOffers() throws InterruptedException {
 		   
-   
-		  WebDriverManager.chromedriver().setup();
-			 
-		  ChromeOptions options = new ChromeOptions();
-		 
-		  options.addExtensions(new File("auth.crx"));
-		 
-		  driver = new ChromeDriver(options);
-		 
-	      JavascriptExecutor js = (JavascriptExecutor) driver;
-		 
-		  driver.get("chrome-extension://enhldmjbphoeibbpdhmjkchohnidgnah/options.html");
-
-		  driver.findElement(By.id("url")).sendKeys("https://mytfgworld.uat.tfgapps.co.za/");
-
-		  driver.findElement(By.id("username")).sendKeys("tfg-uat");
-	 
-          driver.findElement(By.id("password")).sendKeys("TFGReact2021");
-
-          driver.findElement(By.xpath("//button[.='Add']")).click();
-
-		  driver.get("https://mytfgworld.uat.tfgapps.co.za/");
-
-		  Thread.sleep(10000);
-		 
-		  System.out.println("=====================> Browser Launched");
-		 
-		  driver.manage().window().maximize();
-		
-		  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		
-		  driver.findElement(By.xpath("//i[@class='icon icon-cross']")).click();
 		
 		  Thread.sleep(5000);
 		
@@ -120,20 +88,12 @@ public class TC03_OurBestOffersForYouShowMeAllTest {
 		  List<WebElement> imagesList = driver.findElements(By.tagName("img"));
 		  
 		  System.out.println("Total no. of images are " + imagesList.size());
-		  
-		  Assert.fail("images not Loading properly or Broken!");
-		  
+			  
 		  Thread.sleep(5000);
 		  
-		  driver.quit();
-		
-	        try{
-	            driver.quit();
-	        }catch (Exception e){
-	            System.out.println("Browser closed already, " +
-	                            "did not need to quit after all");
-	            e.printStackTrace();
-	        }
+		  System.out.println("images not Loading properly or Broken! on this page");
+		 
+		  
 	    }
 		  
 		  

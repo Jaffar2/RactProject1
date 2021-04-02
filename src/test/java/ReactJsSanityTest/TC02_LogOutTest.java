@@ -32,6 +32,8 @@ import org.testng.annotations.Test;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+
+import com.basePackage.BaseClass;
 import com.google.j2objc.annotations.ReflectionSupport.Level;
 import io.github.bonigarcia.wdm.WebDriverManager;
  
@@ -57,84 +59,32 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 
-public class TC02_LogOutTest {
-	
-	   public ChromeDriver  driver;
+public class TC02_LogOutTest extends BaseClass {
 	   
 	   
-	   @Test (priority=1)
+	   @Test 
 	   
-	   public void launchReactUat() throws InterruptedException {
+	   public void verifyImages() throws InterruptedException {
 		   
-   
-		  WebDriverManager.chromedriver().setup();
-			 
-		  ChromeOptions options = new ChromeOptions();
+		   WebElement ImageFile = driver.findElement(By.xpath("//img[@alt='test alt']"));
+	        
+	        Boolean ImagePresent = (Boolean) ((JavascriptExecutor)driver).executeScript("return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0", ImageFile);
+	        if (!ImagePresent)
+	        {
+	             System.out.println("Image not Loaded and displayed.");
+	        }
+	        else
+	        {
+	            System.out.println("Image Loaded and displayed.");
+	        }
+		}
 		 
-		  options.addExtensions(new File("auth.crx"));
-		 
-		  driver = new ChromeDriver(options);
-		 
-	      JavascriptExecutor js = (JavascriptExecutor) driver;
-		 
-		  driver.get("chrome-extension://enhldmjbphoeibbpdhmjkchohnidgnah/options.html");
-
-		  driver.findElement(By.id("url")).sendKeys("https://mytfgworld.uat.tfgapps.co.za/");
-
-		  driver.findElement(By.id("username")).sendKeys("tfg-uat");
-	 
-          driver.findElement(By.id("password")).sendKeys("TFGReact2021");
-
-          driver.findElement(By.xpath("//button[.='Add']")).click();
-
-		  driver.get("https://mytfgworld.uat.tfgapps.co.za/");
-
-		  Thread.sleep(10000);
-		 
-		  System.out.println("=====================> Browser Launched");
-		 
-		  driver.manage().window().maximize();
-
-		
-		  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		
-		  driver.findElement(By.xpath("//i[@class='icon icon-cross']")).click();
-		
-		  Thread.sleep(5000);
-		
-		  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		
-	      driver.findElement(By.xpath("//span[normalize-space()='Login & Register']")).click();
-		  		  
-		  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		  
-		  driver.findElement(By.xpath("//button[normalize-space()='Log in with your online profile']")).click();
-	
-		  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		
-		  driver.findElement(By.name("username")).sendKeys("tfguat2@gmail.com");
-		
-		  driver.findElement(By.name("password")).sendKeys("password");
-		
-		  driver.findElement(By.xpath("//button[normalize-space()='Log In']")).click();
-		
-		  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		
-		  System.out.println(driver.getTitle());
-		 
-		  System.out.println(driver.getCurrentUrl());
-	
-		  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		  
-		  Thread.sleep(10000);
-	    
-
 		   
-}
+
 	  
-	   @Test (priority=2)
+	   @Test 
 	   
-	   public void logOutUat() throws InterruptedException {
+	   public void clogOutUat() throws InterruptedException {
 		   
 		 		
 		   JavascriptExecutor js8 = (driver);
@@ -157,21 +107,12 @@ public class TC02_LogOutTest {
 		   
 		   Thread.sleep(5000);
 		   
-		   driver.close();
-		   
-	        try{
-	            driver.quit();
-	        }catch (Exception e){
-	            System.out.println("Browser closed already, " +
-	                            "did not need to quit after all");
-	            e.printStackTrace();
-	        }
 	    }
 		   
 
 		   
 		   
-	   }
+}
 	   
 	   
 	   

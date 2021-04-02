@@ -7,7 +7,7 @@
       "name" : "Today's Deal Sort Price High to Low or Low to High not updating Test Failed expected [R 499.00] but found [R 249.00]",
       "children" : [ {
         "name" : "loginUat",
-        "uid" : "a3851cbea9c364b9",
+        "uid" : "95925c5880c6e7e7",
         "parentUid" : "9b498d3df249c72253712d5d26d81b03",
         "status" : "failed",
         "time" : {
@@ -20,13 +20,13 @@
         "parameters" : [ ]
       }, {
         "name" : "todaysDeal",
-        "uid" : "79e55a2cc55d8b40",
+        "uid" : "1c9403555e2e34d8",
         "parentUid" : "9b498d3df249c72253712d5d26d81b03",
         "status" : "failed",
         "time" : {
-          "start" : 1616855757653,
-          "stop" : 1616855877056,
-          "duration" : 119403
+          "start" : 1617101214732,
+          "stop" : 1617101343158,
+          "duration" : 128426
         },
         "flaky" : false,
         "newFailed" : false,
@@ -37,7 +37,7 @@
       "name" : "Redirecting to wrong url Test Failed expected [https://mytfgworld.uat.tfgapps.co.za/] but found [https://mytfg.tfgtst.co.za/]",
       "children" : [ {
         "name" : "checkOutFlow",
-        "uid" : "fa7ea4495e6ce973",
+        "uid" : "7488f4b1cdf2f982",
         "parentUid" : "86ebc8a253c14dbfea402d470caa6e9f",
         "status" : "failed",
         "time" : {
@@ -50,13 +50,13 @@
         "parameters" : [ ]
       }, {
         "name" : "checkOutFlow",
-        "uid" : "ae5a6fa5d412b1ab",
+        "uid" : "4a8e13ca2990ce19",
         "parentUid" : "86ebc8a253c14dbfea402d470caa6e9f",
         "status" : "failed",
         "time" : {
-          "start" : 1616856021020,
-          "stop" : 1616856162735,
-          "duration" : 141715
+          "start" : 1617101496815,
+          "stop" : 1617101637871,
+          "duration" : 141056
         },
         "flaky" : false,
         "newFailed" : false,
@@ -71,7 +71,7 @@
       "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1[normalize-space()='My Profile']\"}\n  (Session info: chrome=89.0.4389.90)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'DESKTOP-RIONQTI', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\jaffa\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60125}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 53653442a67fb65d6f9312bb8dfb37a7\n*** Element info: {Using=xpath, value=//h1[normalize-space()='My Profile']}",
       "children" : [ {
         "name" : "loginUat",
-        "uid" : "eb01b866e35a6c8",
+        "uid" : "caa77aaf1b8e062a",
         "parentUid" : "97e3dfa7dedecfcd8c984434778e1fd4",
         "status" : "broken",
         "time" : {

@@ -1,0 +1,113 @@
+{
+  "uid" : "ecab56d061c6eba6",
+  "name" : "launchReactUat",
+  "fullName" : "ReactJsSanityTest.TC03_OurBestOffersForYouShowMeAllTest.launchReactUat",
+  "historyId" : "6393eed0e76fbe3733c63eeae5830160",
+  "time" : {
+    "start" : 1616959186340,
+    "stop" : 1616959241491,
+    "duration" : 55151
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ReactJsSanityTest.TC03_OurBestOffersForYouShowMeAllTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ReactJsSanityTest.TC03_OurBestOffersForYouShowMeAllTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "launchReactUat"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "ReactJsSanityTest.TC03_OurBestOffersForYouShowMeAllTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RIONQTI"
+  }, {
+    "name" : "thread",
+    "value" : "20240@DESKTOP-RIONQTI.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9c359f09344fa443",
+      "status" : "failed",
+      "statusDetails" : "images not Loading properly or Broken!",
+      "time" : {
+        "start" : 1616958747902,
+        "stop" : 1616958790465,
+        "duration" : 42563
+      }
+    }, {
+      "uid" : "2c9cecb1f243a62c",
+      "status" : "failed",
+      "statusDetails" : "images not Loading properly or Broken!",
+      "time" : {
+        "start" : 1616956459884,
+        "stop" : 1616956500664,
+        "duration" : 40780
+      }
+    }, {
+      "uid" : "8ea76bce3c8587f8",
+      "status" : "failed",
+      "statusDetails" : "Couple of images not Loading or Broken!",
+      "time" : {
+        "start" : 1616952193048,
+        "stop" : 1616952252670,
+        "duration" : 59622
+      }
+    }, {
+      "uid" : "3e60f2a8bfb42a82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616951698267,
+        "stop" : 1616951752889,
+        "duration" : 54622
+      }
+    }, {
+      "uid" : "2de51f2dc163051a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616951267181,
+        "stop" : 1616951334230,
+        "duration" : 67049
+      }
+    }, {
+      "uid" : "b6f4cd4dc06f56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616951029287,
+        "stop" : 1616951092358,
+        "duration" : 63071
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ecab56d061c6eba6.json",
+  "parameterValues" : [ ]
+}

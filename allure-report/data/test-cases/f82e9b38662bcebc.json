@@ -1,0 +1,129 @@
+{
+  "uid" : "f82e9b38662bcebc",
+  "name" : "ourOffers",
+  "fullName" : "ReactJsSanityTest.TC03_OurBestOffersForYouShowMeAllTest.ourOffers",
+  "historyId" : "da8ec6fccafc8774615e7a2b438d365d",
+  "time" : {
+    "start" : 1617101096330,
+    "stop" : 1617101148157,
+    "duration" : 51827
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ReactJsSanityTest.TC03_OurBestOffersForYouShowMeAllTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ReactJsSanityTest.TC03_OurBestOffersForYouShowMeAllTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "ourOffers"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Command line suite"
+  }, {
+    "name" : "suite",
+    "value" : "Command line test"
+  }, {
+    "name" : "subSuite",
+    "value" : "ReactJsSanityTest.TC03_OurBestOffersForYouShowMeAllTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RIONQTI"
+  }, {
+    "name" : "thread",
+    "value" : "5936@DESKTOP-RIONQTI.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cf2f013a37cfc004",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617099874973,
+        "stop" : 1617099927184,
+        "duration" : 52211
+      }
+    }, {
+      "uid" : "d0c284037a3794f2",
+      "status" : "broken",
+      "statusDetails" : "Error communicating with the remote browser. It may have died.\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'DESKTOP-RIONQTI', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'\nDriver info: driver.version: RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\jaffa\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4da19574cdcd2cd0dd347f8aa0cec050",
+      "time" : {
+        "start" : 1617096896557,
+        "stop" : 1617096960991,
+        "duration" : 64434
+      }
+    }, {
+      "uid" : "fae5509f3b368e16",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=89.0.4389.90)\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'DESKTOP-RIONQTI', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\jaffa\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 647eaaa2130e993447a262dcc1f61269",
+      "time" : {
+        "start" : 1617029315940,
+        "stop" : 1617029355938,
+        "duration" : 39998
+      }
+    }, {
+      "uid" : "37ae7cd1af8551cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617005526214,
+        "stop" : 1617005596742,
+        "duration" : 70528
+      }
+    }, {
+      "uid" : "2d1861d9d5ed8e89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616962327292,
+        "stop" : 1616962372499,
+        "duration" : 45207
+      }
+    }, {
+      "uid" : "8b5177dd59bc75a1",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=89.0.4389.90)\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'DESKTOP-RIONQTI', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\jaffa\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60123}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ececd8e80a0aecf2445c4aea8860a51d\n*** Element info: {Using=xpath, value=//button[.='Add']}",
+      "time" : {
+        "start" : 1616961896124,
+        "stop" : 1616961903017,
+        "duration" : 6893
+      }
+    }, {
+      "uid" : "d2fb8a96714f41c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616959843196,
+        "stop" : 1616959897026,
+        "duration" : 53830
+      }
+    }, {
+      "uid" : "648d4df6217df55a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616959541525,
+        "stop" : 1616959593173,
+        "duration" : 51648
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f82e9b38662bcebc.json",
+  "parameterValues" : [ ]
+}

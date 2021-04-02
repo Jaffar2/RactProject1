@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ReactJsSanityTest.TC08_SearchTest">
+      <class name="ReactJsSanityTest.TC12_BrandFilterTest">
         <methods>
-          <include name="loginUat"/>
+          <include name="removeItemsFromBag"/>
+          <include name="beforeMethod"/>
+          <include name="cleanup"/>
         </methods>
-      </class> <!-- ReactJsSanityTest.TC08_SearchTest -->
+      </class> <!-- ReactJsSanityTest.TC12_BrandFilterTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

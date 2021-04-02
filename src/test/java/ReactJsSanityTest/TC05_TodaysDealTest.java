@@ -38,6 +38,8 @@ import org.testng.annotations.Test;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+
+import com.basePackage.BaseClass;
 import com.google.j2objc.annotations.ReflectionSupport.Level;
 import io.github.bonigarcia.wdm.WebDriverManager;
  
@@ -65,55 +67,20 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 
-public class TC05_TodaysDealTest {
+public class TC05_TodaysDealTest extends BaseClass {
 	
-	   public ChromeDriver  driver;
 	   
 	   
-	   @Test (priority=5)
+	   @Test 
 	   
 	   public void todaysDeal() throws InterruptedException {
 		   
-   
-		  WebDriverManager.chromedriver().setup();
-			 
-		  ChromeOptions options = new ChromeOptions();
-		 
-		  options.addExtensions(new File("auth.crx"));
-		 
-		  driver = new ChromeDriver(options);
-		 
-	      JavascriptExecutor js = (JavascriptExecutor) driver;
-	      
-	      Integer counter=0;
-		 
-		  driver.get("chrome-extension://enhldmjbphoeibbpdhmjkchohnidgnah/options.html");
-
-		  driver.findElement(By.id("url")).sendKeys("https://mytfgworld.uat.tfgapps.co.za/");
-
-		  driver.findElement(By.id("username")).sendKeys("tfg-uat");
-	 
-          driver.findElement(By.id("password")).sendKeys("TFGReact2021");
-
-          driver.findElement(By.xpath("//button[.='Add']")).click();
-
-		  driver.get("https://mytfgworld.uat.tfgapps.co.za/");
-
-		  Thread.sleep(10000);
-		 
-		  System.out.println("=====================> Browser Launched");
-		 
-		  driver.manage().window().maximize();
-		
-		  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		
-		  driver.findElement(By.xpath("//i[@class='icon icon-cross']")).click();
-		
+		   
 		  Thread.sleep(5000);
+		   
+		  driver.findElement(By.xpath("//img[@alt='test alt']")).click();
 		
 		  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		  
-		  driver.findElement(By.xpath("//body/div[@id='__next']/div[1]")).click();
 		  
 		  Thread.sleep(2000);
 			
@@ -124,6 +91,8 @@ public class TC05_TodaysDealTest {
 	      driver.findElement(By.xpath("//div[contains(@class,'facet-sort__control-options-item')][normalize-space()='30']")).click();
 	      
 	      Thread.sleep(5000);
+	      
+	      JavascriptExecutor js = (JavascriptExecutor)driver;
 	      
 	      js.executeScript("window.scrollBy(0,1000)");
 	      
@@ -190,24 +159,15 @@ public class TC05_TodaysDealTest {
 		    jse.executeScript("scroll(0, -250);");
 		    
 		    Thread.sleep(5000);
-			    
 		    
-		    try
-		    {
-	
-		    	String price = driver.findElement(By.xpath("//div[normalize-space()='R 249.00']")).getText();
+		 	String price = driver.findElement(By.xpath("//div[normalize-space()='R 249.00']")).getText();
+		    
+		    System.out.println("Price High to Low is :" + price);
+		    
+		    Assert.assertEquals("R 249.00","R 499.00", "Today's Deal Sort Price High to Low or Low to High not updating Test Failed");
+		    
+		    Thread.sleep(2000);
 			    
-			    System.out.println("Price High to Low is :" + price);
-			    
-			    Assert.assertEquals("R 249.00","R 499.00", "Today's Deal Sort Price High to Low or Low to High not updating Test Failed");
-			    
-			    Thread.sleep(2000);
-				    	
-		    }
-		    finally
-		    {
-		        driver.quit();
-		    }
 		    
 		    
 		    

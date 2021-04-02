@@ -1,0 +1,60 @@
+{
+  "uid" : "d25bd6bb3b2462cf",
+  "name" : "registerNewOnline",
+  "fullName" : "ReactJsSanityTest.TC04_RegisterNewOnlineProfileTest.registerNewOnline",
+  "historyId" : "d711a8dafdfb7190f89a351117345092",
+  "time" : {
+    "start" : 1616855697150,
+    "stop" : 1616855757649,
+    "duration" : 60499
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ReactJsSanityTest.TC04_RegisterNewOnlineProfileTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ReactJsSanityTest.TC04_RegisterNewOnlineProfileTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "registerNewOnline"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Command line suite"
+  }, {
+    "name" : "suite",
+    "value" : "Command line test"
+  }, {
+    "name" : "subSuite",
+    "value" : "ReactJsSanityTest.TC04_RegisterNewOnlineProfileTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RIONQTI"
+  }, {
+    "name" : "thread",
+    "value" : "17328@DESKTOP-RIONQTI.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d25bd6bb3b2462cf.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,151 @@
+{
+  "uid" : "8837dec2973e5672",
+  "name" : "registerNewOnline",
+  "fullName" : "ReactJsSanityTest.TC04_RegisterNewOnlineProfileTest.registerNewOnline",
+  "historyId" : "d711a8dafdfb7190f89a351117345092",
+  "time" : {
+    "start" : 1617101148161,
+    "stop" : 1617101214732,
+    "duration" : 66571
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ReactJsSanityTest.TC04_RegisterNewOnlineProfileTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ReactJsSanityTest.TC04_RegisterNewOnlineProfileTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "registerNewOnline"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Command line suite"
+  }, {
+    "name" : "suite",
+    "value" : "Command line test"
+  }, {
+    "name" : "subSuite",
+    "value" : "ReactJsSanityTest.TC04_RegisterNewOnlineProfileTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RIONQTI"
+  }, {
+    "name" : "thread",
+    "value" : "5936@DESKTOP-RIONQTI.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ced86838f27296c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617099927188,
+        "stop" : 1617099989175,
+        "duration" : 61987
+      }
+    }, {
+      "uid" : "3573b954002d009b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617096960997,
+        "stop" : 1617097048283,
+        "duration" : 87286
+      }
+    }, {
+      "uid" : "f2276c1e0d7de11f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617029355941,
+        "stop" : 1617029435080,
+        "duration" : 79139
+      }
+    }, {
+      "uid" : "5a6b45826e1d0e7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617005596747,
+        "stop" : 1617005668861,
+        "duration" : 72114
+      }
+    }, {
+      "uid" : "e76c9e97ac3fb7cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616962372501,
+        "stop" : 1616962426802,
+        "duration" : 54301
+      }
+    }, {
+      "uid" : "9fffe08a9719fdfc",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=89.0.4389.90)\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'DESKTOP-RIONQTI', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\jaffa\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60153}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: fab22ab672535b49fba6edbf20a96634",
+      "time" : {
+        "start" : 1616961903024,
+        "stop" : 1616961928158,
+        "duration" : 25134
+      }
+    }, {
+      "uid" : "77d4195734dd579d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616959897026,
+        "stop" : 1616959952391,
+        "duration" : 55365
+      }
+    }, {
+      "uid" : "61f4ba0539728b50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616958790472,
+        "stop" : 1616958844862,
+        "duration" : 54390
+      }
+    }, {
+      "uid" : "f77033ff8bb3d6c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616956217149,
+        "stop" : 1616956273041,
+        "duration" : 55892
+      }
+    }, {
+      "uid" : "d25bd6bb3b2462cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616855697150,
+        "stop" : 1616855757649,
+        "duration" : 60499
+      }
+    }, {
+      "uid" : "c10fd0de1a0d350c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616854703645,
+        "stop" : 1616854767006,
+        "duration" : 63361
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8837dec2973e5672.json",
+  "parameterValues" : [ ]
+}

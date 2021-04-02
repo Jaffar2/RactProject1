@@ -1,0 +1,172 @@
+{
+  "uid" : "c02d733dc6671cb",
+  "name" : "launchApplication",
+  "fullName" : "ReactJsSanityTest.TC07_FurnitureCollectFromStoreTest.launchApplication",
+  "historyId" : "d42b35440f8e1946b8cf220e75e129f9",
+  "time" : {
+    "start" : 1617101458090,
+    "stop" : 1617101496815,
+    "duration" : 38725
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ReactJsSanityTest.TC07_FurnitureCollectFromStoreTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ReactJsSanityTest.TC07_FurnitureCollectFromStoreTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "launchApplication"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Command line suite"
+  }, {
+    "name" : "suite",
+    "value" : "Command line test"
+  }, {
+    "name" : "subSuite",
+    "value" : "ReactJsSanityTest.TC07_FurnitureCollectFromStoreTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RIONQTI"
+  }, {
+    "name" : "thread",
+    "value" : "5936@DESKTOP-RIONQTI.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a567081d2a524ee5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617100219217,
+        "stop" : 1617100263953,
+        "duration" : 44736
+      }
+    }, {
+      "uid" : "da058c355ce19d0d",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=89.0.4389.90)\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'DESKTOP-RIONQTI', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\jaffa\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63709}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 2945c90c5753b76b8f60b600d5c01206",
+      "time" : {
+        "start" : 1617098266135,
+        "stop" : 1617098328330,
+        "duration" : 62195
+      }
+    }, {
+      "uid" : "a80c327ddf98bee1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617097291041,
+        "stop" : 1617097357491,
+        "duration" : 66450
+      }
+    }, {
+      "uid" : "73c9f5573ef59c0b",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=89.0.4389.90)\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'DESKTOP-RIONQTI', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\jaffa\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52904}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 8e73a05cea2ab78972562806a7789fc2",
+      "time" : {
+        "start" : 1617029558571,
+        "stop" : 1617029596646,
+        "duration" : 38075
+      }
+    }, {
+      "uid" : "d72082a1ae0a19e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617005918893,
+        "stop" : 1617005974481,
+        "duration" : 55588
+      }
+    }, {
+      "uid" : "641cd52725a54069",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=89.0.4389.90)\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'DESKTOP-RIONQTI', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\jaffa\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61097}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 5212e8c70c531f8d1ff623d0a63fa6eb",
+      "time" : {
+        "start" : 1616962638400,
+        "stop" : 1616962670831,
+        "duration" : 32431
+      }
+    }, {
+      "uid" : "bb00c99c43e9a33a",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=89.0.4389.90)\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'DESKTOP-RIONQTI', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\jaffa\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60272}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a2a6280c96acae591e1fad830d720036",
+      "time" : {
+        "start" : 1616961974452,
+        "stop" : 1616962000550,
+        "duration" : 26098
+      }
+    }, {
+      "uid" : "1ead5224d105bae7",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=89.0.4389.90)\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'DESKTOP-RIONQTI', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\jaffa\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59875}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 638b466cf3328fe7ebef9baee56b5123\n*** Element info: {Using=xpath, value=//span[normalize-space()='Login & Register']}",
+      "time" : {
+        "start" : 1616961575514,
+        "stop" : 1616961619725,
+        "duration" : 44211
+      }
+    }, {
+      "uid" : "ee1aa7991b565b93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616960170281,
+        "stop" : 1616960204169,
+        "duration" : 33888
+      }
+    }, {
+      "uid" : "3d928189bd10fc4",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=89.0.4389.90)\nBuild info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'\nSystem info: host: 'DESKTOP-RIONQTI', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\jaffa\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58475}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a84c4d4335aec5353a5b8b4393d528c9",
+      "time" : {
+        "start" : 1616958978239,
+        "stop" : 1616959004143,
+        "duration" : 25904
+      }
+    }, {
+      "uid" : "bbf541d35314c32d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616956273049,
+        "stop" : 1616956305646,
+        "duration" : 32597
+      }
+    }, {
+      "uid" : "4c2c6f930a14bc32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616855977570,
+        "stop" : 1616856021016,
+        "duration" : 43446
+      }
+    }, {
+      "uid" : "a5b82580e0e54421",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616855009946,
+        "stop" : 1616855053627,
+        "duration" : 43681
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c02d733dc6671cb.json",
+  "parameterValues" : [ ]
+}

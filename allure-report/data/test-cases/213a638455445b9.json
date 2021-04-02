@@ -1,0 +1,60 @@
+{
+  "uid" : "213a638455445b9",
+  "name" : "logOutUat",
+  "fullName" : "ReactJsSanityTest.TC02_LogOutTest.logOutUat",
+  "historyId" : "683d6c69ca0ab48ea1374e5d8863954b",
+  "time" : {
+    "start" : 1616958712237,
+    "stop" : 1616958747902,
+    "duration" : 35665
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ReactJsSanityTest.TC02_LogOutTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ReactJsSanityTest.TC02_LogOutTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "logOutUat"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Command line suite"
+  }, {
+    "name" : "suite",
+    "value" : "Command line test"
+  }, {
+    "name" : "subSuite",
+    "value" : "ReactJsSanityTest.TC02_LogOutTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RIONQTI"
+  }, {
+    "name" : "thread",
+    "value" : "19416@DESKTOP-RIONQTI.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "213a638455445b9.json",
+  "parameterValues" : [ ]
+}

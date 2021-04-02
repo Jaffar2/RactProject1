@@ -3,21 +3,28 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="ReactJsSanityTest.TC03_OurBestOffersForYouShowMeAllTest">
-        <methods>
-          <include name="launchReactUat"/>
-        </methods>
-      </class> <!-- ReactJsSanityTest.TC03_OurBestOffersForYouShowMeAllTest -->
-      <class name="ReactJsSanityTest.TC07_FurnitureCollectFromStoreTest">
-        <methods>
-          <include name="checkOutFlow"/>
-        </methods>
-      </class> <!-- ReactJsSanityTest.TC07_FurnitureCollectFromStoreTest -->
       <class name="ReactJsSanityTest.TC05_TodaysDealTest">
         <methods>
           <include name="todaysDeal"/>
+          <include name="beforeMethod"/>
+          <include name="cleanup"/>
         </methods>
       </class> <!-- ReactJsSanityTest.TC05_TodaysDealTest -->
+      <class name="ReactJsSanityTest.TC06_FurnitureAddItemToBagTest">
+        <methods>
+          <include name="hddItemToBag"/>
+          <include name="beforeMethod"/>
+          <include name="furnitureFlow"/>
+          <include name="cleanup"/>
+        </methods>
+      </class> <!-- ReactJsSanityTest.TC06_FurnitureAddItemToBagTest -->
+      <class name="ReactJsSanityTest.TC07_FurnitureCollectFromStoreTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="checkOutFlow"/>
+          <include name="cleanup"/>
+        </methods>
+      </class> <!-- ReactJsSanityTest.TC07_FurnitureCollectFromStoreTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

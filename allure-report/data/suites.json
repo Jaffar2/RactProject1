@@ -9,7 +9,7 @@
         "name" : "ReactJsSanityTest.TC03_RegisterNewOnlineProfileTest",
         "children" : [ {
           "name" : "loginUat",
-          "uid" : "7a0a7f22b1716f2c",
+          "uid" : "3e78514b19263ba3",
           "parentUid" : "75535f974e81a40a5351b5f85947aff1",
           "status" : "passed",
           "time" : {
@@ -23,27 +23,10 @@
         } ],
         "uid" : "75535f974e81a40a5351b5f85947aff1"
       }, {
-        "name" : "ReactJsSanityTest.TC01_LoginTest",
-        "children" : [ {
-          "name" : "loginUat",
-          "uid" : "6e88297bbb17546d",
-          "parentUid" : "c81075782bf8b6270e537168d5c09036",
-          "status" : "passed",
-          "time" : {
-            "start" : 1616855499138,
-            "stop" : 1616855543887,
-            "duration" : 44749
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "c81075782bf8b6270e537168d5c09036"
-      }, {
         "name" : "ReactJsSanityTest.TC03_SocialLoginTest",
         "children" : [ {
           "name" : "loginUat",
-          "uid" : "eb01b866e35a6c8",
+          "uid" : "caa77aaf1b8e062a",
           "parentUid" : "8f83ee1471e55b79424755c1ddb9b512",
           "status" : "broken",
           "time" : {
@@ -57,29 +40,46 @@
         } ],
         "uid" : "8f83ee1471e55b79424755c1ddb9b512"
       }, {
+        "name" : "ReactJsSanityTest.TC01_LoginTest",
+        "children" : [ {
+          "name" : "loginUat",
+          "uid" : "c51a1c5c5a3a539",
+          "parentUid" : "c81075782bf8b6270e537168d5c09036",
+          "status" : "passed",
+          "time" : {
+            "start" : 1617100959737,
+            "stop" : 1617101009000,
+            "duration" : 49263
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c81075782bf8b6270e537168d5c09036"
+      }, {
         "name" : "ReactJsSanityTest.TC02_LogOutTest",
         "children" : [ {
           "name" : "launchReactUat",
-          "uid" : "7455cd193d9b4a15",
+          "uid" : "f475f4d5eda5cb91",
           "parentUid" : "aef662b985194dc43add3f308bef2c2d",
           "status" : "passed",
           "time" : {
-            "start" : 1616855614005,
-            "stop" : 1616855665647,
-            "duration" : 51642
+            "start" : 1617101009079,
+            "stop" : 1617101060742,
+            "duration" : 51663
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "logOutUat",
-          "uid" : "bf37e6ba0b1d8ebf",
+          "uid" : "38fc19f21f446d",
           "parentUid" : "aef662b985194dc43add3f308bef2c2d",
           "status" : "passed",
           "time" : {
-            "start" : 1616855665651,
-            "stop" : 1616855697146,
-            "duration" : 31495
+            "start" : 1617101060742,
+            "stop" : 1617101096330,
+            "duration" : 35588
           },
           "flaky" : false,
           "newFailed" : false,
@@ -87,16 +87,33 @@
         } ],
         "uid" : "aef662b985194dc43add3f308bef2c2d"
       }, {
+        "name" : "ReactJsSanityTest.TC03_OurBestOffersForYouShowMeAllTest",
+        "children" : [ {
+          "name" : "ourOffers",
+          "uid" : "f82e9b38662bcebc",
+          "parentUid" : "b57471912dc13ab6f5bc58bf0ae63625",
+          "status" : "passed",
+          "time" : {
+            "start" : 1617101096330,
+            "stop" : 1617101148157,
+            "duration" : 51827
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b57471912dc13ab6f5bc58bf0ae63625"
+      }, {
         "name" : "ReactJsSanityTest.TC04_RegisterNewOnlineProfileTest",
         "children" : [ {
           "name" : "registerNewOnline",
-          "uid" : "5fa21d5741a236d7",
+          "uid" : "8837dec2973e5672",
           "parentUid" : "d8948c3c218ee60044750c4cefe5be5b",
           "status" : "passed",
           "time" : {
-            "start" : 1616855697150,
-            "stop" : 1616855757649,
-            "duration" : 60499
+            "start" : 1617101148161,
+            "stop" : 1617101214732,
+            "duration" : 66571
           },
           "flaky" : false,
           "newFailed" : false,
@@ -107,13 +124,13 @@
         "name" : "ReactJsSanityTest.TC05_TodaysDealTest",
         "children" : [ {
           "name" : "todaysDeal",
-          "uid" : "79e55a2cc55d8b40",
+          "uid" : "1c9403555e2e34d8",
           "parentUid" : "5643e3e146d2cea4494289b30f1920ec",
           "status" : "failed",
           "time" : {
-            "start" : 1616855757653,
-            "stop" : 1616855877056,
-            "duration" : 119403
+            "start" : 1617101214732,
+            "stop" : 1617101343158,
+            "duration" : 128426
           },
           "flaky" : false,
           "newFailed" : false,
@@ -124,26 +141,26 @@
         "name" : "ReactJsSanityTest.TC06_FurnitureAddItemToBagTest",
         "children" : [ {
           "name" : "furnitureFlow",
-          "uid" : "bb9cb3fd5891d818",
+          "uid" : "909936ce8abdab46",
           "parentUid" : "815b9bb0055a253e8b2cd975f8e89c4a",
           "status" : "passed",
           "time" : {
-            "start" : 1616855877060,
-            "stop" : 1616855913108,
-            "duration" : 36048
+            "start" : 1617101343158,
+            "stop" : 1617101394087,
+            "duration" : 50929
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "addItemToBag",
-          "uid" : "97344e2f2c56a91e",
+          "uid" : "46ee5a2223af1b84",
           "parentUid" : "815b9bb0055a253e8b2cd975f8e89c4a",
           "status" : "passed",
           "time" : {
-            "start" : 1616855913112,
-            "stop" : 1616855977545,
-            "duration" : 64433
+            "start" : 1617101394095,
+            "stop" : 1617101458090,
+            "duration" : 63995
           },
           "flaky" : false,
           "newFailed" : false,
@@ -154,32 +171,49 @@
         "name" : "ReactJsSanityTest.TC07_FurnitureCollectFromStoreTest",
         "children" : [ {
           "name" : "launchApplication",
-          "uid" : "938900344a824915",
+          "uid" : "c02d733dc6671cb",
           "parentUid" : "22d04ff10738165faaee2c5370414ee5",
           "status" : "passed",
           "time" : {
-            "start" : 1616855977570,
-            "stop" : 1616856021016,
-            "duration" : 43446
+            "start" : 1617101458090,
+            "stop" : 1617101496815,
+            "duration" : 38725
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "checkOutFlow",
-          "uid" : "ae5a6fa5d412b1ab",
+          "uid" : "4a8e13ca2990ce19",
           "parentUid" : "22d04ff10738165faaee2c5370414ee5",
           "status" : "failed",
           "time" : {
-            "start" : 1616856021020,
-            "stop" : 1616856162735,
-            "duration" : 141715
+            "start" : 1617101496815,
+            "stop" : 1617101637871,
+            "duration" : 141056
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         } ],
         "uid" : "22d04ff10738165faaee2c5370414ee5"
+      }, {
+        "name" : "ReactJsSanityTest.TC08_SearchTest",
+        "children" : [ {
+          "name" : "searchUat",
+          "uid" : "27f620ab99995b2e",
+          "parentUid" : "7834d08ec723a45f6678ca56c71f9425",
+          "status" : "passed",
+          "time" : {
+            "start" : 1617101637871,
+            "stop" : 1617101702462,
+            "duration" : 64591
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7834d08ec723a45f6678ca56c71f9425"
       } ],
       "uid" : "d25b44baf1a59b2ba9e824375ad84458"
     } ],
@@ -192,7 +226,7 @@
         "name" : "ReactJsSanityTest.TC04_TodaysDealTest",
         "children" : [ {
           "name" : "loginUat",
-          "uid" : "a3851cbea9c364b9",
+          "uid" : "95925c5880c6e7e7",
           "parentUid" : "1135eb1494b576f31b3baad445812985",
           "status" : "failed",
           "time" : {
@@ -209,7 +243,7 @@
         "name" : "ReactJsSanityTest.TC05_ReactJsCheckOutTest",
         "children" : [ {
           "name" : "launchApplication",
-          "uid" : "876e558b3eba4a5c",
+          "uid" : "4bc737c950fa6700",
           "parentUid" : "b7031d8257000745b05309ec7b847509",
           "status" : "passed",
           "time" : {
@@ -222,7 +256,7 @@
           "parameters" : [ ]
         }, {
           "name" : "checkOutFlow",
-          "uid" : "3f252c5fd1cea6f8",
+          "uid" : "a93c9b48b7d698f5",
           "parentUid" : "b7031d8257000745b05309ec7b847509",
           "status" : "passed",
           "time" : {
@@ -239,7 +273,7 @@
         "name" : "ReactJsSanityTest.TC06_FurnitureCollectFromStoreTest",
         "children" : [ {
           "name" : "launchApplication",
-          "uid" : "6edc96baa5dc4500",
+          "uid" : "459237f742ac3ad3",
           "parentUid" : "91f61e5ad89e49ebb079c6a974771dab",
           "status" : "passed",
           "time" : {
@@ -252,7 +286,7 @@
           "parameters" : [ ]
         }, {
           "name" : "checkOutFlow",
-          "uid" : "fa7ea4495e6ce973",
+          "uid" : "7488f4b1cdf2f982",
           "parentUid" : "91f61e5ad89e49ebb079c6a974771dab",
           "status" : "failed",
           "time" : {
@@ -265,6 +299,40 @@
           "parameters" : [ ]
         } ],
         "uid" : "91f61e5ad89e49ebb079c6a974771dab"
+      }, {
+        "name" : "ReactJsSanityTest.TC08_SearchTest",
+        "children" : [ {
+          "name" : "loginUat",
+          "uid" : "f29982d867068a9f",
+          "parentUid" : "4bb5a86fffc3cb9ee21118833beb944a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616955106473,
+            "stop" : 1616955164749,
+            "duration" : 58276
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "4bb5a86fffc3cb9ee21118833beb944a"
+      }, {
+        "name" : "ReactJsSanityTest.TC03_OurBestOffersForYouShowMeAllTest",
+        "children" : [ {
+          "name" : "launchReactUat",
+          "uid" : "ecab56d061c6eba6",
+          "parentUid" : "ec6f24e450c27d04345acd9feee68922",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616959186340,
+            "stop" : 1616959241491,
+            "duration" : 55151
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ec6f24e450c27d04345acd9feee68922"
       } ],
       "uid" : "848117670d75f6868e681771989ad50e"
     } ],
