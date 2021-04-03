@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ReactJsSanityTest.TC14_CleanItemsFromBagTest">
+      <class name="ReactJsSanityTest.TC01_ClearItemsFromBagTest">
         <methods>
+          <include name="clearItemsFromBag"/>
           <include name="beforeMethod"/>
-          <include name="cleanItemsFromBag"/>
           <include name="cleanup"/>
         </methods>
-      </class> <!-- ReactJsSanityTest.TC14_CleanItemsFromBagTest -->
+      </class> <!-- ReactJsSanityTest.TC01_ClearItemsFromBagTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

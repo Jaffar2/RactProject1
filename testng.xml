@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test name="Test">
+   <test name="Test">
     <classes>
-      <class name="ReactJsSanityTest.TC05_TodaysDealTest"/>
+      <class name="ReactJsSanityTest.TC14_CleanItemsFromBagTest"/>
       <class name="ReactJsSanityTest.TC02_LogOutTest"/>
-      <class name="ReactJsSanityTest.TC08_SearchTest"/>
-      <class name="ReactJsSanityTest.TC06_FurnitureAddItemToBagTest"/>
+      <class name="ReactJsSanityTest.TC13_BrandFilterTest"/>
+      <class name="ReactJsSanityTest.TC12_PargoPickupPoint_E2ETest"/>
+      <class name="ReactJsSanityTest.TC15_AddItemToWishListTest"/>
       <class name="ReactJsSanityTest.TC01_LoginTest"/>
+      <class name="ReactJsSanityTest.TC08_SitewideBagTest"/>
+      <class name="ReactJsSanityTest.TC06_FurnitureCollectFromStoreTest"/>
       <class name="ReactJsSanityTest.TC04_RegisterNewOnlineProfileTest"/>
+      <class name="ReactJsSanityTest.TC16_InstallmentCalcTest"/>
+      <class name="ReactJsSanityTest.TC05_TodaysDealTest"/>
+      <class name="ReactJsSanityTest.TC07_SearchTest"/>
+      <class name="ReactJsSanityTest.TC11_RemoveItemsFromBagTest"/>
+      <class name="ReactJsSanityTest.TC10_UpdateQtyTest"/>
+      <class name="ReactJsSanityTest.TC09_FurnitureAddItemToBagTest"/>
       <class name="ReactJsSanityTest.TC03_OurBestOffersForYouShowMeAllTest"/>
-      <class name="ReactJsSanityTest.TC07_FurnitureCollectFromStoreTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
