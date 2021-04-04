@@ -58,7 +58,7 @@ public class TC01_ViewBagTest extends BaseClass {
 
 		
 	
-	  @Test
+	  @Test (priority=1)
 	  
 	  public void viewBagTest() throws InterruptedException {
 		  
@@ -137,7 +137,7 @@ public class TC01_ViewBagTest extends BaseClass {
 	  
 	  
 	   
-	   @Test 
+	   @Test (priority=2)
 	   
 	   public void clearItemsFromBag() throws InterruptedException {
 		   
