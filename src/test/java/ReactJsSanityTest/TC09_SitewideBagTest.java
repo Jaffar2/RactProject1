@@ -66,7 +66,7 @@ public class TC09_SitewideBagTest extends BaseClass {
 
 	   
 	   
-	   @Test 
+	   @Test (priority=1)
 	   
 	   public void sitewidePop() throws InterruptedException {
 		  		 
@@ -139,12 +139,42 @@ public class TC09_SitewideBagTest extends BaseClass {
 
 	        System.out.println(popMessage);
 
-            String expMessage = "Your order qualifies for free delivery*. *excludes furniture delivery" ;
+            //String expMessage = ".*Your order qualifies for free delivery*." ;
             
-            Assert.assertEquals(popMessage, expMessage);
+            //Assert.assertEquals(popMessage, expMessage);
+
             		 
 	        
          
+	   }
+	   
+	   @Test (priority=2)
+	   
+	   public void sitewideClean() throws InterruptedException {
+		   
+		  
+		    Thread.sleep(5000);
+
+	        driver.findElement(By.xpath("//span[normalize-space()='Your Bag']")).click();
+
+	        Thread.sleep(5000);
+
+	        driver.findElement(By.xpath("//a[normalize-space()='View My Bag']")).click();
+
+	        Thread.sleep(2000);
+
+	        driver.findElement(By.xpath("//button[contains(text(),'REMOVE')]")).click();
+
+	        Thread.sleep(5000);
+
+	        String shoppingBag1 = driver.findElement(By.xpath("//h4[normalize-space()='YOUR SHOPPING BAG IS EMPTY']")).getText();
+		       
+	        Thread.sleep(5000);
+		       
+	        System.out.println("After removing an item bag is :" + shoppingBag1 );
+	        
+		   
+		   
 	   }
 		   
 }

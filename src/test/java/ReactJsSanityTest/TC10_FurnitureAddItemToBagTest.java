@@ -53,7 +53,7 @@ public class TC10_FurnitureAddItemToBagTest extends BaseClass {
 
 	
 	
-	   @Test
+	   @Test (priority=1)
 	
 	   public void searchFurniture() throws InterruptedException, FindFailed {
 		   
@@ -85,7 +85,7 @@ public class TC10_FurnitureAddItemToBagTest extends BaseClass {
 		      
 
 	   
-	   @Test 
+	   @Test (priority=2)
 	   
 	   public void addItemToBag() throws InterruptedException {
 		   

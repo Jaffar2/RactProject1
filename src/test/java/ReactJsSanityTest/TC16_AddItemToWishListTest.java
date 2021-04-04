@@ -104,19 +104,19 @@ public class TC16_AddItemToWishListTest extends BaseClass {
           
           ((JavascriptExecutor)driver).executeScript("window.scrollBy(0,250)", "");
           
-          Thread.sleep(2000);
+          Thread.sleep(5000);
           
           driver.findElement(By.xpath("//a[normalize-space()='M']")).click();
           
-          Thread.sleep(1000);
+          Thread.sleep(5000);
           
           ((JavascriptExecutor)driver).executeScript("window.scrollBy(0,250)", "");
           
-          Thread.sleep(2000);
+          Thread.sleep(10000);
           
           driver.findElement(By.xpath("//span[normalize-space()='Add to wishlist']")).click();
           
-          Thread.sleep(2000);
+          Thread.sleep(6000);
           
           String wishListMessage = driver.findElement(By.xpath("//span[normalize-space()='Remove From Wishlist']")).getText();
           
@@ -126,7 +126,9 @@ public class TC16_AddItemToWishListTest extends BaseClass {
           
           driver.findElement(By.xpath("//span[normalize-space()='Remove From Wishlist']")).click();
           
-          Thread.sleep(2000);
+          System.out.println("Remove from whishList is not working in one click");
+          
+          Thread.sleep(6000);
           
           String wishListMessage1 = driver.findElement(By.xpath("//span[normalize-space()='Add to wishlist']")).getText();
           

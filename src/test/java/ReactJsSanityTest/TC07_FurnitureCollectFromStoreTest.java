@@ -186,7 +186,7 @@ public class TC07_FurnitureCollectFromStoreTest extends BaseClass {
 		    
 		    driver.findElement(By.xpath("//button[contains(text(),'Next')]")).click();
 		    
-		    Thread.sleep(10000);
+		    Thread.sleep(10000);	    
 		    
 		    System.out.println("Test Failed Due to PayU is down");
 		     

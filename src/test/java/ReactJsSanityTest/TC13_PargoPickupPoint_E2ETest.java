@@ -196,6 +196,8 @@ public class TC13_PargoPickupPoint_E2ETest extends BaseClass {
           driver.findElement(By.xpath("//button[contains(text(),'Next')]")).click();
           
           Thread.sleep(10000);
+          
+          //System.out.println("Test Failed Due to PayU is down");
 		     
 	      driver.findElement(By.xpath("//input[@id='paymentMethodsCREDITCARD_TOKEN0.cvv']")).sendKeys("123");
 	        
