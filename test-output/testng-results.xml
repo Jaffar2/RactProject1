@@ -1,25 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="91151" started-at="2021-04-03T17:18:12 CAT" finished-at="2021-04-03T17:19:43 CAT">
+  <suite name="Default suite" duration-ms="234019" started-at="2021-04-04T15:51:46 CAT" finished-at="2021-04-04T15:55:40 CAT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="91151" started-at="2021-04-03T17:18:12 CAT" finished-at="2021-04-03T17:19:43 CAT">
-      <class name="ReactJsSanityTest.TC01_ClearItemsFromBagTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ReactJsSanityTest.TC01_ClearItemsFromBagTest@57c758ac]" name="beforeMethod" is-config="true" duration-ms="66967" started-at="2021-04-03T17:18:12 CAT" finished-at="2021-04-03T17:19:19 CAT">
+    <test name="Default test" duration-ms="234019" started-at="2021-04-04T15:51:46 CAT" finished-at="2021-04-04T15:55:40 CAT">
+      <class name="ReactJsSanityTest.TC18_ContinueShoppingTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ReactJsSanityTest.TC18_ContinueShoppingTest@63355449]" name="beforeMethod" is-config="true" duration-ms="48348" started-at="2021-04-04T15:51:46 CAT" finished-at="2021-04-04T15:52:34 CAT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="clearItemsFromBag()[pri:0, instance:ReactJsSanityTest.TC01_ClearItemsFromBagTest@57c758ac]" name="clearItemsFromBag" duration-ms="22761" started-at="2021-04-03T17:19:20 CAT" finished-at="2021-04-03T17:19:42 CAT">
+        <test-method status="PASS" signature="viewBagKidsTest()[pri:1, instance:ReactJsSanityTest.TC18_ContinueShoppingTest@63355449]" name="viewBagKidsTest" duration-ms="41943" started-at="2021-04-04T15:52:34 CAT" finished-at="2021-04-04T15:53:16 CAT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clearItemsFromBag -->
-        <test-method status="PASS" signature="cleanup()[pri:0, instance:ReactJsSanityTest.TC01_ClearItemsFromBagTest@57c758ac]" name="cleanup" is-config="true" duration-ms="1207" started-at="2021-04-03T17:19:42 CAT" finished-at="2021-04-03T17:19:43 CAT">
+        </test-method> <!-- viewBagKidsTest -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:ReactJsSanityTest.TC18_ContinueShoppingTest@63355449]" name="cleanup" is-config="true" duration-ms="1213" started-at="2021-04-04T15:53:16 CAT" finished-at="2021-04-04T15:53:17 CAT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanup -->
-      </class> <!-- ReactJsSanityTest.TC01_ClearItemsFromBagTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ReactJsSanityTest.TC18_ContinueShoppingTest@63355449]" name="beforeMethod" is-config="true" duration-ms="52184" started-at="2021-04-04T15:53:17 CAT" finished-at="2021-04-04T15:54:10 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="clearKidsItemsFromBag()[pri:2, instance:ReactJsSanityTest.TC18_ContinueShoppingTest@63355449]" name="clearKidsItemsFromBag" duration-ms="23699" started-at="2021-04-04T15:54:10 CAT" finished-at="2021-04-04T15:54:33 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearKidsItemsFromBag -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:ReactJsSanityTest.TC18_ContinueShoppingTest@63355449]" name="cleanup" is-config="true" duration-ms="1297" started-at="2021-04-04T15:54:33 CAT" finished-at="2021-04-04T15:54:35 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ReactJsSanityTest.TC18_ContinueShoppingTest@63355449]" name="beforeMethod" is-config="true" duration-ms="52890" started-at="2021-04-04T15:54:35 CAT" finished-at="2021-04-04T15:55:28 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="continueShpping()[pri:3, instance:ReactJsSanityTest.TC18_ContinueShoppingTest@63355449]" name="continueShpping" duration-ms="11204" started-at="2021-04-04T15:55:28 CAT" finished-at="2021-04-04T15:55:39 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continueShpping -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:ReactJsSanityTest.TC18_ContinueShoppingTest@63355449]" name="cleanup" is-config="true" duration-ms="1048" started-at="2021-04-04T15:55:39 CAT" finished-at="2021-04-04T15:55:40 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- ReactJsSanityTest.TC18_ContinueShoppingTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
