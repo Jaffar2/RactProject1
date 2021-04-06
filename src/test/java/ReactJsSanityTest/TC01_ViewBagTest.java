@@ -61,8 +61,7 @@ public class TC01_ViewBagTest extends BaseClass {
 	  @Test (priority=1)
 	  
 	  public void viewBagTest() throws InterruptedException {
-		  
-		  
+		  	  
 	  
 	   Thread.sleep(5000);
 	   

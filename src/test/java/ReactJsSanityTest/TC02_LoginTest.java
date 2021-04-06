@@ -51,6 +51,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
  * 
  * This Test is to verify User can Login to UAT ReactJS
  * 
+ * With valid credentials
+ * 
  * ======================================================>
  */
 

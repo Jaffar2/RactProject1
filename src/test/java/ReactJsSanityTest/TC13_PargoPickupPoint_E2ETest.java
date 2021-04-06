@@ -170,7 +170,7 @@ public class TC13_PargoPickupPoint_E2ETest extends BaseClass {
           
           driver.findElement(By.xpath("//button[contains(text(),'Next')]")).click();
           
-          Thread.sleep(7000);                  
+          Thread.sleep(15000);                  
            
           if (driver.findElements(By.xpath("//*[@id=\"__next\"]/div/div[1]/div[2]/div/div/div/div[3]/div/div[2]/div/div")).size()>0) {
         	  

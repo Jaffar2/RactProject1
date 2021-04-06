@@ -98,43 +98,55 @@ public class TC16_AddItemToWishListTest extends BaseClass {
 		   
 		   Thread.sleep(5000);
            
-          driver.findElement(By.xpath("//*[@id=\"products-column\"]/div[1]/div/div[3]/div/div/h3/a")).click();
+           driver.findElement(By.xpath("//*[@id=\"products-column\"]/div[1]/div/div[3]/div/div/h3/a")).click();
 
-          Thread.sleep(2000);
+           Thread.sleep(2000);
           
-          ((JavascriptExecutor)driver).executeScript("window.scrollBy(0,250)", "");
+           ((JavascriptExecutor)driver).executeScript("window.scrollBy(0,250)", "");
           
-          Thread.sleep(5000);
+           Thread.sleep(5000);
           
-          driver.findElement(By.xpath("//a[normalize-space()='M']")).click();
+           driver.findElement(By.xpath("//a[normalize-space()='M']")).click();
           
-          Thread.sleep(5000);
+           Thread.sleep(5000);
           
-          ((JavascriptExecutor)driver).executeScript("window.scrollBy(0,250)", "");
+           ((JavascriptExecutor)driver).executeScript("window.scrollBy(0,250)", "");
           
-          Thread.sleep(10000);
+           Thread.sleep(10000);
           
-          driver.findElement(By.xpath("//span[normalize-space()='Add to wishlist']")).click();
+           driver.findElement(By.xpath("//span[normalize-space()='Add to wishlist']")).click();
           
-          Thread.sleep(6000);
+           Thread.sleep(6000);
           
-          String wishListMessage = driver.findElement(By.xpath("//span[normalize-space()='Remove From Wishlist']")).getText();
+           String wishListMessage = driver.findElement(By.xpath("//span[normalize-space()='Remove From Wishlist']")).getText();
           
-          String expMessage = "REMOVE FROM WISHLIST";
+           String expMessage = "REMOVE FROM WISHLIST";
           
-          Assert.assertEquals(wishListMessage, expMessage);
+           Assert.assertEquals(wishListMessage, expMessage);
+           
+           Thread.sleep(5000);
+           
+           Actions actions13 = new Actions(driver);
+           
+           WebElement elementLocator = driver.findElement(By.xpath("//span[normalize-space()='Remove From Wishlist']"));
+           
+           actions13.doubleClick(elementLocator).perform();
+           
+           Thread.sleep(5000);
           
-          driver.findElement(By.xpath("//span[normalize-space()='Remove From Wishlist']")).click();
+           driver.findElement(By.xpath("//span[normalize-space()='Remove From Wishlist']")).click();
           
-          System.out.println("Remove from whishList is not working in one click");
+           System.out.println("Remove from whishList is not working in one click");
           
-          Thread.sleep(6000);
+           Thread.sleep(6000);
           
-          String wishListMessage1 = driver.findElement(By.xpath("//span[normalize-space()='Add to wishlist']")).getText();
+           String wishListMessage1 = driver.findElement(By.xpath("//span[normalize-space()='Add to wishlist']")).getText();
           
-          String expMessage1 = "Add to wishlist";
+           String expMessage1 = "ADD TO WISHLIST";
           
-          Assert.assertEquals(wishListMessage1, expMessage1);
+           Assert.assertEquals(wishListMessage1, expMessage1);
+          
+          
 		   
           
 	   }
