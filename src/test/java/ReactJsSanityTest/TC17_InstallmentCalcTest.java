@@ -62,7 +62,7 @@ public class TC17_InstallmentCalcTest extends BaseClass {
 	 
        @Test 
 	   
-	   public void quickView() throws InterruptedException {
+	   public void installmentCalcTest() throws InterruptedException {
 		   
     	   
            Thread.sleep(5000);

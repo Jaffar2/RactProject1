@@ -177,7 +177,7 @@ public class TC18_ContinueShoppingTest extends BaseClass {
 	   
 	   @Test (priority=3)
 	   
-	   public void continueShpping() throws InterruptedException {
+	   public void continueShopping() throws InterruptedException {
 		   
 		   
 		   

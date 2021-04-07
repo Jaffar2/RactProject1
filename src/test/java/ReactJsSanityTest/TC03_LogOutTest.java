@@ -84,7 +84,7 @@ public class TC03_LogOutTest extends BaseClass {
 	  
 	   @Test 
 	   
-	   public void clogOutUat() throws InterruptedException {
+	   public void logOutUat() throws InterruptedException {
 		   
 		 		
 		   JavascriptExecutor js8 = (driver);
