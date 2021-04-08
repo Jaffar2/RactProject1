@@ -174,7 +174,7 @@ public class TC07_FurnitureCollectFromStoreTest extends BaseClass {
 		            System.out.println(e.getMessage());
 		        }
 	        
-		    Thread.sleep(2000);
+		    Thread.sleep(10000);
 		    
 		    driver.findElement(By.xpath("//input[@id='checkout__delivery-collect__number']")).sendKeys("843716928");
 		    

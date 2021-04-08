@@ -82,7 +82,7 @@ public class TC06_TodaysDealTest extends BaseClass {
 		
 		  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		  
-		  Thread.sleep(2000);
+		  Thread.sleep(10000);
 			
 	      driver.findElement(By.xpath("//span[normalize-space()='15']")).click();
 	      

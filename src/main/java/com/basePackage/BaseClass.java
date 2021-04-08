@@ -76,6 +76,10 @@ public class BaseClass {
 	  driver.get("https://mytfgworld.uat.tfgapps.co.za/");
 
 	  Thread.sleep(10000);
+	  
+	  driver.manage().deleteAllCookies();
+	  
+	  Thread.sleep(5000);
 	 
 	  System.out.println("=====================> Browser Launched");
 	 

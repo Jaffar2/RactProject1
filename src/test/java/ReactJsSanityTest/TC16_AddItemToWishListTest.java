@@ -114,7 +114,7 @@ public class TC16_AddItemToWishListTest extends BaseClass {
           
            Thread.sleep(10000);
           
-           driver.findElement(By.xpath("//span[normalize-space()='Add to wishlist']")).click();
+           driver.findElement(By.id("add-item-to-wishlist")).click();
           
            Thread.sleep(6000);
           
@@ -130,22 +130,21 @@ public class TC16_AddItemToWishListTest extends BaseClass {
            
            WebElement elementLocator = driver.findElement(By.xpath("//span[normalize-space()='Remove From Wishlist']"));
            
-           actions13.doubleClick(elementLocator).perform();
+           actions13.click(elementLocator).perform();
            
            Thread.sleep(5000);
           
            driver.findElement(By.xpath("//span[normalize-space()='Remove From Wishlist']")).click();
           
-           System.out.println("Remove from whishList is not working in one click");
+           Thread.sleep(10000);
           
-           Thread.sleep(6000);
+           String wishListMessage1 = driver.findElement(By.id("add-item-to-wishlist")).getText();
           
-           String wishListMessage1 = driver.findElement(By.xpath("//span[normalize-space()='Add to wishlist']")).getText();
+           System.out.println(wishListMessage1);
           
-           String expMessage1 = "ADD TO WISHLIST";
-          
-           Assert.assertEquals(wishListMessage1, expMessage1);
-          
+           String expMsg1 = "ADD TO WISHLIST";
+           
+           Assert.assertEquals(wishListMessage1, expMsg1);
           
 		   
           

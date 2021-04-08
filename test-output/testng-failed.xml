@@ -1,45 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ReactJsSanityTest.TC10_FurnitureAddItemToBagTest">
-        <methods>
-          <include name="searchFurniture"/>
-          <include name="beforeMethod"/>
-          <include name="cleanup"/>
-          <include name="addItemToBag"/>
-        </methods>
-      </class> <!-- ReactJsSanityTest.TC10_FurnitureAddItemToBagTest -->
-      <class name="ReactJsSanityTest.TC16_AddItemToWishListTest">
-        <methods>
-          <include name="beforeMethod"/>
-          <include name="wishListTest"/>
-          <include name="cleanup"/>
-        </methods>
-      </class> <!-- ReactJsSanityTest.TC16_AddItemToWishListTest -->
-      <class name="ReactJsSanityTest.TC09_SitewideBagTest">
-        <methods>
-          <include name="beforeMethod"/>
-          <include name="sitewideClean"/>
-          <include name="cleanup"/>
-          <include name="sitewidePop"/>
-        </methods>
-      </class> <!-- ReactJsSanityTest.TC09_SitewideBagTest -->
-      <class name="ReactJsSanityTest.TC11_UpdateQtyTest">
-        <methods>
-          <include name="beforeMethod"/>
-          <include name="updateQtyTest"/>
-          <include name="cleanup"/>
-        </methods>
-      </class> <!-- ReactJsSanityTest.TC11_UpdateQtyTest -->
-      <class name="ReactJsSanityTest.TC14_BrandFilterTest">
-        <methods>
-          <include name="beforeMethod"/>
-          <include name="brandFilterTest"/>
-          <include name="cleanup"/>
-        </methods>
-      </class> <!-- ReactJsSanityTest.TC14_BrandFilterTest -->
       <class name="ReactJsSanityTest.TC06_TodaysDealTest">
         <methods>
           <include name="todaysDeal"/>
@@ -47,71 +10,6 @@
           <include name="cleanup"/>
         </methods>
       </class> <!-- ReactJsSanityTest.TC06_TodaysDealTest -->
-      <class name="ReactJsSanityTest.TC03_LogOutTest">
-        <methods>
-          <include name="verifyImages"/>
-          <include name="beforeMethod"/>
-          <include name="cleanup"/>
-          <include name="logOutUat"/>
-        </methods>
-      </class> <!-- ReactJsSanityTest.TC03_LogOutTest -->
-      <class name="ReactJsSanityTest.TC17_InstallmentCalcTest">
-        <methods>
-          <include name="beforeMethod"/>
-          <include name="cleanup"/>
-          <include name="quickView"/>
-        </methods>
-      </class> <!-- ReactJsSanityTest.TC17_InstallmentCalcTest -->
-      <class name="ReactJsSanityTest.TC07_FurnitureCollectFromStoreTest">
-        <methods>
-          <include name="beforeMethod"/>
-          <include name="checkOutFlow"/>
-          <include name="cleanup"/>
-        </methods>
-      </class> <!-- ReactJsSanityTest.TC07_FurnitureCollectFromStoreTest -->
-      <class name="ReactJsSanityTest.TC01_ViewBagTest">
-        <methods>
-          <include name="viewBagTest"/>
-          <include name="beforeMethod"/>
-          <include name="cleanup"/>
-          <include name="clearItemsFromBag"/>
-        </methods>
-      </class> <!-- ReactJsSanityTest.TC01_ViewBagTest -->
-      <class name="ReactJsSanityTest.TC04_OurBestOffersForYouShowMeAllTest">
-        <methods>
-          <include name="beforeMethod"/>
-          <include name="ourOffers"/>
-          <include name="cleanup"/>
-        </methods>
-      </class> <!-- ReactJsSanityTest.TC04_OurBestOffersForYouShowMeAllTest -->
-      <class name="ReactJsSanityTest.TC19_CheckStoreTest">
-        <methods>
-          <include name="beforeMethod"/>
-          <include name="cleanup"/>
-          <include name="searchStoresTest"/>
-        </methods>
-      </class> <!-- ReactJsSanityTest.TC19_CheckStoreTest -->
-      <class name="ReactJsSanityTest.TC13_PargoPickupPoint_E2ETest">
-        <methods>
-          <include name="beforeMethod"/>
-          <include name="pargoTest"/>
-          <include name="cleanup"/>
-        </methods>
-      </class> <!-- ReactJsSanityTest.TC13_PargoPickupPoint_E2ETest -->
-      <class name="ReactJsSanityTest.TC05_RegisterNewOnlineProfileTest">
-        <methods>
-          <include name="registerNewOnline"/>
-          <include name="beforeMethod"/>
-          <include name="cleanup"/>
-        </methods>
-      </class> <!-- ReactJsSanityTest.TC05_RegisterNewOnlineProfileTest -->
-      <class name="ReactJsSanityTest.TC15_CleanItemsFromBagTest">
-        <methods>
-          <include name="cleanItemsFromBag"/>
-          <include name="beforeMethod"/>
-          <include name="cleanup"/>
-        </methods>
-      </class> <!-- ReactJsSanityTest.TC15_CleanItemsFromBagTest -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

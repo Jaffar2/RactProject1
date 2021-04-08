@@ -154,7 +154,7 @@ public class TC01_ViewBagTest extends BaseClass {
 
         driver.findElement(By.xpath("//button[contains(text(),'REMOVE')]")).click();
 
-        Thread.sleep(5000);
+        Thread.sleep(10000);
 
         String shoppingBag1 = driver.findElement(By.xpath("//h4[normalize-space()='YOUR SHOPPING BAG IS EMPTY']")).getText();
 	       

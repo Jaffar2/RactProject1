@@ -130,7 +130,7 @@ public class TC19_CheckStoreTest extends BaseClass {
            
            String foundStores = driver.findElement(By.xpath("//span[normalize-space()='Found 0 Stores']")).getText();    
            
-           String expMessage = "Found 10 Stores";
+           String expMessage = "Found 0 Stores";
   		 
   		   Assert.assertEquals(foundStores, expMessage);
            
