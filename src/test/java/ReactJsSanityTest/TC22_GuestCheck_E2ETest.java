@@ -50,9 +50,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
  * 
  * This Test is to verify Guest Checkout 
  * 
- * continue without logging in feature 
+ * End to End Flow  
  * 
- * works as Expected we had a Bug on this
+ * works as Expected 
  * 
  * ===========================================>
  *  
