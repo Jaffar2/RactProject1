@@ -81,6 +81,8 @@ public class TC04_OurBestOffersForYouShowMeAllTest extends BaseClass {
 		  
 		  Thread.sleep(5000);
 		  
+		  //Assert.fail("This Page is under development");
+		  
 		  driver.findElement(By.linkText("Show me all")).click();
 		  
 		  Thread.sleep(5000);
@@ -90,8 +92,6 @@ public class TC04_OurBestOffersForYouShowMeAllTest extends BaseClass {
 		  System.out.println("Total no. of images are " + imagesList.size());
 			  
 		  Thread.sleep(5000);
-		  
-		  System.out.println("images not Loading properly or Broken! on this page");
 		 
 		  
 	    }

@@ -36,7 +36,7 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 /**
- * @author jaffa
+ * @author jaffar
  *
  */
 public class BaseClass {

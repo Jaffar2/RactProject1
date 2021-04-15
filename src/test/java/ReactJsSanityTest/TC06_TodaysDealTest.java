@@ -148,7 +148,9 @@ public class TC06_TodaysDealTest extends BaseClass {
 	      
 		    Thread.sleep(5000);
 		    
-		    driver.findElement(By.xpath("//div[contains(@class,'facet-sort__control-select state--open')]")).click();
+		    // Click on Price High to Low
+		    
+		    driver.findElement(By.xpath("//div[normalize-space()='Price high to low']")).click();
 		    
 		    Thread.sleep(2000);
 		    
@@ -160,14 +162,25 @@ public class TC06_TodaysDealTest extends BaseClass {
 		    
 		    Thread.sleep(5000);
 		    
-		 	String price = driver.findElement(By.xpath("//div[normalize-space()='R 249.00']")).getText();
+		 	String price = driver.findElement(By.xpath("//div[contains(text(),'R 5,999.00 -')]")).getText();
 		    
 		    System.out.println("Price High to Low is :" + price);
 		    
-		    Assert.assertEquals("R 249.00","R 499.00", "Today's Deal Sort Price High to Low or Low to High not updating Test Failed");
+		    String expPrice = "R 5,999.00 - R 89,999.00";
+		    
+		    Assert.assertEquals(price, expPrice);
+		    
+		    Thread.sleep(5000);
+		    
+		    System.out.println("Broken Image on this Page Image Name: TestRing");
 		    
 		    Thread.sleep(2000);
-			    
+		    
+		    Assert.fail("After User selecting Show 15 OR 30 , 45 , Images keep on Loading Test Failed");
+			 
+		   
+		    
+		  
 		    
 		    
 		    

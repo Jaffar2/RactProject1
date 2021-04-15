@@ -56,81 +56,35 @@ import io.github.bonigarcia.wdm.WebDriverManager;
  */
 
 
-public class TC19_CheckStoreTest extends BaseClass {
+public class TC19_StoreLocatorTest extends BaseClass {
 
 	
 	
 	 
        @Test 
 	   
-	   public void searchStoresTest() throws InterruptedException {
+	   public void storeLocatorTest() throws InterruptedException {
 		   
     	   
            Thread.sleep(5000);
 		   
-		   JavascriptExecutor js11 = (driver);
-		   
-		   js11.executeScript("window.scrollBy(1000,4000)");
-		   
-		   Thread.sleep(5000);
-				 
-		   WebElement menuList = driver.findElement(By.xpath("//i[@class='nav-flyout__toggle-icon']"));
-		   
-		   Actions actions = new Actions(driver);
-			
-		   actions.moveToElement(menuList).build().perform();
-		   
-		   Thread.sleep(5000);
-		   
-		   WebElement home = driver.findElement(By.xpath("//a[contains(text(),'WOMEN')]"));
-		   
-		   Actions actions1 = new Actions(driver);
-			
-		   actions1.moveToElement(home).build().perform();
-		   
-		   Thread.sleep(5000);
-		   
-		   driver.findElement(By.xpath("//label[@for='sub-sub-nav-nav-level-1-0-8-/plp/women/tops/_/N-l6ev2b']//a[contains(text(),'TOPS')]")).click();
-		   
-		   Thread.sleep(2000);
-		   
-		   ((JavascriptExecutor)driver).executeScript("window.scrollBy(0,250)", "");
-		   
-		   Thread.sleep(5000);
+           driver.findElement(By.xpath("//span[normalize-space()='Store Locator']")).click(); 
            
-           driver.findElement(By.xpath("//*[@id=\"products-column\"]/div[1]/div/div[3]/div/div/h3/a")).click();
-
-           Thread.sleep(2000);
-          
-           ((JavascriptExecutor)driver).executeScript("window.scrollBy(0,250)", "");
-          
-           Thread.sleep(5000);
-          
-           driver.findElement(By.xpath("//a[normalize-space()='M']")).click();
-          
-           Thread.sleep(5000);
-          
-           ((JavascriptExecutor)driver).executeScript("window.scrollBy(0,250)", "");
-          
-           Thread.sleep(5000);
-          
-           driver.findElement(By.xpath("//span[normalize-space()='Check store stock']")).click();
-          
            Thread.sleep(5000);
            
            WebElement searchStore = driver.findElement(By.xpath("//input[@placeholder='Enter either city, suburb or shopping mall']"));
            
-           searchStore.sendKeys("parow");
+           searchStore.sendKeys("Canal Walk");
            
-           Thread.sleep(2000);
+           Thread.sleep(5000);
            
-           searchStore.sendKeys(Keys.RETURN);  
+           driver.findElement(By.xpath("//button[normalize-space()='Find a Store']")).click();
            
            Thread.sleep(10000);
            
-           String foundStores = driver.findElement(By.xpath("//span[normalize-space()='Found 0 Stores']")).getText();    
+           String foundStores = driver.findElement(By.xpath("//a[normalize-space()='Fabiani Women CANAL WALK MILNERTON']")).getText();    
            
-           String expMessage = "Found 0 Stores";
+           String expMessage = "FABIANI WOMEN CANAL WALK MILNERTON";
   		 
   		   Assert.assertEquals(foundStores, expMessage);
            

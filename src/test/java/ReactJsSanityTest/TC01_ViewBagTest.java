@@ -127,8 +127,7 @@ public class TC01_ViewBagTest extends BaseClass {
         
         String expectedProduct = "ANORAK PARKA JACKET";
         
-        Assert.assertEquals(product, expectedProduct);
-        
+        Assert.assertEquals(product, expectedProduct);       
         
      
      
@@ -139,29 +138,38 @@ public class TC01_ViewBagTest extends BaseClass {
 	   @Test (priority=2)
 	   
 	   public void clearItemsFromBag() throws InterruptedException {
-		   
-		   
+		  		   
 
         Thread.sleep(6000);
 
         driver.findElement(By.xpath("//span[normalize-space()='Your Bag']")).click();
 
-        Thread.sleep(5000);
-
-        driver.findElement(By.xpath("//a[normalize-space()='View My Bag']")).click();
-
-        Thread.sleep(2000);
-
-        driver.findElement(By.xpath("//button[contains(text(),'REMOVE')]")).click();
-
-        Thread.sleep(10000);
-
-        String shoppingBag1 = driver.findElement(By.xpath("//h4[normalize-space()='YOUR SHOPPING BAG IS EMPTY']")).getText();
-	       
-        Thread.sleep(5000);
-	       
-        System.out.println("After removing an item bag is :" + shoppingBag1 );
+        Thread.sleep(5000);                  
         
+        driver.findElement(By.xpath("//a[normalize-space()='View My Bag']")).click();
+        
+        Thread.sleep(5000);
+        
+        driver.findElement(By.xpath("//button[contains(text(),'REMOVE')]")).click();
+              
+        
+        
+        if( driver.findElement(By.xpath("//h4[normalize-space()='YOUR SHOPPING BAG IS EMPTY']")).isDisplayed()){
+
+        	System.out.println("Element is Visible");
+        	
+            String shoppingBag1 = driver.findElement(By.xpath("//h4[normalize-space()='YOUR SHOPPING BAG IS EMPTY']")).getText();
+ 	       
+            Thread.sleep(5000);
+    	       
+            System.out.println("After removing an item bag is :" + shoppingBag1 );
+        	
+
+        	}else{
+
+        	System.out.println("Element is Not Visible");
+
+        	}
         
         
 	       

@@ -8,13 +8,14 @@
       <class name="ReactJsSanityTest.TC12_RemoveItemsFromBagTest"/>
       <class name="ReactJsSanityTest.TC08_SearchTest"/>
       <class name="ReactJsSanityTest.TC18_ContinueShoppingTest"/>
-      <class name="ReactJsSanityTest.TC19_CheckStoreTest"/>
       <class name="ReactJsSanityTest.TC10_FurnitureAddItemToBagTest"/>
+      <class name="ReactJsSanityTest.TC19_StoreLocatorTest"/>
       <class name="ReactJsSanityTest.TC06_TodaysDealTest"/>
       <class name="ReactJsSanityTest.TC01_ViewBagTest"/>
       <class name="ReactJsSanityTest.TC15_CleanItemsFromBagTest"/>
       <class name="ReactJsSanityTest.TC09_SitewideBagTest"/>
       <class name="ReactJsSanityTest.TC16_AddItemToWishListTest"/>
+      <class name="ReactJsSanityTest.TC21_GuestCheckOutNoLoginTest"/>
       <class name="ReactJsSanityTest.TC05_RegisterNewOnlineProfileTest"/>
       <class name="ReactJsSanityTest.TC17_InstallmentCalcTest"/>
       <class name="ReactJsSanityTest.TC03_LogOutTest"/>
