@@ -63,7 +63,7 @@ public class TC05_RegisterNewOnlineProfileTest extends BaseClass {
 	
 	   
 	   
-	   @Test 
+	  @Test (priority=7) 
 	   
 	   public void registerNewOnline() throws InterruptedException {
 		  
@@ -90,9 +90,9 @@ public class TC05_RegisterNewOnlineProfileTest extends BaseClass {
 		
 		  System.out.println("message on Register a new online profile page is " + message1);
 		  
-		  System.out.println("Test Passed");
-		  
 		  Thread.sleep(10000);
+		  
+		  System.out.println("=============>Test Case 05-RegisterNewOnlineProfile-Test-Passed==========>");
 		  
 	      
 	    }

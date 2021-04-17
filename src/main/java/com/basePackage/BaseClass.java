@@ -54,6 +54,8 @@ public class BaseClass {
   public void beforeMethod() throws InterruptedException {
 	  
 	  WebDriverManager.chromedriver().setup();
+	  
+	  //WebDriverManager.firefoxdriver().setup();
 		 
 	  ChromeOptions options = new ChromeOptions();
 	 

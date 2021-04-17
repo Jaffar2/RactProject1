@@ -53,12 +53,14 @@ public class TC10_FurnitureAddItemToBagTest extends BaseClass {
 
 	
 	
-	   @Test (priority=1)
+	   @Test (priority=13)
 	
 	   public void searchFurniture() throws InterruptedException, FindFailed {
 		   
          
 		      driver.findElement(By.xpath("//i[@class='header__inner-control-search']")).click();
+		      
+		      Thread.sleep(5000);
 	  		  
 			  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			  
@@ -85,7 +87,7 @@ public class TC10_FurnitureAddItemToBagTest extends BaseClass {
 		      
 
 	   
-	   @Test (priority=2)
+	   @Test (priority=14)
 	   
 	   public void addItemToBag() throws InterruptedException {
 		   
@@ -160,6 +162,12 @@ public class TC10_FurnitureAddItemToBagTest extends BaseClass {
 	        System.out.println("After removing an item bag is :" + shoppingBag );
 		   
 	        Thread.sleep(5000);
+	        
+	        System.out.println("=============>Test Case 10-Furniture-AddItem-To-Bag-Test-Passed==========>");
+	        
+	        
+	        
+	        
 	       
 	       
 	    }

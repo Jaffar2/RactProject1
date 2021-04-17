@@ -61,7 +61,7 @@ public class TC16_AddItemToWishListTest extends BaseClass {
 	
 	
 	 
-       @Test 
+	   @Test (priority=22)
 	   
 	   public void wishListTest() throws InterruptedException {
 		   
@@ -145,8 +145,10 @@ public class TC16_AddItemToWishListTest extends BaseClass {
            String expMsg1 = "ADD TO WISHLIST";
            
            Assert.assertEquals(wishListMessage1, expMsg1);
+           
+           Thread.sleep(5000);
           
-		   
+           System.out.println("=============>Test Case 16-AddItem-To-WishList-Test-Passed==========>");
           
 	   }
 		

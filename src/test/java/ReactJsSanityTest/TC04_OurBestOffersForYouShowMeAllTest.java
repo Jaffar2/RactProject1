@@ -70,7 +70,7 @@ import io.github.bonigarcia.wdm.online.HttpClient;
 public class TC04_OurBestOffersForYouShowMeAllTest extends BaseClass {
   
 	   
-	   @Test
+	  @Test (priority=6)
 	   
 	   public void ourOffers() throws InterruptedException {
 		   
@@ -92,6 +92,8 @@ public class TC04_OurBestOffersForYouShowMeAllTest extends BaseClass {
 		  System.out.println("Total no. of images are " + imagesList.size());
 			  
 		  Thread.sleep(5000);
+		  
+		  System.out.println("=============>Test Case 04-OurBestOffers-Test-Passed==========>");
 		 
 		  
 	    }

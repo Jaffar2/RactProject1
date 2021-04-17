@@ -63,7 +63,7 @@ public class TC08_SearchTest extends BaseClass {
 
 	   
 	   
-	   @Test 
+	  @Test (priority=10)
 	   
 	   public void searchUat() throws InterruptedException {
 		  		 
@@ -96,8 +96,11 @@ public class TC08_SearchTest extends BaseClass {
 		  
 		  Thread.sleep(5000);
 		  
-		  System.out.println("Search Text displayed in white color Test Step Passed");
+		  //System.out.println("Search Text displayed in white color Test Step Passed");
+		  
+		  System.out.println("=============>Test Case 08-Search-With-ProductName-Test-Passed==========>");
 	    
+		  System.out.println("Search with Product ID and SKU JIRA Ticket is Logged");
 	      
 		  
 	    }

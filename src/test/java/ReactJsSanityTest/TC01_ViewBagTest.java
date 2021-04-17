@@ -89,7 +89,7 @@ public class TC01_ViewBagTest extends BaseClass {
 	   
 	   driver.findElement(By.xpath("//label[@for='sub-sub-nav-nav-level-1-0-8-/plp/women/tops/_/N-l6ev2b']//a[contains(text(),'TOPS')]")).click();
 	   
-	   Thread.sleep(2000);
+	   Thread.sleep(5000);
 	   
 	   ((JavascriptExecutor)driver).executeScript("window.scrollBy(0,250)", "");
 	   
@@ -97,7 +97,7 @@ public class TC01_ViewBagTest extends BaseClass {
       
         driver.findElement(By.xpath("//*[@id=\"products-column\"]/div[1]/div/div[3]/div/div/h3/a")).click();
 
-        Thread.sleep(2000);
+        Thread.sleep(5000);
      
        ((JavascriptExecutor)driver).executeScript("window.scrollBy(0,250)", "");
      
@@ -105,27 +105,29 @@ public class TC01_ViewBagTest extends BaseClass {
      
         driver.findElement(By.xpath("//a[normalize-space()='M']")).click();
      
-        Thread.sleep(1000);
+        Thread.sleep(4000);
      
         ((JavascriptExecutor)driver).executeScript("window.scrollBy(0,250)", "");
      
-        Thread.sleep(2000);
+        Thread.sleep(4000);
      
         driver.findElement(By.xpath("//button[@class='btn-add-to-bag btn btn-primary']")).click();
 	  
-        Thread.sleep(2000);
+        Thread.sleep(5000);
       
         driver.findElement(By.xpath("//a[normalize-space()='View My Bag']")).click();
      
-        Thread.sleep(2000);
+        Thread.sleep(5000);
      
         ((JavascriptExecutor)driver).executeScript("window.scrollBy(0,250)", "");
      
-        Thread.sleep(2000);
+        Thread.sleep(5000);
         
         String product = driver.findElement(By.xpath("//a[contains(text(),'Anorak Parka Jacket')]")).getText();
         
         String expectedProduct = "ANORAK PARKA JACKET";
+        
+        Thread.sleep(5000);
         
         Assert.assertEquals(product, expectedProduct);       
         
@@ -163,6 +165,8 @@ public class TC01_ViewBagTest extends BaseClass {
             Thread.sleep(5000);
     	       
             System.out.println("After removing an item bag is :" + shoppingBag1 );
+            
+            System.out.println("=============>Test Case 01-ViewBag-Test-Passed==========>");
         	
 
         	}else{

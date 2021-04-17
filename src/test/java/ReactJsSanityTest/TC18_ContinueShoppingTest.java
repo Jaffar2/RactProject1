@@ -64,7 +64,7 @@ public class TC18_ContinueShoppingTest extends BaseClass {
 
 		
 	
-	  @Test (priority=1)
+	  @Test (priority=24)
 	  
 	  public void viewBagKidsTest() throws InterruptedException {
 		  
@@ -110,7 +110,7 @@ public class TC18_ContinueShoppingTest extends BaseClass {
      
         Thread.sleep(2000);
      
-        driver.findElement(By.xpath("//a[normalize-space()='4-5 years']")).click();
+        driver.findElement(By.xpath("//a[normalize-space()='5-6 years']")).click();
      
         Thread.sleep(1000);
      
@@ -143,7 +143,7 @@ public class TC18_ContinueShoppingTest extends BaseClass {
 	  
 	  
 	   
-	   @Test (priority=2)
+	   @Test (priority=25)
 	   
 	   public void clearKidsItemsFromBag() throws InterruptedException {
 		   
@@ -175,7 +175,7 @@ public class TC18_ContinueShoppingTest extends BaseClass {
 	    }
 	       
 	   
-	   @Test (priority=3)
+	   @Test (priority=26)
 	   
 	   public void continueShopping() throws InterruptedException {
 		   
@@ -193,7 +193,10 @@ public class TC18_ContinueShoppingTest extends BaseClass {
 		    
 		    Assert.assertEquals(message1, expectedMessage);
 		    
+		    Thread.sleep(5000);
 		   
+		    System.out.println("=============>Test Case 18-Continue-Shopping-Test-Passed==========>");
+	          
 		   
 		   
 		   

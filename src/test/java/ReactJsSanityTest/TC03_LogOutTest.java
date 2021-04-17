@@ -62,11 +62,13 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class TC03_LogOutTest extends BaseClass {
 	   
 	   
-	   @Test 
+	  @Test (priority=4)
 	   
 	   public void verifyImages() throws InterruptedException {
 		   
 		   WebElement ImageFile = driver.findElement(By.xpath("//img[@alt='test alt']"));
+		   
+		   Thread.sleep(5000);
 	        
 	        Boolean ImagePresent = (Boolean) ((JavascriptExecutor)driver).executeScript("return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0", ImageFile);
 	        if (!ImagePresent)
@@ -82,10 +84,11 @@ public class TC03_LogOutTest extends BaseClass {
 		   
 
 	  
-	   @Test 
+	  @Test (priority=5)
 	   
 	   public void logOutUat() throws InterruptedException {
 		   
+		   Thread.sleep(5000);
 		 		
 		   JavascriptExecutor js8 = (driver);
 		 
@@ -106,6 +109,8 @@ public class TC03_LogOutTest extends BaseClass {
 		   System.out.println("After SignOut message on a Home Page is :" + message);
 		   
 		   Thread.sleep(5000);
+		   
+		   System.out.println("=============>Test Case 03-LogOut-Test-Passed==========>");
 		   
 	    }
 		   

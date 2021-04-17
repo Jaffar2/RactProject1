@@ -22,6 +22,7 @@ import org.openqa.selenium.logging.LogType;
 import org.openqa.selenium.logging.LoggingPreferences;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.Select;
 import org.sikuli.script.FindFailed;
 import org.sikuli.script.Pattern;
 import org.sikuli.script.Screen;
@@ -64,7 +65,7 @@ public class TC22_GuestCheck_E2ETest extends BaseClass1 {
 
 	
 	 
-       @Test 
+	   @Test (priority=30)
 	   
 	   public void guestCheckOutE2ETest() throws InterruptedException {
 		   
@@ -101,33 +102,33 @@ public class TC22_GuestCheck_E2ETest extends BaseClass1 {
     	   
     	    Thread.sleep(5000);
           
-            driver.findElement(By.xpath("//a[normalize-space()='Boys Striped T-Shirt']")).click();
+            driver.findElement(By.xpath("//a[normalize-space()='Boys Check Shirt with Side Tape Detail']")).click();
 
-            Thread.sleep(2000);
+            Thread.sleep(5000);
          
            ((JavascriptExecutor)driver).executeScript("window.scrollBy(0, 250)", "");
          
-            Thread.sleep(2000);
+            Thread.sleep(5000);
          
-            driver.findElement(By.xpath("//a[normalize-space()='4-5 years']")).click();
+            driver.findElement(By.xpath("//a[normalize-space()='13-14 years']")).click();
          
-            Thread.sleep(1000);
+            Thread.sleep(5000);
          
             ((JavascriptExecutor)driver).executeScript("window.scrollBy(0, 250)", "");
          
-            Thread.sleep(2000);
+            Thread.sleep(5000);
          
             driver.findElement(By.xpath("//button[@class='btn-add-to-bag btn btn-primary']")).click();
     	  
-            Thread.sleep(2000);
+            Thread.sleep(6000);
           
             driver.findElement(By.xpath("//a[normalize-space()='View My Bag']")).click();
       
-            Thread.sleep(2000);
+            Thread.sleep(5000);
           
             driver.findElement(By.xpath("//div[@class='checkout__summary-container desktop-only']//button[@type='button'][normalize-space()='Secure Checkout']")).click();
 		   
-            Thread.sleep(2000);
+            Thread.sleep(5000);
           
             ((JavascriptExecutor)driver).executeScript("window.scrollBy(0, 250)", "");
           
@@ -137,11 +138,9 @@ public class TC22_GuestCheck_E2ETest extends BaseClass1 {
             
             Thread.sleep(5000);
             
-            Thread.sleep(2000);
-            
             ((JavascriptExecutor)driver).executeScript("window.scrollBy(0,250)", "");
             
-            Thread.sleep(2000);
+            Thread.sleep(5000);
             
             driver.findElement(By.xpath("//div[contains(text(),'Collect from Pargo Pick-up Point')]")).click();
             
@@ -175,7 +174,7 @@ public class TC22_GuestCheck_E2ETest extends BaseClass1 {
             
             driver.findElement(By.id("checkout-1__pargo_surname")).sendKeys("Shaike");
             
-            //driver.findElement(By.id("checkout-1__pargo_email")).sendKeys("Jaffar.shaik706@gmail.com");
+            driver.findElement(By.id("checkout-1__pargo_email")).sendKeys("Jaffar.shaik706@gmail.com");
             
             driver.findElement(By.id("checkout-1__pargo_cell")).sendKeys("843716928");
             
@@ -187,19 +186,53 @@ public class TC22_GuestCheck_E2ETest extends BaseClass1 {
             
             ((JavascriptExecutor)driver).executeScript("window.scrollBy(0, 250)", "");
             
+            Thread.sleep(6000);
+            
+            driver.findElement(By.xpath("//button[@type='submit'][normalize-space()='Next']")).click();
+            
             Thread.sleep(5000);
             
-            driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/form[1]/div[2]/div[2]/button[1]")).click();
+            ((JavascriptExecutor)driver).executeScript("window.scrollBy(0, -250)", "");
             
-            ((JavascriptExecutor)driver).executeScript("window.scrollBy(0, 250)", "");
+            Thread.sleep(5000);
+            
+            driver.findElement(By.xpath("//button[@class='btn-full-width btn btn-primary']")).click();
             
             Thread.sleep(6000);
             
-            driver.findElement(By.xpath("//input[@id='paymentMethodsCREDITCARD_TOKEN0.cvv']")).sendKeys("123");
-  	        
+            ((JavascriptExecutor)driver).executeScript("window.scrollBy(0, -250)", "");
+            
+            Thread.sleep(6000);
+            
+            driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div/div[3]/div[1]/label/input")).click();
+            
+            Thread.sleep(4000);
+            
+            driver.findElement(By.xpath("//*[@id=\"0_cardNumber\"]")).sendKeys("4000015372250142");
+            
+            Thread.sleep(4000);
+            
+            driver.findElement(By.xpath("//*[@id=\"0_nameOnCard\"]")).sendKeys("JH SHAIKH");
+            
+            Thread.sleep(5000);
+         
+            Select expiryDate = new Select(driver.findElement(By.xpath("//*[@id=\"0_expMonth\"]")));
+       
+            expiryDate.selectByIndex(2);
+            
   	        Thread.sleep(5000);
   	        
-  	        driver.findElement(By.xpath("//button[@id='tokenSubmit']")).click();
+  	        Select expYear = new Select(driver.findElement(By.xpath("//*[@id=\"0_expYear\"]")));
+  	       
+            expYear.selectByIndex(5);
+            
+            Thread.sleep(5000);
+            
+            driver.findElement(By.xpath("//*[@id=\"0_cvv\"]")).sendKeys("123");
+            
+            Thread.sleep(5000);
+  	        
+  	        driver.findElement(By.xpath("//button[normalize-space()='Pay R249.00']")).click();
   	    	      
   	        Thread.sleep(15000);
             

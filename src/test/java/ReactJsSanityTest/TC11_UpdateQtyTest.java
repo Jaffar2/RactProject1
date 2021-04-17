@@ -75,7 +75,7 @@ public class TC11_UpdateQtyTest extends BaseClass {
 
 	   
 	   
-	   @Test 
+	   @Test (priority=15)
 	   
 	   public void updateQtyTest() throws InterruptedException {
 		  		 
@@ -219,9 +219,42 @@ public class TC11_UpdateQtyTest extends BaseClass {
 	        
 	        Assert.assertEquals(toolTipText3, expectedText3);
 	        
+	        Thread.sleep(5000);
+	        
+	        System.out.println("=============>Test Case 11-Update-QTY-Test-Passed==========>");
+	        
 	      
 	   }      
          
+	   @Test (priority=16)
+	   
+	   public void verifyQty() throws InterruptedException {
+		   
+		   
+		   Thread.sleep(5000);
+
+	        driver.findElement(By.xpath("//span[normalize-space()='Your Bag']")).click();
+
+	        Thread.sleep(5000);
+
+	        driver.findElement(By.xpath("//a[normalize-space()='View My Bag']")).click();
+
+	        Thread.sleep(2000);
+
+	        driver.findElement(By.xpath("//button[contains(text(),'REMOVE')]")).click();
+
+	        Thread.sleep(5000);
+
+	        String shoppingBag1 = driver.findElement(By.xpath("//h4[normalize-space()='YOUR SHOPPING BAG IS EMPTY']")).getText();
+		       
+	        Thread.sleep(5000);
+		       
+	        System.out.println("After removing an item bag is :" + shoppingBag1 );
+	        
+	        Thread.sleep(5000);
+		   
+		   
+	   }
 	   
 		   
 }

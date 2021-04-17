@@ -60,48 +60,63 @@ public class TC17_InstallmentCalcTest extends BaseClass {
 	
 	
 	 
-       @Test 
+	    @Test (priority=23)
 	   
 	   public void installmentCalcTest() throws InterruptedException {
 		   
-    	   
-           Thread.sleep(5000);
-		   
-		   JavascriptExecutor js11 = (driver);
-		   
-		   js11.executeScript("window.scrollBy(1000,4000)");
-		   
+	    	   
+			   Thread.sleep(5000);
+					   
+			   JavascriptExecutor js = (driver);
+			   
+			   js.executeScript("window.scrollBy(1000,4000)");
+			   
+			   Thread.sleep(5000);
+					 
+			   WebElement menuList = driver.findElement(By.xpath("//i[@class='nav-flyout__toggle-icon']"));
+			   
+			   Actions actions = new Actions(driver);
+				
+			   actions.moveToElement(menuList).build().perform();
+			   
+			   Thread.sleep(5000);
+			   
+			   WebElement home = driver.findElement(By.xpath("//a[normalize-space()='HOME']"));
+			   
+			   Actions actions1 = new Actions(driver);
+				
+			   actions.moveToElement(home).build().perform();
+			   
+			   Thread.sleep(5000);
+			   
+			   driver.findElement(By.xpath("//a[normalize-space()='furniture']")).click();
+	             
+			   Thread.sleep(5000);
+			   
+			   Actions action = new Actions(driver);
+			   
+			   action.sendKeys(Keys.PAGE_DOWN).build().perform();
+					   
+			   Thread.sleep(5000);
+			           
+			   driver.findElement(By.xpath("//div[12]//div[1]//div[1]//h3[1]")).click();
+			   
+			   Thread.sleep(5000);
+						 
+		       File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		     
+		        try {
+		            FileUtils.copyFile(screenshot, new File("C:\\projectScreenshots\\furnituePageScreenshot.png"));
+		        } catch (IOException e) {
+		            System.out.println(e.getMessage());
+		        }
+			   	   
+		 
+		        JavascriptExecutor jse2 = (JavascriptExecutor) driver;
+		        
+		        jse2.executeScript("window.scrollBy(0,200)");
+		        
 		   Thread.sleep(5000);
-				 
-		   WebElement menuList = driver.findElement(By.xpath("//i[@class='nav-flyout__toggle-icon']"));
-		   
-		   Actions actions = new Actions(driver);
-			
-		   actions.moveToElement(menuList).build().perform();
-		   
-		   Thread.sleep(5000);
-		   
-		   WebElement home = driver.findElement(By.xpath("//label[contains(@for,'sub-nav-/rclp/men/_/N-zljxmi')]//a[normalize-space()='MEN']"));
-		   
-		   Actions actions1 = new Actions(driver);
-			
-		   actions1.moveToElement(home).build().perform();
-		   
-		   Thread.sleep(5000);
-		   
-		   driver.findElement(By.xpath("//label[contains(@for,'sub-sub-nav-nav-level-1-0-10-/plp/men/tops/_/N-1aaf4mt')]//a[contains(text(),'TOPS')]")).click();
-		   
-		   Thread.sleep(2000);
-		   
-		   ((JavascriptExecutor)driver).executeScript("window.scrollBy(0,250)", "");
-		   
-		   Thread.sleep(5000);
-		   
-		   driver.findElement(By.xpath("//a[normalize-space()='RJ URBAN VINTAGE DRIP GRAPHIC ECRU']")).click();
-		   
-		   ((JavascriptExecutor)driver).executeScript("window.scrollBy(0,250)", "");
-		   
-		   Thread.sleep(2000);
 		   
 		   driver.findElement(By.xpath("//span[contains(@class,'product-detail__installment-calculator desktop-only product-detail__installment-calculator-link')]")).click();
           
@@ -109,9 +124,11 @@ public class TC17_InstallmentCalcTest extends BaseClass {
 		   
 		   driver.findElement(By.xpath("//div[@class='modal-body']//div[2]//label[1]//div[1]")).click();
 		   
-		   String monthlyPayment = driver.findElement(By.xpath("//strong[normalize-space()='R 10.98']")).getText();
+		   Thread.sleep(2000);
 		   
-		   String expPayment = "R 10.98";
+		   String monthlyPayment = driver.findElement(By.xpath("//strong[normalize-space()='R 301.98']")).getText();
+		   
+		   String expPayment = "R 301.98";
 		   
 		   Assert.assertEquals(monthlyPayment, expPayment);
 	          
@@ -121,16 +138,19 @@ public class TC17_InstallmentCalcTest extends BaseClass {
 		   
 	       Thread.sleep(5000);
 	       
-		   String monthlyPayment1 = driver.findElement(By.xpath("//strong[normalize-space()='R 5.97']")).getText();
+		   String monthlyPayment1 = driver.findElement(By.xpath("//strong[normalize-space()='R 164.22']")).getText();
 		   
-		   String expPayment1 = "R 5.97";
+		   String expPayment1 = "R 164.22";
 		   
 		   Assert.assertEquals(monthlyPayment1, expPayment1);
+		   
+		   Thread.sleep(5000);
 		   
 		   driver.findElement(By.xpath("//button[normalize-space()='Close']")).click();
 		   
 		   Thread.sleep(5000);
 		   
+		   System.out.println("=============>Test Case 17-InstallmentCalcTest-Passed==========>");
 		   
 		   
 	   }

@@ -63,15 +63,24 @@ public class TC02_LoginTest extends BaseClass {
 	
 	   
 	   
-	   @Test 
+	@Test (priority=3) 
 	   
 	   public void verifyLogin() throws InterruptedException {
+		
+		 
+		 Thread.sleep(5000);
 		   
-     	 String expectedTitle = "Log In or Register";
+     	 String expectedTitle = "myTFGworld - Welcome to your world of curated, lifestyle shopping.";
      	  
      	 String actualTitle = driver.getTitle(); 
      	 
+     	 Thread.sleep(5000);
+     	 
      	 Assert.assertEquals(actualTitle, expectedTitle);
+     	 
+     	 Thread.sleep(5000);
+     	 
+     	 System.out.println("=============>Test Case 02-Login-Test-Passed==========>");
 	    
 		
 	    }

@@ -61,7 +61,7 @@ public class TC19_StoreLocatorTest extends BaseClass {
 	
 	
 	 
-       @Test 
+	   @Test (priority=27)
 	   
 	   public void storeLocatorTest() throws InterruptedException {
 		   
@@ -87,6 +87,10 @@ public class TC19_StoreLocatorTest extends BaseClass {
            String expMessage = "FABIANI WOMEN CANAL WALK MILNERTON";
   		 
   		   Assert.assertEquals(foundStores, expMessage);
+  		   
+  		   Thread.sleep(5000);
+  		   
+  		   System.out.println("=============>Test Case 19-Store-Locator-Test-Passed==========>");
            
            
 		   

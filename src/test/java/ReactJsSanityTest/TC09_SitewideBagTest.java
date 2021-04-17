@@ -1,6 +1,7 @@
 /**
  * 
  */
+
 package ReactJsSanityTest;
 
 import java.io.File;
@@ -66,7 +67,7 @@ public class TC09_SitewideBagTest extends BaseClass {
 
 	   
 	   
-	   @Test (priority=1)
+	   @Test (priority=11)
 	   
 	   public void sitewidePop() throws InterruptedException {
 		  		 
@@ -135,7 +136,7 @@ public class TC09_SitewideBagTest extends BaseClass {
 	        
 			Thread.sleep(5000);
 	        
-	        String popMessage = driver.findElement(By.cssSelector("body > div:nth-child(2) > div:nth-child(1) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)")).getText();
+	        String popMessage = driver.findElement(By.xpath("//body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]")).getText();
 
 	        System.out.println(popMessage);
 
@@ -148,7 +149,7 @@ public class TC09_SitewideBagTest extends BaseClass {
          
 	   }
 	   
-	   @Test (priority=2)
+	   @Test (priority=12)
 	   
 	   public void sitewideClean() throws InterruptedException {
 		   
@@ -172,6 +173,8 @@ public class TC09_SitewideBagTest extends BaseClass {
 	        Thread.sleep(5000);
 		       
 	        System.out.println("After removing an item bag is :" + shoppingBag1 );
+	        
+	        System.out.println("=============>Test Case 09-SiteWide-Bag-Reminder-Test-Passed==========>");
 	        
 		   
 		   

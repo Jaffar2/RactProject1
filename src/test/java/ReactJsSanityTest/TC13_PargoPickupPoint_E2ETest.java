@@ -59,7 +59,7 @@ public class TC13_PargoPickupPoint_E2ETest extends BaseClass {
 	
 	
 	 
-       @Test 
+	   @Test (priority=19)
 	   
 	   public void pargoTest() throws InterruptedException {
 		   
@@ -170,17 +170,23 @@ public class TC13_PargoPickupPoint_E2ETest extends BaseClass {
           
           driver.findElement(By.xpath("//button[@type='submit'][normalize-space()='Next']")).click();    
           
-          Thread.sleep(10000);  
+          Thread.sleep(5000);  
           
-          ((JavascriptExecutor)driver).executeScript("window.scrollBy(0, 250)", "");
+          ((JavascriptExecutor)driver).executeScript("window.scrollBy(0,-250)", "");
+          
+          Thread.sleep(6000);
+          
+          driver.findElement(By.xpath("//button[@class='btn--full button-existing-address-submit btn btn-primary']")).click();
           
           Thread.sleep(5000);
           
-          driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/form[1]/div[2]/div[2]/button[1]")).click();
+          ((JavascriptExecutor)driver).executeScript("window.scrollBy(0,-250)", "");
           
-          ((JavascriptExecutor)driver).executeScript("window.scrollBy(0, 250)", "");
+          Thread.sleep(5000);
           
-          Thread.sleep(6000);
+          driver.findElement(By.xpath("//button[@class='btn-full-width btn btn-primary']")).click();
+          
+          Thread.sleep(5000);
           
           driver.findElement(By.xpath("//input[@id='paymentMethodsCREDITCARD_TOKEN0.cvv']")).sendKeys("123");
 	        

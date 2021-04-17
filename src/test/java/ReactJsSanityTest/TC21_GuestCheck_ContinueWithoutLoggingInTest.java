@@ -64,7 +64,7 @@ public class TC21_GuestCheck_ContinueWithoutLoggingInTest extends BaseClass1 {
 
 	
 	 
-       @Test 
+	   @Test (priority=29)
 	   
 	   public void continueWithoutLoggingInTest() throws InterruptedException {
 		   
@@ -109,17 +109,17 @@ public class TC21_GuestCheck_ContinueWithoutLoggingInTest extends BaseClass1 {
          
             Thread.sleep(2000);
          
-            driver.findElement(By.xpath("//a[normalize-space()='4-5 years']")).click();
+            driver.findElement(By.xpath("//a[normalize-space()='5-6 years']")).click();
          
-            Thread.sleep(1000);
+            Thread.sleep(2000);
          
             ((JavascriptExecutor)driver).executeScript("window.scrollBy(0, 250)", "");
          
-            Thread.sleep(2000);
+            Thread.sleep(5000);
          
             driver.findElement(By.xpath("//button[@class='btn-add-to-bag btn btn-primary']")).click();
     	  
-            Thread.sleep(2000);
+            Thread.sleep(6000);
           
             driver.findElement(By.xpath("//a[normalize-space()='View My Bag']")).click();
       
@@ -144,7 +144,7 @@ public class TC21_GuestCheck_ContinueWithoutLoggingInTest extends BaseClass1 {
             if (obj == "SELECT SHIPPING METHOD") {
                 try {
                     Assert.assertEquals(ExpMsg, obj);
-                    System.out.println("Not Forcing the User to Login Test Passed");
+                    System.out.println("=============>Test Case 21-Continue-Without-Logging-In-Test-Passed==========>");
                 } catch (Throwable assertionError) {
                     System.out.println("Forcing the User to Login Test Failed");
                 }

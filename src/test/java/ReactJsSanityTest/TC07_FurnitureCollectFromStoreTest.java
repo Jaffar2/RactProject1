@@ -57,7 +57,7 @@ public class TC07_FurnitureCollectFromStoreTest extends BaseClass {
 	
 	
 	 
-       @Test 
+	   @Test (priority=9) 
 	   
 	   public void checkOutFlow() throws InterruptedException {
 		   
@@ -138,7 +138,7 @@ public class TC07_FurnitureCollectFromStoreTest extends BaseClass {
 			   
 			js8.executeScript("window.scrollBy(0,200)");
 			
-			Thread.sleep(2000);
+			Thread.sleep(4000);
 			
 			driver.findElement(By.xpath("//div[contains(text(),'Collect')]")).click();
 			
@@ -162,7 +162,7 @@ public class TC07_FurnitureCollectFromStoreTest extends BaseClass {
 			
 			driver.findElement(By.xpath("//button[contains(text(),'Next')]")).click();
 			
-			Thread.sleep(2000);
+			Thread.sleep(4000);
 			
             JavascriptExecutor js11 = (JavascriptExecutor) driver;
 			
@@ -176,6 +176,12 @@ public class TC07_FurnitureCollectFromStoreTest extends BaseClass {
 	        
 		    Thread.sleep(10000);
 		    
+		    //System.out.println("Something Went Wrong Error Test Failed");
+		    
+		    Assert.fail("Something Went Wrong Error on Next Button, Test Failed");
+		    
+		    //Thread.sleep(10000);
+		    
 		    driver.findElement(By.xpath("//input[@id='checkout__delivery-collect__number']")).sendKeys("843716928");
 		    
 		    Thread.sleep(5000);
@@ -188,11 +194,11 @@ public class TC07_FurnitureCollectFromStoreTest extends BaseClass {
 		    
 		    Thread.sleep(10000);	    
 		    
-		    System.out.println("Test Failed Due to PayU is down");
+		    //System.out.println("Test Failed Due to PayU is down");
 		     
 	        driver.findElement(By.xpath("//input[@id='paymentMethodsCREDITCARD_TOKEN0.cvv']")).sendKeys("123");
 	        
-	        Thread.sleep(2000);
+	        Thread.sleep(5000);
 	        
 	        driver.findElement(By.xpath("//button[@id='tokenSubmit']")).click();
 	    	      
@@ -202,7 +208,7 @@ public class TC07_FurnitureCollectFromStoreTest extends BaseClass {
 	     	
 	        System.out.println("After Successful Transaction Redirecting to : https://mytfg.tfgtst.co.za/");
 		  
-	       
+	        
 		   
 
 	   }

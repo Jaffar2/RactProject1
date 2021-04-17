@@ -60,7 +60,7 @@ public class TC14_BrandFilterTest extends BaseClass {
 
 		
 	   
-	   @Test 
+	   @Test (priority=20)
 	   
 	   public void brandFilterTest() throws InterruptedException {
 		   
@@ -135,7 +135,9 @@ public class TC14_BrandFilterTest extends BaseClass {
 	       
 	       if (itemCount1.equals("774 items")) {
 			  
-		       System.out.println("Working as Expected");
+		       //System.out.println("Working as Expected");
+		       
+		       System.out.println("=============>Test Case 14-Brand-Filter-Test-Passed==========>");
 		   }
 		   
 	       else {

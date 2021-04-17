@@ -100,7 +100,7 @@ public class BaseClass1 {
   @AfterMethod 
   public void cleanup(){
 		   
-	 //driver.quit();
+	 driver.quit();
 	    
 	}	  
 }
