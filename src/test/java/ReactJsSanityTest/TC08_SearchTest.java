@@ -48,13 +48,15 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 /*
- * ============================================>
+ * ============================================================>
  * 
  * This Test is to verify Search Functionality 
  * 
  * Working as Expected!
  * 
- * ============================================>
+ * Verify that the user is able to  search a product by Name
+ * 
+ * =============================================================>
  */
 
 

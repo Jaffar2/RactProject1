@@ -7,7 +7,7 @@ import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 import javax.mail.MessagingException;
-
+import org.testng.Reporter;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -44,9 +44,8 @@ public class BaseClass1 {
    public ChromeDriver  driver;
    
    public Integer counter=0;
-   
-
-   
+  
+      
 	   
 	   
   @BeforeMethod
@@ -81,7 +80,7 @@ public class BaseClass1 {
 	  
 	  Thread.sleep(5000);
 	 
-	  System.out.println("=====================> Browser Launched");
+	  Reporter.log("=====Application Started=====", true);
 	 
 	  driver.manage().window().maximize();
 	  
@@ -100,7 +99,9 @@ public class BaseClass1 {
   @AfterMethod 
   public void cleanup(){
 		   
-	 driver.quit();
+	  driver.quit();
+	  
+	  Reporter.log("=====Browser Session End=====", true);
 	    
 	}	  
 }

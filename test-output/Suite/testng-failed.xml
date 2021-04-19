@@ -3,6 +3,28 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="ReactJsSanityTest.TC04_OurBestOffersForYouShowMeAllTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="ourOffers"/>
+          <include name="cleanup"/>
+        </methods>
+      </class> <!-- ReactJsSanityTest.TC04_OurBestOffersForYouShowMeAllTest -->
+      <class name="ReactJsSanityTest.TC13_PargoPickupPoint_E2ETest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="pargoTest"/>
+          <include name="cleanup"/>
+        </methods>
+      </class> <!-- ReactJsSanityTest.TC13_PargoPickupPoint_E2ETest -->
+      <class name="ReactJsSanityTest.TC25_AddItemToCartGiftFlowersTest">
+        <methods>
+          <include name="addItemToCartTest"/>
+          <include name="verifyItemInCart"/>
+          <include name="beforeMethod"/>
+          <include name="cleanup"/>
+        </methods>
+      </class> <!-- ReactJsSanityTest.TC25_AddItemToCartGiftFlowersTest -->
       <class name="ReactJsSanityTest.TC07_FurnitureCollectFromStoreTest">
         <methods>
           <include name="beforeMethod"/>
@@ -10,35 +32,14 @@
           <include name="cleanup"/>
         </methods>
       </class> <!-- ReactJsSanityTest.TC07_FurnitureCollectFromStoreTest -->
-      <class name="ReactJsSanityTest.TC18_ContinueShoppingTest">
+      <class name="ReactJsSanityTest.TC03_LogOutTest">
         <methods>
-          <include name="continueShopping"/>
-          <include name="beforeMethod"/>
-          <include name="clearKidsItemsFromBag"/>
-          <include name="cleanup"/>
-        </methods>
-      </class> <!-- ReactJsSanityTest.TC18_ContinueShoppingTest -->
-      <class name="ReactJsSanityTest.TC01_ViewBagTest">
-        <methods>
+          <include name="verifyImages"/>
           <include name="beforeMethod"/>
           <include name="cleanup"/>
-          <include name="clearItemsFromBag"/>
+          <include name="logOutUat"/>
         </methods>
-      </class> <!-- ReactJsSanityTest.TC01_ViewBagTest -->
-      <class name="ReactJsSanityTest.TC12_RemoveItemsFromBagTest">
-        <methods>
-          <include name="removeItemsFromBag"/>
-          <include name="beforeMethod"/>
-          <include name="cleanup"/>
-        </methods>
-      </class> <!-- ReactJsSanityTest.TC12_RemoveItemsFromBagTest -->
-      <class name="ReactJsSanityTest.TC10_FurnitureAddItemToBagTest">
-        <methods>
-          <include name="beforeMethod"/>
-          <include name="cleanup"/>
-          <include name="addItemToBag"/>
-        </methods>
-      </class> <!-- ReactJsSanityTest.TC10_FurnitureAddItemToBagTest -->
+      </class> <!-- ReactJsSanityTest.TC03_LogOutTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -13,6 +13,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
@@ -54,8 +55,6 @@ public class BaseClass {
   public void beforeMethod() throws InterruptedException {
 	  
 	  WebDriverManager.chromedriver().setup();
-	  
-	  //WebDriverManager.firefoxdriver().setup();
 		 
 	  ChromeOptions options = new ChromeOptions();
 	 
@@ -83,7 +82,7 @@ public class BaseClass {
 	  
 	  Thread.sleep(5000);
 	 
-	  System.out.println("=====================> Browser Launched");
+	  Reporter.log("=====Application Started=====", true);
 	 
 	  driver.manage().window().maximize();
 	  
@@ -98,6 +97,8 @@ public class BaseClass {
       driver.findElement(By.xpath("//span[normalize-space()='Login & Register']")).click();
 	  		  
 	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	  
+	  Thread.sleep(5000);
 	  
 	  driver.findElement(By.xpath("//button[normalize-space()='Log in with your online profile']")).click();
 
@@ -122,6 +123,8 @@ public class BaseClass {
   public void cleanup(){
 		   
 	 driver.quit();
+	 
+	 Reporter.log("=====Browser Session End=====", true);
 	    
 	}	  
 }

@@ -58,7 +58,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 
-public class TC02_LoginTest extends BaseClass {
+public class TC02_LoginWithYourOnlineProfileTest extends BaseClass {
 	
 	
 	   
@@ -70,6 +70,8 @@ public class TC02_LoginTest extends BaseClass {
 		 
 		 Thread.sleep(5000);
 		   
+     	 //String expectedTitle = "Log in or Register";
+     	 
      	 String expectedTitle = "myTFGworld - Welcome to your world of curated, lifestyle shopping.";
      	  
      	 String actualTitle = driver.getTitle(); 
@@ -81,6 +83,8 @@ public class TC02_LoginTest extends BaseClass {
      	 Thread.sleep(5000);
      	 
      	 System.out.println("=============>Test Case 02-Login-Test-Passed==========>");
+     	 
+     	 
 	    
 		
 	    }

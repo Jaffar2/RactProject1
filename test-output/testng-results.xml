@@ -1,25 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Redirected to My Profile Instead of Home Page=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="89042" started-at="2021-04-17T15:26:40 CAT" finished-at="2021-04-17T15:28:09 CAT">
+  <suite name="Default suite" duration-ms="109908" started-at="2021-04-19T21:38:08 CAT" finished-at="2021-04-19T21:39:58 CAT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="89042" started-at="2021-04-17T15:26:40 CAT" finished-at="2021-04-17T15:28:09 CAT">
-      <class name="ReactJsSanityTest.TC23_SizeChatClothingTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ReactJsSanityTest.TC23_SizeChatClothingTest@63355449]" name="beforeMethod" is-config="true" duration-ms="44457" started-at="2021-04-17T15:26:40 CAT" finished-at="2021-04-17T15:27:25 CAT">
+    <test name="Default test" duration-ms="109908" started-at="2021-04-19T21:38:08 CAT" finished-at="2021-04-19T21:39:58 CAT">
+      <class name="ReactJsSanityTest.TC30_LoginWithGoogleTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ReactJsSanityTest.TC30_LoginWithGoogleTest@654f0d9c]" name="beforeMethod" is-config="true" duration-ms="103419" started-at="2021-04-19T21:38:08 CAT" finished-at="2021-04-19T21:39:52 CAT">
           <reporter-output>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifySizeChatTest()[pri:31, instance:ReactJsSanityTest.TC23_SizeChatClothingTest@63355449]" name="verifySizeChatTest" duration-ms="42680" started-at="2021-04-17T15:27:25 CAT" finished-at="2021-04-17T15:28:08 CAT">
+        <test-method status="FAIL" signature="loginViaGoogleTest()[pri:44, instance:ReactJsSanityTest.TC30_LoginWithGoogleTest@654f0d9c]" name="loginViaGoogleTest" duration-ms="5130" started-at="2021-04-19T21:39:52 CAT" finished-at="2021-04-19T21:39:57 CAT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Our best offers for you] but found [MY PROFILE]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Our best offers for you] but found [MY PROFILE]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at ReactJsSanityTest.TC30_LoginWithGoogleTest.loginViaGoogleTest(TC30_LoginWithGoogleTest.java:85)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[=====Redirected to My Profile Instead of Home Page=====]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- verifySizeChatTest -->
-        <test-method status="PASS" signature="cleanup()[pri:0, instance:ReactJsSanityTest.TC23_SizeChatClothingTest@63355449]" name="cleanup" is-config="true" duration-ms="1483" started-at="2021-04-17T15:28:08 CAT" finished-at="2021-04-17T15:28:09 CAT">
+        </test-method> <!-- loginViaGoogleTest -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:ReactJsSanityTest.TC30_LoginWithGoogleTest@654f0d9c]" name="cleanup" is-config="true" duration-ms="1126" started-at="2021-04-19T21:39:57 CAT" finished-at="2021-04-19T21:39:58 CAT">
           <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
           </reporter-output>
         </test-method> <!-- cleanup -->
-      </class> <!-- ReactJsSanityTest.TC23_SizeChatClothingTest -->
+      </class> <!-- ReactJsSanityTest.TC30_LoginWithGoogleTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

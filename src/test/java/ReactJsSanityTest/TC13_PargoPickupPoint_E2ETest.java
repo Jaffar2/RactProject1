@@ -106,23 +106,23 @@ public class TC13_PargoPickupPoint_E2ETest extends BaseClass {
           
           driver.findElement(By.xpath("//a[normalize-space()='M']")).click();
           
-          Thread.sleep(1000);
+          Thread.sleep(4000);
           
           ((JavascriptExecutor)driver).executeScript("window.scrollBy(0,250)", "");
           
-          Thread.sleep(2000);
+          Thread.sleep(5000);
           
           driver.findElement(By.xpath("//button[@class='btn-add-to-bag btn btn-primary']")).click();
 		  
-          Thread.sleep(2000);
+          Thread.sleep(4000);
 	       
           driver.findElement(By.xpath("//a[normalize-space()='View My Bag']")).click();
           
-          Thread.sleep(2000);
+          Thread.sleep(4000);
           
           ((JavascriptExecutor)driver).executeScript("window.scrollBy(0,250)", "");
           
-          Thread.sleep(2000);
+          Thread.sleep(4000);
           
           driver.findElement(By.xpath("//div[@class='checkout__summary-container desktop-only']//button[@type='button'][normalize-space()='Secure Checkout']")).click();
 		   

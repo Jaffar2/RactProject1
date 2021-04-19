@@ -63,7 +63,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 
-public class TC09_SitewideBagTest extends BaseClass {
+public class TC09_SitewideBagReminderTest extends BaseClass {
 
 	   
 	   

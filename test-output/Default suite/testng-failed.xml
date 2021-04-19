@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ReactJsSanityTest.TC07_FurnitureCollectFromStoreTest">
+      <class name="ReactJsSanityTest.TC30_LoginWithGoogleTest">
         <methods>
           <include name="beforeMethod"/>
-          <include name="checkOutFlow"/>
+          <include name="loginViaGoogleTest"/>
           <include name="cleanup"/>
         </methods>
-      </class> <!-- ReactJsSanityTest.TC07_FurnitureCollectFromStoreTest -->
+      </class> <!-- ReactJsSanityTest.TC30_LoginWithGoogleTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

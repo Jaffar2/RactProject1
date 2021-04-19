@@ -43,20 +43,20 @@ import io.github.bonigarcia.wdm.WebDriverManager;
  * @author jaffar
  * 
  * 
- * =====================================>
+ * =======================================>
  * 
- * This Test is to make sure
+   This Test is to make sure
  *
- * Size chat works as Expected
+ * Size chat for Shoes works as Expected
  * 
- * ======================================>
+ * ========================================>
  *
  */
-public class TC24_SizeChatShoesTest extends BaseClass {
+public class TC23_SizeChatShoesTest extends BaseClass {
 
 		
 	
-	  @Test (priority=32)
+	  @Test (priority=31)
 	  
 	  public void verifySizeChatShoesTest() throws InterruptedException {
 		  	  
@@ -77,7 +77,7 @@ public class TC24_SizeChatShoesTest extends BaseClass {
 	   
 	   Thread.sleep(5000);
 	   
-	   WebElement home = driver.findElement(By.xpath("//a[contains(text(),'WOMEN')]"));
+	   WebElement home = driver.findElement(By.xpath("//a[@class='level-1'][normalize-space()='MEN']"));
 	   
 	   Actions actions1 = new Actions(driver);
 		
@@ -85,21 +85,21 @@ public class TC24_SizeChatShoesTest extends BaseClass {
 	   
 	   Thread.sleep(5000);
 	   
-	   driver.findElement(By.xpath("//label[@for='sub-sub-nav-nav-level-1-0-8-/plp/women/tops/_/N-l6ev2b']//a[contains(text(),'TOPS')]")).click();
+	   driver.findElement(By.xpath("//li[@class='level-2-container level-2-container-6']//a[contains(text(),'sneakers')]")).click();
 	   
-	   Thread.sleep(2000);
+	   Thread.sleep(5000);
 	   
 	   ((JavascriptExecutor)driver).executeScript("window.scrollBy(0,250)", "");
 	   
 	    Thread.sleep(5000);
       
-        driver.findElement(By.xpath("//div[@id='product-cell-170800AAGL2']//a[contains(text(),'Button Through Cropped Soft Shirt')]")).click();
+        driver.findElement(By.xpath("//div[@id='product-cell-020203AAKG0']//a[contains(text(),'RJ RETRO COURT SNEAKER BLACK')]")).click();
 
-        Thread.sleep(2000);
+        Thread.sleep(5000);
      
        ((JavascriptExecutor)driver).executeScript("window.scrollBy(0,250)", "");
      
-        Thread.sleep(2000);
+        Thread.sleep(5000);
      
         driver.findElement(By.xpath("//button[normalize-space()='Size Chart']")).click();
      
@@ -109,11 +109,15 @@ public class TC24_SizeChatShoesTest extends BaseClass {
      
         Thread.sleep(5000);
         
-        driver.findElement(By.xpath("//img[@alt='Size Guide for Button Through Cropped Soft Shirt']")).isDisplayed();       
+        driver.findElement(By.xpath("//img[@alt='Size Guide for RJ RETRO COURT SNEAKER BLACK']")).isDisplayed(); 
+        
+        Thread.sleep(5000);
 		
-		String sizeChat = driver.findElement(By.xpath("//h5[normalize-space()='Size Chart for Button Through Cropped Soft Shirt']")).getText();
+		String sizeChat = driver.findElement(By.xpath("//h5[normalize-space()='Size Chart for RJ RETRO COURT SNEAKER BLACK']")).getText();
 		 
-		String expSizeChat = "Size Chart for Button Through Cropped Soft Shirt";
+		String expSizeChat = "Size Chart for RJ RETRO COURT SNEAKER BLACK";
+		
+		Thread.sleep(5000);
 		 
 		Assert.assertEquals(sizeChat, expSizeChat);
       

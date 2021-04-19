@@ -1,44 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ReactJsSanityTest.TC07_FurnitureCollectFromStoreTest">
+      <class name="ReactJsSanityTest.TC30_LoginWithGoogleTest">
         <methods>
           <include name="beforeMethod"/>
-          <include name="checkOutFlow"/>
+          <include name="loginViaGoogleTest"/>
           <include name="cleanup"/>
         </methods>
-      </class> <!-- ReactJsSanityTest.TC07_FurnitureCollectFromStoreTest -->
-      <class name="ReactJsSanityTest.TC18_ContinueShoppingTest">
-        <methods>
-          <include name="continueShopping"/>
-          <include name="beforeMethod"/>
-          <include name="clearKidsItemsFromBag"/>
-          <include name="cleanup"/>
-        </methods>
-      </class> <!-- ReactJsSanityTest.TC18_ContinueShoppingTest -->
-      <class name="ReactJsSanityTest.TC01_ViewBagTest">
-        <methods>
-          <include name="beforeMethod"/>
-          <include name="cleanup"/>
-          <include name="clearItemsFromBag"/>
-        </methods>
-      </class> <!-- ReactJsSanityTest.TC01_ViewBagTest -->
-      <class name="ReactJsSanityTest.TC12_RemoveItemsFromBagTest">
-        <methods>
-          <include name="removeItemsFromBag"/>
-          <include name="beforeMethod"/>
-          <include name="cleanup"/>
-        </methods>
-      </class> <!-- ReactJsSanityTest.TC12_RemoveItemsFromBagTest -->
-      <class name="ReactJsSanityTest.TC10_FurnitureAddItemToBagTest">
-        <methods>
-          <include name="beforeMethod"/>
-          <include name="cleanup"/>
-          <include name="addItemToBag"/>
-        </methods>
-      </class> <!-- ReactJsSanityTest.TC10_FurnitureAddItemToBagTest -->
+      </class> <!-- ReactJsSanityTest.TC30_LoginWithGoogleTest -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

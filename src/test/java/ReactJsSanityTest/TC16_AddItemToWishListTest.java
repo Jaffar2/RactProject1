@@ -51,6 +51,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
  * 
  * Works as Expected 
  *  
+ * On PDP user can Click on Add item to WishList
+ *  
+ *  And Click on Remove from WishList on PDP
  *  
  *  ============================================>
  */
@@ -149,6 +152,10 @@ public class TC16_AddItemToWishListTest extends BaseClass {
            Thread.sleep(5000);
           
            System.out.println("=============>Test Case 16-AddItem-To-WishList-Test-Passed==========>");
+           
+           
+           
+           
           
 	   }
 		
