@@ -3,43 +3,92 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="ReactJsSanityTest.TC04_OurBestOffersForYouShowMeAllTest">
+      <class name="ReactJsSanityTest.TC09_SitewideBagReminderTest">
         <methods>
+          <include name="sitewidePop"/>
+          <include name="sitewideClean"/>
+          <include name="tearDown"/>
           <include name="beforeMethod"/>
-          <include name="ourOffers"/>
-          <include name="cleanup"/>
         </methods>
-      </class> <!-- ReactJsSanityTest.TC04_OurBestOffersForYouShowMeAllTest -->
-      <class name="ReactJsSanityTest.TC13_PargoPickupPoint_E2ETest">
+      </class> <!-- ReactJsSanityTest.TC09_SitewideBagReminderTest -->
+      <class name="ReactJsSanityTest.TC13_PargoClothingLoggedInUserCheckOutE2ETest">
         <methods>
+          <include name="tearDown"/>
           <include name="beforeMethod"/>
           <include name="pargoTest"/>
-          <include name="cleanup"/>
         </methods>
-      </class> <!-- ReactJsSanityTest.TC13_PargoPickupPoint_E2ETest -->
-      <class name="ReactJsSanityTest.TC25_AddItemToCartGiftFlowersTest">
+      </class> <!-- ReactJsSanityTest.TC13_PargoClothingLoggedInUserCheckOutE2ETest -->
+      <class name="ReactJsSanityTest.TC20_SearchWithProductSkuAndIdTest">
         <methods>
-          <include name="addItemToCartTest"/>
-          <include name="verifyItemInCart"/>
+          <include name="tearDown"/>
           <include name="beforeMethod"/>
-          <include name="cleanup"/>
+          <include name="searchWithProductSkuTest"/>
+          <include name="searchWithProductIdTest"/>
         </methods>
-      </class> <!-- ReactJsSanityTest.TC25_AddItemToCartGiftFlowersTest -->
-      <class name="ReactJsSanityTest.TC07_FurnitureCollectFromStoreTest">
-        <methods>
-          <include name="beforeMethod"/>
-          <include name="checkOutFlow"/>
-          <include name="cleanup"/>
-        </methods>
-      </class> <!-- ReactJsSanityTest.TC07_FurnitureCollectFromStoreTest -->
+      </class> <!-- ReactJsSanityTest.TC20_SearchWithProductSkuAndIdTest -->
       <class name="ReactJsSanityTest.TC03_LogOutTest">
         <methods>
-          <include name="verifyImages"/>
+          <include name="tearDown"/>
           <include name="beforeMethod"/>
-          <include name="cleanup"/>
-          <include name="logOutUat"/>
+          <include name="SingOutTest"/>
         </methods>
       </class> <!-- ReactJsSanityTest.TC03_LogOutTest -->
+      <class name="ReactJsSanityTest.TC07_FurnitureCollectFromStoreLoggedInUserCheckOutTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeMethod"/>
+          <include name="checkOutFlow"/>
+        </methods>
+      </class> <!-- ReactJsSanityTest.TC07_FurnitureCollectFromStoreLoggedInUserCheckOutTest -->
+      <class name="ReactJsSanityTest.TC36_ClothingCollectFromStoreLoggedInUserTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="checkOutClothingCollectFromSrore"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- ReactJsSanityTest.TC36_ClothingCollectFromStoreLoggedInUserTest -->
+      <class name="ReactJsSanityTest.TC41_LoggedInUserPlaceOrderForTVTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeMethod"/>
+          <include name="placeOrderForTvTest"/>
+        </methods>
+      </class> <!-- ReactJsSanityTest.TC41_LoggedInUserPlaceOrderForTVTest -->
+      <class name="ReactJsSanityTest.TC05_RegisterNewOnlineProfileFindMyCardTest">
+        <methods>
+          <include name="registerNewOnline"/>
+          <include name="tearDown"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- ReactJsSanityTest.TC05_RegisterNewOnlineProfileFindMyCardTest -->
+      <class name="ReactJsSanityTest.TC40_CancelOrderTest">
+        <methods>
+          <include name="orderCancelTest"/>
+          <include name="tearDown"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- ReactJsSanityTest.TC40_CancelOrderTest -->
+      <class name="ReactJsSanityTest.TC39_RegisterNewOnlineProfileCardForgorPasswordTest">
+        <methods>
+          <include name="registerNewOnlineOTPTest"/>
+          <include name="tearDown"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- ReactJsSanityTest.TC39_RegisterNewOnlineProfileCardForgorPasswordTest -->
+      <class name="ReactJsSanityTest.TC22_ClothingGuestCheckOutPargoE2ETest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="guestCheckOutE2ETest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- ReactJsSanityTest.TC22_ClothingGuestCheckOutPargoE2ETest -->
+      <class name="ReactJsSanityTest.TC37_FurnitureCollectFromStoreGuestCheckOutTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="furnitureCollectFromStoreTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- ReactJsSanityTest.TC37_FurnitureCollectFromStoreGuestCheckOutTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

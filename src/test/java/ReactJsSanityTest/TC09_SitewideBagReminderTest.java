@@ -6,48 +6,23 @@ package ReactJsSanityTest;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.List;
 import java.util.concurrent.TimeUnit;
-import org.openqa.selenium.WebElement;
+
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.logging.LogEntries;
-import org.openqa.selenium.logging.LogType;
-import org.openqa.selenium.logging.LoggingPreferences;
-import org.openqa.selenium.remote.CapabilityType;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.sikuli.script.FindFailed;
-import org.sikuli.script.Key;
-import org.sikuli.script.Pattern;
-import org.sikuli.script.Screen;
-import org.testng.Assert;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 
 import com.basePackage.BaseClass;
-import com.google.j2objc.annotations.ReflectionSupport.Level;
-import io.github.bonigarcia.wdm.WebDriverManager;
- 
-
 
 /**
  * @author jaffar
  *
  */
-
 
 /*
  * =====================================================================>
@@ -61,129 +36,110 @@ import io.github.bonigarcia.wdm.WebDriverManager;
  * =======================================================================>
  */
 
-
-
 public class TC09_SitewideBagReminderTest extends BaseClass {
 
-	   
-	   
-	   @Test (priority=11)
-	   
-	   public void sitewidePop() throws InterruptedException {
-		  		 
-		   
-		   Thread.sleep(5000);
-		   
-		   JavascriptExecutor js = (driver);
-		   
-		   js.executeScript("window.scrollBy(1000,4000)");
-		   
-		   Thread.sleep(5000);
-				 
-		   WebElement menuList = driver.findElement(By.xpath("//i[@class='nav-flyout__toggle-icon']"));
-		   
-		   Actions actions = new Actions(driver);
-			
-		   actions.moveToElement(menuList).build().perform();
-		   
-		   Thread.sleep(5000);
-		   
-		   WebElement home = driver.findElement(By.xpath("//a[normalize-space()='HOME']"));
-		   
-		   Actions actions1 = new Actions(driver);
-			
-		   actions.moveToElement(home).build().perform();
-		   
-		   Thread.sleep(5000);
-		   
-		   driver.findElement(By.xpath("//a[normalize-space()='furniture']")).click();
-		   
-		   Thread.sleep(5000);
-			   
-           JavascriptExecutor js2 = (driver);
-		   
-           js2.executeScript("window.scrollBy(0,450)");
-           
-           driver.findElement(By.xpath("//*[@id=\"products-column\"]/div[1]/div/div[2]/div/div/h3/a")).click();
-           
-           Thread.sleep(5000);
-			 
-	       File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-	     
-	        try {
-	            FileUtils.copyFile(screenshot, new File("C:\\projectScreenshots\\furnituePageScreenshot.png"));
-	        } catch (IOException e) {
-	            System.out.println(e.getMessage());
-	        }
-	        
-	        Thread.sleep(5000);
-	        
-	        driver.findElement(By.xpath("//button[@class='btn-add-to-bag btn btn-primary']")).click();
-	        
-	        Thread.sleep(5000);
-			   
-			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		      
-		    Thread.sleep(5000);
-			
-			JavascriptExecutor js7 = (JavascriptExecutor) driver;
-			
-			js7.executeScript("window.scrollBy(0,200)");
-			
-            Thread.sleep(5000);
-		        
-	        driver.findElement(By.xpath("//a[normalize-space()='View My Bag']")).click();
-	        
-			Thread.sleep(5000);
-	        
-	        String popMessage = driver.findElement(By.xpath("//body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]")).getText();
+	@Test(priority = 15)
 
-	        System.out.println(popMessage);
+	public void sitewidePop() throws InterruptedException {
 
-            //String expMessage = ".*Your order qualifies for free delivery*." ;
-            
-            //Assert.assertEquals(popMessage, expMessage);
+		JavascriptExecutor js = (driver);
 
-            		 
-	        
-         
-	   }
-	   
-	   @Test (priority=12)
-	   
-	   public void sitewideClean() throws InterruptedException {
-		   
-		  
-		    Thread.sleep(5000);
+		js.executeScript("window.scrollBy(1000,4000)");
 
-	        driver.findElement(By.xpath("//span[normalize-space()='Your Bag']")).click();
+		Thread.sleep(5000);
 
-	        Thread.sleep(5000);
+		WebElement menuList = driver.findElement(By.xpath("//i[@class='nav-flyout__toggle-icon']"));
 
-	        driver.findElement(By.xpath("//a[normalize-space()='View My Bag']")).click();
+		Actions actions = new Actions(driver);
 
-	        Thread.sleep(2000);
+		actions.moveToElement(menuList).build().perform();
 
-	        driver.findElement(By.xpath("//button[contains(text(),'REMOVE')]")).click();
+		Thread.sleep(5000);
 
-	        Thread.sleep(5000);
+		WebElement home = driver.findElement(By.xpath("//a[normalize-space()='HOME']"));
 
-	        String shoppingBag1 = driver.findElement(By.xpath("//h4[normalize-space()='YOUR SHOPPING BAG IS EMPTY']")).getText();
-		       
-	        Thread.sleep(5000);
-		       
-	        System.out.println("After removing an item bag is :" + shoppingBag1 );
-	        
-	        System.out.println("=============>Test Case 09-SiteWide-Bag-Reminder-Test-Passed==========>");
-	        
-		   
-		   
-	   }
-		   
+		Actions actions1 = new Actions(driver);
+
+		actions.moveToElement(home).build().perform();
+
+		Thread.sleep(5000);
+
+		driver.findElement(By.xpath("//a[normalize-space()='furniture']")).click();
+
+		Thread.sleep(5000);
+
+		JavascriptExecutor js2 = (driver);
+
+		js2.executeScript("window.scrollBy(0,450)");
+
+		driver.findElement(By.xpath("//a[normalize-space()='oxford ottoman']")).click();
+
+		Thread.sleep(5000);
+
+		File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+
+		try {
+			FileUtils.copyFile(screenshot, new File("C:\\projectScreenshots\\furnituePageScreenshot.png"));
+		} catch (IOException e) {
+			System.out.println(e.getMessage());
+		}
+
+		Thread.sleep(5000);
+
+		driver.findElement(By.xpath("//button[@class='btn-add-to-bag btn btn-primary']")).click();
+
+		Thread.sleep(5000);
+
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+		Thread.sleep(5000);
+
+		JavascriptExecutor js7 = (JavascriptExecutor) driver;
+
+		js7.executeScript("window.scrollBy(0,200)");
+
+		Thread.sleep(5000);
+
+		driver.findElement(By.xpath("//a[normalize-space()='View My Bag']")).click();
+
+		Thread.sleep(5000);
+
+		String popMessage = driver
+				.findElement(By.xpath("//body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]")).getText();
+
+		System.out.println(popMessage);
+
+		// String expMessage = ".*Your order qualifies for free delivery*." ;
+
+		// Assert.assertEquals(popMessage, expMessage);
+
+	}
+
+	@Test(priority = 16)
+
+	public void sitewideClean() throws InterruptedException {
+
+		driver.findElement(By.xpath("//span[normalize-space()='Your Bag']")).click();
+
+		Thread.sleep(5000);
+
+		driver.findElement(By.xpath("//a[normalize-space()='View My Bag']")).click();
+
+		Thread.sleep(2000);
+
+		driver.findElement(By.xpath("//button[contains(text(),'REMOVE')]")).click();
+
+		Thread.sleep(5000);
+
+		String shoppingBag1 = driver.findElement(By.xpath("//h4[normalize-space()='YOUR SHOPPING BAG IS EMPTY']"))
+				.getText();
+
+		Thread.sleep(5000);
+
+		System.out.println("After removing an item bag is :" + shoppingBag1);
+
+		System.out.println("=============>Test Case 09-SiteWide-Bag-Reminder-Test-Passed==========>");
+
+	}
+
 }
-	   
-	   
-
-
-
-

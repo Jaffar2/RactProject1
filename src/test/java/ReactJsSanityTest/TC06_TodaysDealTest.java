@@ -3,53 +3,17 @@
  */
 package ReactJsSanityTest;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.List;
-import java.util.concurrent.TimeUnit;
-
-import javax.swing.text.AbstractDocument.Content;
-
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.logging.LogEntries;
-import org.openqa.selenium.logging.LogType;
-import org.openqa.selenium.logging.LoggingPreferences;
-import org.openqa.selenium.remote.CapabilityType;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.support.ui.Select;
-import org.sikuli.script.FindFailed;
-import org.sikuli.script.Pattern;
-import org.sikuli.script.Screen;
-import org.testng.Assert;
-import org.testng.Reporter;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 
 import com.basePackage.BaseClass;
-import com.google.j2objc.annotations.ReflectionSupport.Level;
-import io.github.bonigarcia.wdm.WebDriverManager;
- 
-
 
 /**
  * @author jaffar
  *
  */
-
 
 /*
  * ======================================================>
@@ -65,139 +29,47 @@ import io.github.bonigarcia.wdm.WebDriverManager;
  * ======================================================>
  */
 
-
-
 public class TC06_TodaysDealTest extends BaseClass {
-	
-	   
-	   
-	  @Test (priority=8)
-	   
-	   public void todaysDeal() throws InterruptedException {
-		   
-		   
-		  Thread.sleep(5000);
-		   
-		  driver.findElement(By.xpath("//img[@alt='test alt']")).click();
-		
-		  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		  
-		  Thread.sleep(10000);
-			
-	      driver.findElement(By.xpath("//span[normalize-space()='15']")).click();
-	      
-	      Thread.sleep(5000);
-	      
-	      driver.findElement(By.xpath("//div[contains(@class,'facet-sort__control-options-item')][normalize-space()='30']")).click();
-	      
-	      Thread.sleep(5000);
-	      
-	      JavascriptExecutor js = (JavascriptExecutor)driver;
-	      
-	      js.executeScript("window.scrollBy(0,1000)");
-	      
-	      Thread.sleep(5000);
-	      
-	      JavascriptExecutor jse = (JavascriptExecutor)driver;
-	      
-	      jse.executeScript("scroll(0, -250);");
-	      
-	      List<WebElement> listImages=driver.findElements(By.tagName("img"));
-	      
-	        System.out.println("No. of Images: "+listImages.size());
-	        
-	        for(WebElement image:listImages)
-	        {
-	            if(image.isDisplayed())
-	            {
-	                counter++;
-	                
-	                System.out.println(image.getAttribute("alt"));
-	            }
-	        }
-	        
-	        System.out.println("No. of total displable images: "+counter);
-	        
-	        Thread.sleep(10000);
-	        
-	        driver.findElement(By.xpath("//span[normalize-space()='30']")).click();
-	        
-	        Thread.sleep(5000);
-		   	  
-		   	driver.findElement(By.xpath("//div[contains(@class,'facet-sort__control-options-item')][normalize-space()='45']")).click();
-		   	  
-		   	Thread.sleep(5000);
-		   	
-		   	driver.findElement(By.xpath("//span[normalize-space()='45']")).click();
-		   	
-		   	Thread.sleep(5000);
-			
-		    driver.findElement(By.xpath("//div[@class='facet-sort__control-options-item '][normalize-space()='all']")).click();
-		    
-		    Thread.sleep(5000);
-		    
-		    js.executeScript("window.scrollBy(0,1000)");
-		    
-		    Thread.sleep(5000);
-		    
-		    jse.executeScript("scroll(0, -250);");
-		    
-		    Thread.sleep(10000);
-		    
-		    driver.findElement(By.xpath("//span[normalize-space()='Sort']")).click();
-	      
-		    Thread.sleep(5000);
-		    
-		    // Click on Price High to Low
-		    
-		    driver.findElement(By.xpath("//div[normalize-space()='Price high to low']")).click();
-		    
-		    Thread.sleep(4000);
-		    
-		    js.executeScript("window.scrollBy(0,1000)");
-		    
-		    Thread.sleep(5000);
-		    
-		    jse.executeScript("scroll(0, -250);");
-		    
-		    Thread.sleep(5000);
-		    
-		 	String price = driver.findElement(By.xpath("//div[contains(text(),'R 5,999.00 -')]")).getText();
-		    
-		    System.out.println("Price High to Low is :" + price);
-		    
-		    String expPrice = "R 5,999.00 - R 89,999.00";
-		    
-		    Assert.assertEquals(price, expPrice);
-		    
-		    Thread.sleep(5000);
-		    
-		    System.out.println("After User selecting Show 15 OR 30 , 45 , Images Not keep on Loading Test Passed");
-		    
-		/*
-		 * System.out.println("Broken Image on this Page Image Name: TestRing");
-		 * 
-		 * Thread.sleep(2000);
-		 * 
-		 * Assert.
-		 * fail("After User selecting Show 15 OR 30 , 45 , Images keep on Loading Test Failed"
-		 * );
-		 */
-			 
-		   
-		    
-		  
-		    
-		    
-		    
-	   }		    
-	
-		    
-	
+
+	@Test(priority = 9)
+
+	public void verifyImagesOnTodaysDealPage() throws InterruptedException {
+
+		WebElement ImageFile = driver.findElement(By.xpath("//img[@alt='test alt']"));
+
+		Thread.sleep(5000);
+
+		Boolean ImagePresent = (Boolean) ((JavascriptExecutor) driver).executeScript(
+				"return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0",
+				ImageFile);
+
+		if (!ImagePresent) {
+			System.out.println("Image not Loaded and displayed.");
+		} else {
+			System.out.println("Image Loaded and displayed.");
+		}
+
+	}
+
+	@Test(priority = 10)
+
+	public void todaysDeal() throws InterruptedException {
+
+		Thread.sleep(5000);
+
+		WebElement i = driver
+				.findElement(By.xpath("//body/div[@id='__next']/div[1]/div[1]/div[1]/div[1]/a[1]/div[1]/img[1]"));
+
+		Thread.sleep(5000);
+
+		Boolean p = (Boolean) ((JavascriptExecutor) driver).executeScript("return arguments[0].complete "
+				+ "&& typeof arguments[0].naturalWidth != \"undefined\" " + "&& arguments[0].naturalWidth > 0", i);
+
+		if (p) {
+			System.out.println("Logo present Test Passed");
+		} else {
+			System.out.println("Logo not present Test Failed");
+		}
+	}
+
 }
-	   
-	   
-	   
-
-
-

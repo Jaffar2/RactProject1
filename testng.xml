@@ -3,36 +3,47 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="ReactJsSanityTest.TC20_SearchWithProductSkuAndIdTest"/>
       <class name="ReactJsSanityTest.TC02_LoginWithYourOnlineProfileTest"/>
-      <class name="ReactJsSanityTest.TC08_SearchTest"/>
       <class name="ReactJsSanityTest.TC18_ContinueShoppingTest"/>
+      <class name="ReactJsSanityTest.TC05_RegisterNewOnlineProfileFindMyCardTest"/>
+      <class name="ReactJsSanityTest.TC34_MyAddressTest"/>
       <class name="ReactJsSanityTest.TC27_ProductDeliveryInformationTest"/>
       <class name="ReactJsSanityTest.TC19_StoreLocatorTest"/>
       <class name="ReactJsSanityTest.TC01_ViewBagTest"/>
+      <class name="ReactJsSanityTest.TC22_ClothingGuestCheckOutPargoE2ETest"/>
       <class name="ReactJsSanityTest.TC24_SizeChatClothingTest"/>
       <class name="ReactJsSanityTest.TC16_AddItemToWishListTest"/>
-      <class name="ReactJsSanityTest.TC22_GuestCheck_E2ETest"/>
-      <class name="ReactJsSanityTest.TC05_RegisterNewOnlineProfileTest"/>
       <class name="ReactJsSanityTest.TC29_AddSameItemToCartTwiceTest"/>
       <class name="ReactJsSanityTest.TC17_InstallmentCalcTest"/>
+      <class name="ReactJsSanityTest.TC32_MyProfileTest"/>
+      <class name="ReactJsSanityTest.TC12_SortAndFilterTest"/>
       <class name="ReactJsSanityTest.TC28_MyAccountVerifyWishListTest"/>
       <class name="ReactJsSanityTest.TC11_UpdateQtyTest"/>
+      <class name="ReactJsSanityTest.TC07_FurnitureCollectFromStoreLoggedInUserCheckOutTest"/>
       <class name="ReactJsSanityTest.TC14_BrandFilterTest"/>
-      <class name="ReactJsSanityTest.TC21_GuestCheck_ContinueWithoutLoggingInTest"/>
+      <class name="ReactJsSanityTest.TC41_LoggedInUserPlaceOrderForTVTest"/>
+      <class name="ReactJsSanityTest.TC35_MyRewardsTest"/>
       <class name="ReactJsSanityTest.TC09_SitewideBagReminderTest"/>
-      <class name="ReactJsSanityTest.TC20_CancelOrderTest"/>
-      <class name="ReactJsSanityTest.TC12_RemoveItemsFromBagTest"/>
+      <class name="ReactJsSanityTest.TC36_ClothingCollectFromStoreLoggedInUserTest"/>
       <class name="ReactJsSanityTest.TC26_VerifyProductInformationTest"/>
       <class name="ReactJsSanityTest.TC23_SizeChatShoesTest"/>
+      <class name="ReactJsSanityTest.TC39_RegisterNewOnlineProfileCardForgorPasswordTest"/>
+      <class name="ReactJsSanityTest.TC21_GuestContinueWithoutLoggingInTest"/>
+      <class name="ReactJsSanityTest.TC13_PargoClothingLoggedInUserCheckOutE2ETest"/>
       <class name="ReactJsSanityTest.TC10_FurnitureAddItemToBagTest"/>
       <class name="ReactJsSanityTest.TC15_VerifyItemsInBagTest"/>
       <class name="ReactJsSanityTest.TC06_TodaysDealTest"/>
+      <class name="ReactJsSanityTest.TC37_FurnitureCollectFromStoreGuestCheckOutTest"/>
+      <class name="ReactJsSanityTest.TC38_LoginForgotPasswordTest"/>
       <class name="ReactJsSanityTest.TC30_LoginWithFacebookTest"/>
+      <class name="ReactJsSanityTest.TC08_SearchWithProductNameTest"/>
+      <class name="ReactJsSanityTest.TC40_CancelOrderTest"/>
       <class name="ReactJsSanityTest.TC25_AddItemToCartGiftFlowersTest"/>
+      <class name="ReactJsSanityTest.TC31_AddMultipleItemsToBagTest"/>
       <class name="ReactJsSanityTest.TC03_LogOutTest"/>
       <class name="ReactJsSanityTest.TC04_OurBestOffersForYouShowMeAllTest"/>
-      <class name="ReactJsSanityTest.TC13_PargoPickupPoint_E2ETest"/>
-      <class name="ReactJsSanityTest.TC07_FurnitureCollectFromStoreTest"/>
+      <class name="ReactJsSanityTest.TC33_MyAccountTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
